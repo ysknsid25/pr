@@ -1,0 +1,51 @@
+name: Fetch PR Data
+
+on:
+  # 定期実行 - 毎日午前9時（JST）に実行
+  schedule:
+    - cron: '0 0 * * *' # UTC 0:00 = JST 9:00
+
+  # 手動実行も可能にする
+  workflow_dispatch:
+    inputs:
+      target_username:
+        description: 'GitHub username to fetch PRs for'
+        required: false
+        default: ''
+
+jobs:
+  fetch-pr-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch PR data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_USERNAME: ${{ inputs.target_username || secrets.TARGET_USERNAME }}
+        run: npm run batch:pr
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # app/data/pr.ts に変更がある場合のみコミット
+          if [[ `git status --porcelain` ]]; then
+            git add app/data/pr.ts
+            git commit -m "🤖 Update PR data ($(date +'%Y-%m-%d %H:%M:%S'))"
+            git push
+          else
+            echo "No changes to commit"
+          fi

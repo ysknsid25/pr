@@ -6,15 +6,10 @@
         "build": "vite build --mode client && vite build",
         "preview": "wrangler dev",
         "deploy": "npm run build && wrangler deploy",
-        "test": "vitest",
-        "test:watch": "vitest --watch",
-        "test:coverage": "vitest --coverage",
-        "test:ui": "vitest --ui"
+        "batch:pr": "npx ts-node batch/pr/index.ts"
     },
     "private": true,
     "dependencies": {
-        "@hono/swagger-ui": "^0.5.2",
-        "@hono/zod-openapi": "^1.1.5",
         "hono": "^4.10.7",
         "honox": "^0.1.51"
     },
@@ -24,12 +19,9 @@
         "@hono/vite-dev-server": "^0.18.2",
         "@tailwindcss/vite": "^4.0.9",
         "@types/node": "^24.10.1",
-        "@vitest/coverage-v8": "^4.0.15",
-        "happy-dom": "^20.0.11",
-        "msw": "^2.12.4",
         "tailwindcss": "^4.0.9",
+        "ts-node": "^10.9.2",
         "vite": "^6.3.5",
-        "vitest": "^4.0.15",
         "wrangler": "^4.4.0"
     }
 }
