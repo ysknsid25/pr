@@ -3,6 +3,8 @@ import type {} from 'hono'
 declare module 'hono' {
   interface Env {
     Variables: {}
-    Bindings: {}
+    Bindings: {
+      GITHUB_TOKEN: string
+    }
   }
 }
