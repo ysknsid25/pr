@@ -3,6 +3,87 @@ import { useState } from "hono/jsx";
 import { PRItem, prData } from "../data/pr";
 import { orgsData, OrgData } from "../data/orgs";
 
+// SVG Icon Components (Font Awesome paths)
+const IconGitPullRequest = ({ class: className }: { class: string }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="48"
+        height="48"
+        fill="none"
+        stroke="#00c951"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        style="opacity:1;"
+        class={className}
+    >
+        <circle cx="5" cy="6" r="3" />
+        <path d="M5 9v12" />
+        <circle cx="19" cy="18" r="3" />
+        <path d="m15 9l-3-3l3-3" />
+        <path d="M12 6h5a2 2 0 0 1 2 2v7" />
+    </svg>
+);
+
+const IconGitMerge = ({ class: className }: { class: string }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="48"
+        height="48"
+        fill="none"
+        stroke="#ad46ff"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        style="opacity:1;"
+        class={className}
+    >
+        <circle cx="18" cy="18" r="3" />
+        <circle cx="6" cy="6" r="3" />
+        <path d="M6 21V9a9 9 0 0 0 9 9" />
+    </svg>
+);
+
+const IconGitPullRequestClosed = ({ class: className }: { class: string }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="48"
+        height="48"
+        fill="none"
+        stroke="#fb2c36"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        style="opacity:1;"
+        class={className}
+    >
+        <circle cx="6" cy="6" r="3" />
+        <path d="M6 9v12M21 3l-6 6m6 0l-6-6m3 8.5V15" />
+        <circle cx="18" cy="18" r="3" />
+    </svg>
+);
+const IconFileLines = ({ class: className }: { class: string }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="48"
+        height="48"
+        fill="none"
+        stroke="#6a7282"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        style="opacity:1;"
+        class={className}
+    >
+        <circle cx="18" cy="18" r="3" />
+        <circle cx="6" cy="6" r="3" />
+        <path d="M18 6V5m0 6v-1M6 9v12" />
+    </svg>
+);
 // Custom formatTimeAgo function
 const formatTimeAgo = (dateString: string): string => {
     const date = new Date(dateString);
@@ -28,21 +109,26 @@ function PRItemComponent(props: { pr: PRItem; count: number }) {
     const { pr, count } = props;
     const prURL = `https://github.com/${pr.owner}/${pr.repository}`;
 
+    let stateIcon = null;
     let stateClass = "";
-    let stateText = "";
+    let ariaLabel = "";
 
     if (pr.draft) {
-        stateText = "Draft";
+        stateIcon = <IconFileLines class="size-4" />;
         stateClass = "text-gray-500";
+        ariaLabel = "Draft pull request";
     } else if (pr.merged) {
-        stateText = "Merged";
+        stateIcon = <IconGitMerge class="size-4" />;
         stateClass = "text-purple-500";
+        ariaLabel = "Merged pull request";
     } else if (pr.state === "open") {
-        stateText = "Open";
+        stateIcon = <IconGitPullRequest class="size-4" />;
         stateClass = "text-green-500";
+        ariaLabel = "Open pull request";
     } else if (pr.state === "closed") {
-        stateText = "Closed";
+        stateIcon = <IconGitPullRequestClosed class="size-4" />;
         stateClass = "text-red-500";
+        ariaLabel = "Closed pull request";
     }
 
     return (
@@ -75,8 +161,11 @@ function PRItemComponent(props: { pr: PRItem; count: number }) {
                     >
                         <span class="truncate">{pr.title}</span>
                     </a>
-                    <div class="flex items-center gap-1 text-sm text-gray-500 dark:text-gray-400">
-                        <span class={stateClass}>{stateText}</span>
+                    <div
+                        class={`flex items-center gap-1 text-sm ${stateClass}`}
+                        aria-label={ariaLabel}
+                    >
+                        {stateIcon}
                         <span> by </span>
                         <a
                             href={`https://github.com/${pr.owner}`}
