@@ -225,19 +225,24 @@ function OrgsListComponent() {
                 <a
                     href={`https://github.com/${org.owner}`}
                     target="_blank"
-                    class="border border-gray-200 dark:border-gray-800 overflow-hidden relative rounded-md shadow-sm shrink-0 size-12"
+                    class="flex flex-col items-center gap-2"
                     style={{ "--stagger": index }}
                     title={`${org.owner} (${org.count} contributions)`}
                 >
-                    <img
-                        alt={org.owner}
-                        class="size-full"
-                        src={
-                            org.avatarUrl ||
-                            `https://github.com/${org.owner}.png`
-                        }
-                        loading="lazy"
-                    />
+                    <div class="border border-gray-200 dark:border-gray-800 overflow-hidden relative rounded-md shadow-sm shrink-0 size-12">
+                        <img
+                            alt={org.owner}
+                            class="size-full"
+                            src={
+                                org.avatarUrl ||
+                                `https://github.com/${org.owner}.png`
+                            }
+                            loading="lazy"
+                        />
+                    </div>
+                    <span class="text-xs text-gray-500 dark:text-gray-400">
+                        {org.count}
+                    </span>
                 </a>
             ))}
         </div>
