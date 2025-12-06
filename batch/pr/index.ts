@@ -24,6 +24,13 @@ interface PRData {
     pullRequests: PRItem[];
 }
 
+// Orgs関連の型定義
+interface OrgData {
+    owner: string;
+    avatarUrl: string | null;
+    count: number;
+}
+
 // GitHub API のレスポンス型（Search API用）
 interface GitHubUser {
     login: string;
@@ -69,24 +76,21 @@ interface GitHubRepository {
     };
 }
 
-// アバターURLのキャッシュ
-const avatarCache: Map<string, string> = new Map();
+// オーナーのアバターURLキャッシュ
+const ownerAvatarCache: Map<string, string | null> = new Map();
 
 /**
- * リポジトリデータを取得し、アバターURLをキャッシュする
+ * リポジトリのオーナーのアバターURLを取得する
  */
-async function fetchRepositoryData(
+async function fetchOwnerAvatar(
+    owner: string,
     repoUrl: string,
     githubToken: string
 ): Promise<string | null> {
-    const repoPath = new URL(repoUrl).pathname.replace("/repos/", "");
-
-    // キャッシュがあればそれを返す
-    if (avatarCache.has(repoPath)) {
-        return avatarCache.get(repoPath)!;
+    if (ownerAvatarCache.has(owner)) {
+        return ownerAvatarCache.get(owner)!;
     }
 
-    // キャッシュがなければAPIから取得
     try {
         const response = await fetch(repoUrl, {
             headers: {
@@ -100,18 +104,18 @@ async function fetchRepositoryData(
             console.warn(
                 `Failed to fetch repository data for ${repoUrl}: ${response.status} ${response.statusText}`
             );
+            ownerAvatarCache.set(owner, null);
             return null;
         }
 
         const data: GitHubRepository = await response.json();
         const avatarUrl = data.owner.avatar_url;
 
-        // キャッシュに保存
-        avatarCache.set(repoPath, avatarUrl);
-
+        ownerAvatarCache.set(owner, avatarUrl);
         return avatarUrl;
     } catch (error) {
         console.warn(`Error fetching repository data for ${repoUrl}:`, error);
+        ownerAvatarCache.set(owner, null);
         return null;
     }
 }
@@ -147,7 +151,9 @@ async function fetchPRDetails(
 /**
  * 指定されたユーザーのPR情報をGitHub APIから全件取得する
  */
-async function fetchAllPRs(githubToken: string): Promise<PRData> {
+async function fetchAllPRs(
+    githubToken: string
+): Promise<{ prData: PRData; orgsData: Map<string, { count: number; repoUrl: string }> }> {
     let allPRs: GitHubPullRequest[] = [];
     let page = 1;
     let totalCount = 0;
@@ -204,6 +210,7 @@ async function fetchAllPRs(githubToken: string): Promise<PRData> {
     // 各PRの詳細情報を取得（draft、merged状態など）
     console.log("Fetching detailed information for each PR...");
     const detailedPRs: PRItem[] = [];
+    const orgsData: Map<string, { count: number; repoUrl: string }> = new Map();
 
     for (let i = 0; i < allPRs.length; i++) {
         const pr = allPRs[i];
@@ -213,6 +220,13 @@ async function fetchAllPRs(githubToken: string): Promise<PRData> {
         const owner = repoUrlParts[repoUrlParts.length - 2];
         const repository = repoUrlParts[repoUrlParts.length - 1];
 
+        // Orgsデータを集計
+        if (orgsData.has(owner)) {
+            orgsData.get(owner)!.count++;
+        } else {
+            orgsData.set(owner, { count: 1, repoUrl: pr.repository_url });
+        }
+
         try {
             // 個別PR詳細を取得
             const details = await fetchPRDetails(
@@ -221,8 +235,8 @@ async function fetchAllPRs(githubToken: string): Promise<PRData> {
                 pr.number,
                 githubToken
             );
-
-            const organizationAvatar = await fetchRepositoryData(
+            const organizationAvatar = await fetchOwnerAvatar(
+                owner,
                 pr.repository_url,
                 githubToken
             );
@@ -254,13 +268,13 @@ async function fetchAllPRs(githubToken: string): Promise<PRData> {
                 `Failed to fetch details for PR ${owner}/${repository}#${pr.number}:`,
                 error
             );
-
-            // 詳細取得に失敗した場合は、基本情報のみで作成
-            const organizationAvatar = await fetchRepositoryData(
+            const organizationAvatar = await fetchOwnerAvatar(
+                owner,
                 pr.repository_url,
                 githubToken
             );
 
+            // 詳細取得に失敗した場合は、基本情報のみで作成
             const prItem: PRItem = {
                 organizationAvatar,
                 owner: owner,
@@ -283,11 +297,13 @@ async function fetchAllPRs(githubToken: string): Promise<PRData> {
         `Processed ${detailedPRs.length} PRs with detailed information`
     );
 
-    return {
+    const prData = {
         lastUpdated: new Date().toISOString(),
         totalCount: totalCount,
         pullRequests: detailedPRs,
     };
+
+    return { prData, orgsData };
 }
 
 /**
@@ -330,22 +346,66 @@ export const prData: PRData = ${JSON.stringify(prData, null, 2)} as const
 }
 
 /**
+ * OrgsデータをTypeScriptファイルとして保存
+ */
+async function saveOrgsDataToFile(
+    orgsDataMap: Map<string, { count: number; repoUrl: string }>,
+    githubToken: string
+): Promise<void> {
+    const outputPath = path.join(process.cwd(), "app", "data", "orgs.ts");
+    const orgsList: OrgData[] = [];
+
+    for (const [owner, data] of orgsDataMap.entries()) {
+        // アバターURLをここで非同期に取得
+        const avatarUrl = await fetchOwnerAvatar(owner, data.repoUrl, githubToken);
+        orgsList.push({
+            owner,
+            avatarUrl,
+            count: data.count,
+        });
+        // APIレート制限のための短い待機
+        await new Promise((resolve) => setTimeout(resolve, 100));
+    }
+
+    // 貢献度順にソート
+    orgsList.sort((a, b) => b.count - a.count);
+
+    const content = `// Auto-generated Orgs data
+// Last updated: ${new Date().toISOString()}
+
+export interface OrgData {
+  owner: string
+  avatarUrl: string | null
+  count: number
+}
+
+export const orgsData: OrgData[] = ${JSON.stringify(orgsList, null, 2)} as const
+`;
+
+    await fs.writeFile(outputPath, content, "utf8");
+    console.log(`Orgs data saved to: ${outputPath}`);
+    console.log(`Data contains ${orgsList.length} orgs`);
+}
+
+
+/**
  * メイン処理
  */
 async function main() {
     try {
-        // 環境変数からGitHubトークンとユーザー名を取得
+        // 環境変数からGitHubトークンを取得
         const githubToken = process.env.GITHUB_TOKEN;
 
         if (!githubToken) {
             throw new Error("GITHUB_TOKEN environment variable is required");
         }
 
-        // PR情報を全件取得
-        const prData = await fetchAllPRs(githubToken);
+        // PR情報とOrgs情報を全件取得
+        const { prData, orgsData } = await fetchAllPRs(githubToken);
 
-        // TypeScriptファイルとして保存
+        // ファイルとして保存
         await savePRDataToFile(prData);
+        await saveOrgsDataToFile(orgsData, githubToken);
 
         console.log("Batch process completed successfully!");
     } catch (error) {
