@@ -62,6 +62,60 @@ interface GitHubPullRequestDetail {
     user: GitHubUser | null;
 }
 
+// リポジトリデータ取得用の型
+interface GitHubRepository {
+    owner: {
+        avatar_url: string;
+    };
+}
+
+// アバターURLのキャッシュ
+const avatarCache: Map<string, string> = new Map();
+
+/**
+ * リポジトリデータを取得し、アバターURLをキャッシュする
+ */
+async function fetchRepositoryData(
+    repoUrl: string,
+    githubToken: string
+): Promise<string | null> {
+    const repoPath = new URL(repoUrl).pathname.replace("/repos/", "");
+
+    // キャッシュがあればそれを返す
+    if (avatarCache.has(repoPath)) {
+        return avatarCache.get(repoPath)!;
+    }
+
+    // キャッシュがなければAPIから取得
+    try {
+        const response = await fetch(repoUrl, {
+            headers: {
+                Authorization: `Bearer ${githubToken}`,
+                Accept: "application/vnd.github.v3+json",
+                "User-Agent": "PR-Tracker-Batch/1.0",
+            },
+        });
+
+        if (!response.ok) {
+            console.warn(
+                `Failed to fetch repository data for ${repoUrl}: ${response.status} ${response.statusText}`
+            );
+            return null;
+        }
+
+        const data: GitHubRepository = await response.json();
+        const avatarUrl = data.owner.avatar_url;
+
+        // キャッシュに保存
+        avatarCache.set(repoPath, avatarUrl);
+
+        return avatarUrl;
+    } catch (error) {
+        console.warn(`Error fetching repository data for ${repoUrl}:`, error);
+        return null;
+    }
+}
+
 /**
  * 個別のPRの詳細情報を取得
  */
@@ -168,8 +222,13 @@ async function fetchAllPRs(githubToken: string): Promise<PRData> {
                 githubToken
             );
 
+            const organizationAvatar = await fetchRepositoryData(
+                pr.repository_url,
+                githubToken
+            );
+
             const prItem: PRItem = {
-                organizationAvatar: pr.user?.avatar_url || null,
+                organizationAvatar,
                 owner: owner,
                 repository: repository,
                 title: pr.title,
@@ -197,8 +256,13 @@ async function fetchAllPRs(githubToken: string): Promise<PRData> {
             );
 
             // 詳細取得に失敗した場合は、基本情報のみで作成
+            const organizationAvatar = await fetchRepositoryData(
+                pr.repository_url,
+                githubToken
+            );
+
             const prItem: PRItem = {
-                organizationAvatar: pr.user?.avatar_url || null,
+                organizationAvatar,
                 owner: owner,
                 repository: repository,
                 title: pr.title,
