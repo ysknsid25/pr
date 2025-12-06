@@ -155,9 +155,11 @@ export function PrList() {
 
     return (
         <div>
-            <div class="flex items-center mb-4">
+            <div class="flex flex-col sm:flex-row sm:items-center mb-4 gap-2 sm:gap-0">
                 <h2 class="text-xl font-bold">Contributes</h2>
-                <span class="mx-2 text-gray-300 dark:text-gray-700">|</span>
+                <span class="mx-2 text-gray-300 dark:text-gray-700 hidden sm:inline">
+                    |
+                </span>
                 <div class="flex gap-2">
                     <button
                         onClick={() => setViewMode("pr")}
