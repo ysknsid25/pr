@@ -152,7 +152,7 @@ function PRItemComponent(props: { pr: PRItem; count: number }) {
                     loading="lazy"
                 />
             </a>
-            <div class="flex-1 flex justify-between gap-2 lg:gap-4 min-w-0">
+            <div class="flex-1 flex flex-col sm:flex-row sm:justify-between sm:gap-2 lg:gap-4 min-w-0">
                 <div class="flex flex-col gap-1 min-w-0">
                     <a
                         class="flex items-center gap-1 text-gray-900 dark:text-white"
@@ -166,21 +166,27 @@ function PRItemComponent(props: { pr: PRItem; count: number }) {
                         aria-label={ariaLabel}
                     >
                         {stateIcon}
-                        <span> by </span>
-                        <a
-                            href={`https://github.com/${pr.owner}`}
-                            target="_blank"
-                            class="hover:underline"
-                        >
-                            {pr.owner}
-                        </a>
-                        <span> / </span>
-                        <a href={prURL} target="_blank" class="hover:underline">
-                            <span class="truncate">{pr.repository}</span>
-                        </a>
+                        <div class="flex flex-wrap items-center gap-1 text-gray-500 dark:text-gray-400">
+                            <span> by </span>
+                            <a
+                                href={`https://github.com/${pr.owner}`}
+                                target="_blank"
+                                class="hover:underline"
+                            >
+                                {pr.owner}
+                            </a>
+                            <span> / </span>
+                            <a
+                                href={prURL}
+                                target="_blank"
+                                class="hover:underline"
+                            >
+                                <span class="truncate">{pr.repository}</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="flex flex-col justify-between shrink-0 text-right">
+                <div class="flex justify-end items-baseline gap-2 sm:flex-col sm:items-end shrink-0 sm:justify-between mt-1 sm:mt-0">
                     <a
                         href={pr.url}
                         target="_blank"
