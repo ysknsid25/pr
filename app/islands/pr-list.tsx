@@ -207,10 +207,10 @@ function PRItemComponent(props: { pr: PRItem; count: number }) {
 }
 
 // PR List Component
-function PRListComponent() {
+function PRListComponent({ prs }: { prs: PRItem[] }) {
     return (
         <div class="flex flex-col gap-4">
-            {prData.pullRequests.map((pr, index) => (
+            {prs.map((pr, index) => (
                 <PRItemComponent pr={pr} count={index} />
             ))}
         </div>
@@ -252,6 +252,22 @@ function OrgsListComponent() {
 // Main Component with View Toggle
 export function PrList() {
     const [viewMode, setViewMode] = useState<"pr" | "orgs">("pr");
+    const [filter, setFilter] = useState<"all" | "open" | "merged">("all");
+
+    const allPRs = prData.pullRequests;
+    const openPRs = allPRs.filter((pr) => pr.state === "open" && !pr.draft);
+    const mergedPRs = allPRs.filter((pr) => pr.merged);
+
+    const filteredPRs = (() => {
+        switch (filter) {
+            case "open":
+                return openPRs;
+            case "merged":
+                return mergedPRs;
+            default:
+                return allPRs;
+        }
+    })();
 
     return (
         <div>
@@ -284,7 +300,61 @@ export function PrList() {
                 </div>
             </div>
 
-            {viewMode === "pr" ? <PRListComponent /> : <OrgsListComponent />}
+            {viewMode === "pr" && (
+                <div class="mb-4">
+                    <div class="border-b border-gray-200 dark:border-gray-700">
+                        <nav class="-mb-px flex gap-6" aria-label="Tabs">
+                            <button
+                                onClick={() => setFilter("all")}
+                                class={`shrink-0 border-b-2 px-1 pb-4 text-sm font-medium ${
+                                    filter === "all"
+                                        ? "border-sky-500 text-sky-600"
+                                        : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                                }`}
+                            >
+                                All
+                                <span class="ml-2 text-xs text-gray-400 font-normal bg-gray-100 dark:bg-gray-800 rounded-full px-2 py-0.5">
+                                    {allPRs.length}
+                                </span>
+                            </button>
+
+                            <button
+                                onClick={() => setFilter("open")}
+                                class={`shrink-0 border-b-2 px-1 pb-4 text-sm font-medium ${
+                                    filter === "open"
+                                        ? "border-sky-500 text-sky-600"
+                                        : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                                }`}
+                            >
+                                Open
+                                <span class="ml-2 text-xs text-gray-400 font-normal bg-gray-100 dark:bg-gray-800 rounded-full px-2 py-0.5">
+                                    {openPRs.length}
+                                </span>
+                            </button>
+
+                            <button
+                                onClick={() => setFilter("merged")}
+                                class={`shrink-0 border-b-2 px-1 pb-4 text-sm font-medium ${
+                                    filter === "merged"
+                                        ? "border-sky-500 text-sky-600"
+                                        : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                                }`}
+                            >
+                                Merged
+                                <span class="ml-2 text-xs text-gray-400 font-normal bg-gray-100 dark:bg-gray-800 rounded-full px-2 py-0.5">
+                                    {mergedPRs.length}
+                                </span>
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            )}
+
+            {viewMode === "pr" ? (
+                <PRListComponent prs={filteredPRs} />
+            ) : (
+                <OrgsListComponent />
+            )}
         </div>
     );
 }
