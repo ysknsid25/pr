@@ -1,11 +1,8 @@
-name: Fetch PR Data
+name: Fetch PR Data and Deploy
 
 on:
-  # 定期実行 - 毎日午前9時（JST）に実行
   schedule:
     - cron: '0 0 * * *' # UTC 0:00 = JST 9:00
-
-  # 手動実行も可能にする
   workflow_dispatch:
 
 permissions:
@@ -46,3 +43,7 @@ jobs:
           else
             echo "No changes to commit"
           fi
+      - name: Deploy to Cloudflare
+        run: npm run deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
