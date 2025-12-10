@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2025-12-09T00:36:22.818Z
-// Total PRs: 122
+// Last updated: 2025-12-10T00:37:47.098Z
+// Total PRs: 124
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2025-12-09T00:36:22.818Z",
-  "totalCount": 122,
+  "lastUpdated": "2025-12-10T00:37:47.098Z",
+  "totalCount": 124,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "chore: Maven Publish",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2025-12-09T09:35:58Z",
+      "mergedAt": "2025-12-09T09:37:29Z",
+      "number": 92,
+      "url": "https://github.com/ysknsid25/iolite/pull/92"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "chore: Multiplatform",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2025-12-09T09:01:01Z",
+      "mergedAt": "2025-12-09T09:04:04Z",
+      "number": 91,
+      "url": "https://github.com/ysknsid25/iolite/pull/91"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
       "owner": "honojs",
