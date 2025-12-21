@@ -2,6 +2,7 @@
 import { useState } from "hono/jsx";
 import { PRItem, prData } from "../data/pr";
 import { orgsData, OrgData } from "../data/orgs";
+import { worksData, WorkItem } from "../data/works";
 
 // SVG Icon Components (Font Awesome paths)
 const IconGitPullRequest = ({ class: className }: { class: string }) => (
@@ -84,6 +85,27 @@ const IconFileLines = ({ class: className }: { class: string }) => (
         <path d="M18 6V5m0 6v-1M6 9v12" />
     </svg>
 );
+
+const IconStar = ({ class: className }: { class: string }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class={className}>
+        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+    </svg>
+);
+
+const IconRepoForked = ({ class: className }: { class: string }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class={className}>
+        <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z" />
+    </svg>
+);
+
+const IconGlobe = ({ class: className }: { class: string }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class={className}>
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="2" y1="12" x2="22" y2="12"></line>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+    </svg>
+);
+
 // Custom formatTimeAgo function
 const formatTimeAgo = (dateString: string): string => {
     const date = new Date(dateString);
@@ -102,6 +124,57 @@ const formatTimeAgo = (dateString: string): string => {
     if (hours > 0) return `${hours} hour${hours > 1 ? "s" : ""} ago`;
     if (minutes > 0) return `${minutes} minute${minutes > 1 ? "s" : ""} ago`;
     return "just now";
+};
+
+const languageColors: { [key: string]: string } = {
+    TypeScript: "bg-blue-500",
+    JavaScript: "bg-yellow-500",
+    Kotlin: "bg-purple-600",
+    Java: "bg-red-500",
+    Python: "bg-green-600",
+    Go: "bg-cyan-400",
+    HTML: "bg-orange-500",
+    CSS: "bg-blue-400",
+    Vue: "bg-green-500",
+    Svelte: "bg-orange-400",
+    Rust: "bg-black",
+    Dart: "bg-blue-600",
+    PHP: "bg-indigo-400",
+    Shell: "bg-gray-700",
+    Dockerfile: "bg-blue-700",
+    Swift: "bg-orange-300",
+    C: "bg-blue-800",
+    "C++": "bg-blue-700",
+    "C#": "bg-purple-800",
+    Ruby: "bg-red-700",
+    Perl: "bg-green-700",
+    Scala: "bg-red-600",
+    Haskell: "bg-purple-500",
+    Erlang: "bg-red-400",
+    Elixir: "bg-purple-400",
+    Clojure: "bg-green-500",
+    FSharp: "bg-blue-800",
+    R: "bg-blue-300",
+    Julia: "bg-purple-700",
+    Lua: "bg-blue-900",
+    Groovy: "bg-green-400",
+    Makefile: "bg-gray-600",
+    Assembly: "bg-gray-500",
+    ShaderLab: "bg-green-300",
+    SCSS: "bg-pink-500",
+    Less: "bg-blue-200",
+    Sass: "bg-pink-400",
+     stylus: "bg-green-200",
+    JSON: "bg-gray-400",
+    YAML: "bg-pink-300",
+    XML: "bg-yellow-300",
+    Markdown: "bg-gray-300",
+    CoffeeScript: "bg-yellow-600",
+    ObjectiveC: "bg-blue-600",
+    Crystal: "bg-cyan-500",
+    OCaml: "bg-orange-600",
+    Racket: "bg-red-800",
+    V: "bg-green-800",
 };
 
 // PR Item Component
@@ -206,6 +279,51 @@ function PRItemComponent(props: { pr: PRItem; count: number }) {
     );
 }
 
+function WorkItemComponent({ work, count }: { work: WorkItem; count: number }) {
+    return (
+        <div
+            style={{ "--stagger": count }}
+            class="flex flex-col gap-2 p-4 border border-gray-200 dark:border-gray-800 rounded-lg shadow-sm sliding-animation delay-base bg-white dark:bg-gray-900"
+        >
+            <div class="flex justify-between items-start">
+                <a href={work.html_url} target="_blank" class="text-lg font-bold text-sky-600 hover:underline break-all">
+                    {work.repo}
+                </a>
+            </div>
+            
+            <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2 min-h-[2.5em]">
+                {work.description || "No description provided."}
+            </p>
+
+            <div class="flex items-center gap-4 mt-auto text-sm text-gray-500 dark:text-gray-400">
+                {work.language && (
+                    <div class="flex items-center gap-1">
+                        <span class={`${languageColors[work.language] || "bg-gray-400"} size-3 rounded-full block`}></span>
+                        <span>{work.language}</span>
+                    </div>
+                )}
+                
+                <div class="flex items-center gap-1">
+                    <IconStar class="size-4 text-yellow-500" />
+                    <span>{work.stargazersCount}</span>
+                </div>
+                
+                <div class="flex items-center gap-1">
+                    <IconRepoForked class="size-4" />
+                    <span>{work.forksCount}</span>
+                </div>
+                {work.homepage && (
+                    <div class="ml-auto">
+                        <a href={work.homepage} target="_blank" class="flex items-center gap-2 text-xs text-gray-500 hover:text-sky-600" aria-label="Website">
+                            <IconGlobe class="size-4" />
+                        </a>
+                    </div>
+                )}
+            </div>
+        </div>
+    );
+}
+
 // PR List Component
 function PRListComponent({ prs }: { prs: PRItem[] }) {
     return (
@@ -249,9 +367,19 @@ function OrgsListComponent() {
     );
 }
 
+function WorksListComponent() {
+    return (
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {worksData.repositories.map((work, index) => (
+                <WorkItemComponent work={work} count={index} />
+            ))}
+        </div>
+    );
+}
+
 // Main Component with View Toggle
 export function PrList() {
-    const [viewMode, setViewMode] = useState<"pr" | "orgs">("pr");
+    const [viewMode, setViewMode] = useState<"pr" | "orgs" | "works">("pr");
     const [filter, setFilter] = useState<"all" | "open" | "merged">("all");
 
     const allPRs = prData.pullRequests;
@@ -296,6 +424,16 @@ export function PrList() {
                         }`}
                     >
                         Orgs
+                    </button>
+                    <button
+                        onClick={() => setViewMode("works")}
+                        class={`px-3 py-1 text-sm rounded-md ${
+                            viewMode === "works"
+                                ? "bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white"
+                                : "text-gray-500 dark:text-gray-400"
+                        }`}
+                    >
+                        Works
                     </button>
                 </div>
             </div>
@@ -352,8 +490,10 @@ export function PrList() {
 
             {viewMode === "pr" ? (
                 <PRListComponent prs={filteredPRs} />
-            ) : (
+            ) : viewMode === "orgs" ? (
                 <OrgsListComponent />
+            ) : (
+                <WorksListComponent />
             )}
         </div>
     );

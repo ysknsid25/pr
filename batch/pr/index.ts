@@ -31,6 +31,24 @@ interface OrgData {
     count: number;
 }
 
+// Works関連の型定義
+interface WorkItem {
+    owner: string;
+    repo: string;
+    description: string | null;
+    homepage: string | null;
+    language: string | null;
+    stargazersCount: number;
+    forksCount: number;
+    html_url: string;
+}
+
+interface WorksData {
+    lastUpdated: string;
+    totalCount: number;
+    repositories: WorkItem[];
+}
+
 // GitHub API のレスポンス型（Search API用）
 interface GitHubUser {
     login: string;
@@ -146,6 +164,58 @@ async function fetchPRDetails(
     }
 
     return await response.json();
+}
+
+/**
+ * Works（特定トピックのリポジトリ）を取得する
+ */
+async function fetchWorks(githubToken: string): Promise<WorksData> {
+    console.log("Fetching works repositories...");
+    const searchUrl = new URL("https://api.github.com/search/repositories");
+    searchUrl.searchParams.set("q", "user:ysknsid25 topic:works");
+    searchUrl.searchParams.set("sort", "updated");
+
+    const response = await fetch(searchUrl.toString(), {
+        headers: {
+            Authorization: `Bearer ${githubToken}`,
+            Accept: "application/vnd.github.v3+json",
+            "User-Agent": "PR-Tracker-Batch/1.0",
+        },
+    });
+
+    if (!response.ok) {
+        throw new Error(
+            `GitHub API error fetching works: ${response.status} ${response.statusText}`
+        );
+    }
+
+    const data = await response.json() as any;
+    const items: WorkItem[] = data.items.map((repo: any) => ({
+        owner: repo.owner.login,
+        repo: repo.name,
+        description: repo.description,
+        homepage: repo.homepage,
+        language: repo.language,
+        stargazersCount: repo.stargazers_count,
+        forksCount: repo.forks_count,
+        html_url: repo.html_url,
+    }));
+
+    // Sort by stargazersCount (desc) then forksCount (desc)
+    items.sort((a, b) => {
+        if (b.stargazersCount !== a.stargazersCount) {
+            return b.stargazersCount - a.stargazersCount;
+        }
+        return b.forksCount - a.forksCount;
+    });
+
+    console.log(`Fetched ${items.length} works repositories`);
+
+    return {
+        lastUpdated: new Date().toISOString(),
+        totalCount: data.total_count,
+        repositories: items,
+    };
 }
 
 /**
@@ -387,6 +457,39 @@ export const orgsData: OrgData[] = ${JSON.stringify(orgsList, null, 2)} as const
     console.log(`Data contains ${orgsList.length} orgs`);
 }
 
+/**
+ * WorksデータをTypeScriptファイルとして保存
+ */
+async function saveWorksDataToFile(worksData: WorksData): Promise<void> {
+    const outputPath = path.join(process.cwd(), "app", "data", "works.ts");
+
+    const content = `// Auto-generated Works data
+// Last updated: ${worksData.lastUpdated}
+
+export interface WorkItem {
+  owner: string
+  repo: string
+  description: string | null
+  homepage: string | null
+  language: string | null
+  stargazersCount: number
+  forksCount: number
+  html_url: string
+}
+
+export interface WorksData {
+  lastUpdated: string
+  totalCount: number
+  repositories: WorkItem[]
+}
+
+export const worksData: WorksData = ${JSON.stringify(worksData, null, 2)} as const
+`;
+
+    await fs.writeFile(outputPath, content, "utf8");
+    console.log(`Works data saved to: ${outputPath}`);
+    console.log(`Data contains ${worksData.repositories.length} works`);
+}
 
 /**
  * メイン処理
@@ -403,9 +506,13 @@ async function main() {
         // PR情報とOrgs情報を全件取得
         const { prData, orgsData } = await fetchAllPRs(githubToken);
 
+        // Works情報を取得
+        const worksData = await fetchWorks(githubToken);
+
         // ファイルとして保存
         await savePRDataToFile(prData);
         await saveOrgsDataToFile(orgsData, githubToken);
+        await saveWorksDataToFile(worksData);
 
         console.log("Batch process completed successfully!");
     } catch (error) {
