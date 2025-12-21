@@ -272,7 +272,7 @@ export function PrList() {
     return (
         <div>
             <div class="flex flex-col sm:flex-row sm:items-center mb-4 gap-2 sm:gap-0">
-                <h2 class="text-xl font-bold">Pull Requests</h2>
+                <h2 class="text-xl font-bold">Activities</h2>
                 <span class="mx-2 text-gray-300 dark:text-gray-700 hidden sm:inline">
                     |
                 </span>
