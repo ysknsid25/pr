@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2025-12-21T07:49:30.786Z
-// Total PRs: 134
+// Last updated: 2025-12-22T00:39:29.730Z
+// Total PRs: 124
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,8 +24,8 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2025-12-21T07:49:30.786Z",
-  "totalCount": 134,
+  "lastUpdated": "2025-12-22T00:39:29.730Z",
+  "totalCount": 124,
   "pullRequests": [
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
@@ -1159,19 +1159,6 @@ export const prData: PRData = {
       "url": "https://github.com/unjs/ofetch/pull/480"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/25680717?v=4",
-      "owner": "yourmystar",
-      "repository": "sirius",
-      "title": "hotfix: Mailchimpから顧客のニュースレター購読情報を取得するjob - 並列取得数を3に & 上限取得数を設定できるように",
-      "state": "closed",
-      "merged": false,
-      "draft": false,
-      "createdAt": "2025-03-26T09:10:34Z",
-      "mergedAt": null,
-      "number": 345,
-      "url": "https://github.com/yourmystar/sirius/pull/345"
-    },
-    {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/80154025?v=4",
       "owner": "unjs",
       "repository": "c12",
@@ -1222,71 +1209,6 @@ export const prData: PRData = {
       "mergedAt": null,
       "number": 4037,
       "url": "https://github.com/colinhacks/zod/pull/4037"
-    },
-    {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/25680717?v=4",
-      "owner": "yourmystar",
-      "repository": "sirius",
-      "title": "feat: MailchimpからNewsletterSubscriptionを取得するjob",
-      "state": "closed",
-      "merged": true,
-      "draft": false,
-      "createdAt": "2025-03-13T13:25:24Z",
-      "mergedAt": "2025-03-25T00:54:53Z",
-      "number": 323,
-      "url": "https://github.com/yourmystar/sirius/pull/323"
-    },
-    {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/25680717?v=4",
-      "owner": "yourmystar",
-      "repository": "sirius",
-      "title": "fix(functions): 決済取り消し時にBacklogにチケット作成するための関数 - functions.yourmystar.jp/src/index.tsへ追加",
-      "state": "closed",
-      "merged": true,
-      "draft": false,
-      "createdAt": "2025-02-26T10:06:48Z",
-      "mergedAt": "2025-02-26T10:11:13Z",
-      "number": 302,
-      "url": "https://github.com/yourmystar/sirius/pull/302"
-    },
-    {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/25680717?v=4",
-      "owner": "yourmystar",
-      "repository": "sirius",
-      "title": "add(functions): 決済取り消し時にBacklogにチケット作成するための関数 - GHA追加",
-      "state": "closed",
-      "merged": true,
-      "draft": false,
-      "createdAt": "2025-02-26T09:44:41Z",
-      "mergedAt": "2025-02-26T09:48:05Z",
-      "number": 301,
-      "url": "https://github.com/yourmystar/sirius/pull/301"
-    },
-    {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/25680717?v=4",
-      "owner": "yourmystar",
-      "repository": "sirius",
-      "title": "add(functions): 決済取り消し時にBacklogにチケット作成するための関数 - Terraform & GHA追加",
-      "state": "closed",
-      "merged": true,
-      "draft": false,
-      "createdAt": "2025-02-25T08:26:53Z",
-      "mergedAt": "2025-02-27T01:26:58Z",
-      "number": 300,
-      "url": "https://github.com/yourmystar/sirius/pull/300"
-    },
-    {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/25680717?v=4",
-      "owner": "yourmystar",
-      "repository": "sirius",
-      "title": "add(functions): 決済取り消し時にBacklogにチケット作成するための関数",
-      "state": "closed",
-      "merged": true,
-      "draft": false,
-      "createdAt": "2025-02-17T08:58:25Z",
-      "mergedAt": "2025-02-26T01:39:02Z",
-      "number": 293,
-      "url": "https://github.com/yourmystar/sirius/pull/293"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/99661054?v=4",
@@ -1404,58 +1326,6 @@ export const prData: PRData = {
       "mergedAt": null,
       "number": 173,
       "url": "https://github.com/GoogleCloudPlatform/gcp-getting-started-lab-jp/pull/173"
-    },
-    {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/24556516?v=4",
-      "owner": "kght6123",
-      "repository": "react-aria-matome",
-      "title": "Review By Yoshida #4",
-      "state": "closed",
-      "merged": true,
-      "draft": false,
-      "createdAt": "2024-10-27T12:50:20Z",
-      "mergedAt": "2024-10-27T13:10:16Z",
-      "number": 8,
-      "url": "https://github.com/kght6123/react-aria-matome/pull/8"
-    },
-    {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/24556516?v=4",
-      "owner": "kght6123",
-      "repository": "react-aria-matome",
-      "title": "Review By Yoshida #2",
-      "state": "closed",
-      "merged": true,
-      "draft": false,
-      "createdAt": "2024-10-25T14:17:22Z",
-      "mergedAt": "2024-10-25T14:41:07Z",
-      "number": 7,
-      "url": "https://github.com/kght6123/react-aria-matome/pull/7"
-    },
-    {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/24556516?v=4",
-      "owner": "kght6123",
-      "repository": "react-aria-matome",
-      "title": "Review By Yoshida #1",
-      "state": "closed",
-      "merged": true,
-      "draft": false,
-      "createdAt": "2024-10-21T13:40:38Z",
-      "mergedAt": "2024-10-22T13:42:39Z",
-      "number": 1,
-      "url": "https://github.com/kght6123/react-aria-matome/pull/1"
-    },
-    {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/57058513?v=4",
-      "owner": "h-kono-it",
-      "repository": "hk_tech_book_2024",
-      "title": "review: 一部の表現を修正",
-      "state": "closed",
-      "merged": true,
-      "draft": false,
-      "createdAt": "2024-04-20T05:55:39Z",
-      "mergedAt": "2024-04-20T07:19:24Z",
-      "number": 1,
-      "url": "https://github.com/h-kono-it/hk_tech_book_2024/pull/1"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/34805701?v=4",
