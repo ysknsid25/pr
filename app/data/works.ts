@@ -10,6 +10,7 @@ export interface WorkItem {
   stargazersCount: number
   forksCount: number
   html_url: string
+  publishedAt: string | null
 }
 
 export interface WorksData {
@@ -30,7 +31,8 @@ export const worksData: WorksData = {
       "language": "TypeScript",
       "stargazersCount": 29,
       "forksCount": 8,
-      "html_url": "https://github.com/ysknsid25/booby"
+      "html_url": "https://github.com/ysknsid25/booby",
+      "publishedAt": "2023"
     },
     {
       "owner": "ysknsid25",
@@ -40,7 +42,8 @@ export const worksData: WorksData = {
       "language": "Kotlin",
       "stargazersCount": 20,
       "forksCount": 1,
-      "html_url": "https://github.com/ysknsid25/iolite"
+      "html_url": "https://github.com/ysknsid25/iolite",
+      "publishedAt": "2023"
     },
     {
       "owner": "ysknsid25",
@@ -50,7 +53,8 @@ export const worksData: WorksData = {
       "language": "JavaScript",
       "stargazersCount": 6,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/osyaburi"
+      "html_url": "https://github.com/ysknsid25/osyaburi",
+      "publishedAt": "2022"
     },
     {
       "owner": "ysknsid25",
@@ -60,7 +64,8 @@ export const worksData: WorksData = {
       "language": "TypeScript",
       "stargazersCount": 1,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/eslint-plugin-citty"
+      "html_url": "https://github.com/ysknsid25/eslint-plugin-citty",
+      "publishedAt": "2024"
     },
     {
       "owner": "ysknsid25",
@@ -70,7 +75,8 @@ export const worksData: WorksData = {
       "language": "JavaScript",
       "stargazersCount": 1,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/eslint-plugin-commander-option-flags"
+      "html_url": "https://github.com/ysknsid25/eslint-plugin-commander-option-flags",
+      "publishedAt": null
     },
     {
       "owner": "ysknsid25",
@@ -80,7 +86,8 @@ export const worksData: WorksData = {
       "language": "TypeScript",
       "stargazersCount": 1,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/japan-top-github-users"
+      "html_url": "https://github.com/ysknsid25/japan-top-github-users",
+      "publishedAt": null
     },
     {
       "owner": "ysknsid25",
@@ -90,7 +97,8 @@ export const worksData: WorksData = {
       "language": "Go",
       "stargazersCount": 0,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/tech-newsletter-generator"
+      "html_url": "https://github.com/ysknsid25/tech-newsletter-generator",
+      "publishedAt": null
     },
     {
       "owner": "ysknsid25",
@@ -100,7 +108,8 @@ export const worksData: WorksData = {
       "language": "TypeScript",
       "stargazersCount": 0,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/pr"
+      "html_url": "https://github.com/ysknsid25/pr",
+      "publishedAt": "2025"
     },
     {
       "owner": "ysknsid25",
@@ -110,7 +119,8 @@ export const worksData: WorksData = {
       "language": "TypeScript",
       "stargazersCount": 0,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/eslint-plugin-hono"
+      "html_url": "https://github.com/ysknsid25/eslint-plugin-hono",
+      "publishedAt": "2024"
     }
   ]
 } as const

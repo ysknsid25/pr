@@ -41,6 +41,7 @@ interface WorkItem {
     stargazersCount: number;
     forksCount: number;
     html_url: string;
+    publishedAt: string | null;
 }
 
 interface WorksData {
@@ -190,16 +191,22 @@ async function fetchWorks(githubToken: string): Promise<WorksData> {
     }
 
     const data = await response.json() as any;
-    const items: WorkItem[] = data.items.map((repo: any) => ({
-        owner: repo.owner.login,
-        repo: repo.name,
-        description: repo.description,
-        homepage: repo.homepage,
-        language: repo.language,
-        stargazersCount: repo.stargazers_count,
-        forksCount: repo.forks_count,
-        html_url: repo.html_url,
-    }));
+    const items: WorkItem[] = data.items.map((repo: any) => {
+        const topics: string[] = repo.topics || [];
+        const publishedAt = topics.find((topic: string) => /^\d{4}$/.test(topic)) || null;
+
+        return {
+            owner: repo.owner.login,
+            repo: repo.name,
+            description: repo.description,
+            homepage: repo.homepage,
+            language: repo.language,
+            stargazersCount: repo.stargazers_count,
+            forksCount: repo.forks_count,
+            html_url: repo.html_url,
+            publishedAt,
+        };
+    });
 
     // Sort by stargazersCount (desc) then forksCount (desc)
     items.sort((a, b) => {
@@ -475,6 +482,7 @@ export interface WorkItem {
   stargazersCount: number
   forksCount: number
   html_url: string
+  publishedAt: string | null
 }
 
 export interface WorksData {

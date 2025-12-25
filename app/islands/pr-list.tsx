@@ -289,6 +289,11 @@ function WorkItemComponent({ work, count }: { work: WorkItem; count: number }) {
                 <a href={work.html_url} target="_blank" class="text-lg font-bold text-sky-600 hover:underline break-all">
                     {work.repo}
                 </a>
+                {work.publishedAt && (
+                    <span class="text-xs font-mono bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-2 py-1 rounded shrink-0 ml-2">
+                        {work.publishedAt}
+                    </span>
+                )}
             </div>
             
             <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2 min-h-[2.5em]">
