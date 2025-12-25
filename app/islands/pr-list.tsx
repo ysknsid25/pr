@@ -382,9 +382,133 @@ function WorksListComponent() {
     );
 }
 
+function StatisticsComponent() {
+    const years = new Set<string>();
+    prData.pullRequests.forEach((pr) => {
+        const year = new Date(pr.createdAt).getFullYear().toString();
+        years.add(year);
+    });
+    worksData.repositories.forEach((work) => {
+        if (work.publishedAt) years.add(work.publishedAt);
+    });
+
+    const sortedYears = Array.from(years).sort().reverse();
+
+    return (
+        <div class="flex flex-col gap-8">
+            {sortedYears.map((year, index) => {
+                const prsInYear = prData.pullRequests.filter(
+                    (pr) => new Date(pr.createdAt).getFullYear().toString() === year
+                );
+                const worksInYear = worksData.repositories.filter(
+                    (work) => work.publishedAt === year
+                );
+
+                const orgsMap = new Map<
+                    string,
+                    { count: number; avatar: string | null }
+                >();
+                prsInYear.forEach((pr) => {
+                    const org = pr.owner;
+                    const current = orgsMap.get(org) || {
+                        count: 0,
+                        avatar: pr.organizationAvatar,
+                    };
+                    orgsMap.set(org, {
+                        count: current.count + 1,
+                        avatar: current.avatar || pr.organizationAvatar,
+                    });
+                });
+
+                const sortedOrgs = Array.from(orgsMap.entries()).sort(
+                    (a, b) => b[1].count - a[1].count
+                );
+
+                return (
+                    <div
+                        key={year}
+                        style={{ "--stagger": index }}
+                        class="border rounded-lg p-6 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 sliding-animation delay-base"
+                    >
+                        <h3 class="text-2xl font-bold mb-6 flex items-baseline gap-2 border-b border-gray-100 dark:border-gray-800 pb-2">
+                            {year}
+                            <span class="text-sm font-normal text-gray-500">
+                                ({prsInYear.length} PRs)
+                            </span>
+                        </h3>
+
+                        {worksInYear.length > 0 && (
+                            <div class="mb-8">
+                                <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
+                                    Published Works
+                                </h4>
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                    {worksInYear.map((work) => (
+                                        <a
+                                            href={work.html_url}
+                                            target="_blank"
+                                            class="block p-3 rounded-md border border-gray-200 dark:border-gray-700 hover:border-sky-500 dark:hover:border-sky-500 transition-colors bg-gray-50 dark:bg-gray-800/50"
+                                        >
+                                            <div class="font-bold text-sky-600 truncate">
+                                                {work.repo}
+                                            </div>
+                                            <div class="text-xs text-gray-500 mt-1 line-clamp-1">
+                                                {work.description}
+                                            </div>
+                                        </a>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
+                        {sortedOrgs.length > 0 && (
+                            <div>
+                                <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
+                                    Contributions by Organization
+                                </h4>
+                                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                                    {sortedOrgs.map(([name, data]) => (
+                                        <a
+                                            href={`https://github.com/${name}`}
+                                            target="_blank"
+                                            class="flex items-center gap-2 p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                                        >
+                                            <div class="size-8 rounded overflow-hidden shrink-0 border border-gray-200 dark:border-gray-700 bg-white">
+                                                <img
+                                                    src={
+                                                        data.avatar ||
+                                                        `https://github.com/${name}.png`
+                                                    }
+                                                    alt={name}
+                                                    class="size-full"
+                                                    loading="lazy"
+                                                />
+                                            </div>
+                                            <div class="min-w-0">
+                                                <div class="text-sm font-medium truncate text-gray-700 dark:text-gray-300">
+                                                    {name}
+                                                </div>
+                                                <div class="text-xs text-gray-500">
+                                                    {data.count} PRs
+                                                </div>
+                                            </div>
+                                        </a>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                );
+            })}
+        </div>
+    );
+}
+
 // Main Component with View Toggle
 export function PrList() {
-    const [viewMode, setViewMode] = useState<"pr" | "orgs" | "works">("pr");
+    const [viewMode, setViewMode] = useState<
+        "pr" | "orgs" | "works" | "statistics"
+    >("pr");
     const [filter, setFilter] = useState<"all" | "open" | "merged">("all");
 
     const allPRs = prData.pullRequests;
@@ -409,7 +533,7 @@ export function PrList() {
                 <span class="mx-2 text-gray-300 dark:text-gray-700 hidden sm:inline">
                     |
                 </span>
-                <div class="flex gap-2">
+                <div class="flex gap-2 flex-wrap">
                     <button
                         onClick={() => setViewMode("pr")}
                         class={`px-3 py-1 text-sm rounded-md ${
@@ -439,6 +563,16 @@ export function PrList() {
                         }`}
                     >
                         Works
+                    </button>
+                    <button
+                        onClick={() => setViewMode("statistics")}
+                        class={`px-3 py-1 text-sm rounded-md ${
+                            viewMode === "statistics"
+                                ? "bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white"
+                                : "text-gray-500 dark:text-gray-400"
+                        }`}
+                    >
+                        Statistics
                     </button>
                 </div>
             </div>
@@ -497,8 +631,10 @@ export function PrList() {
                 <PRListComponent prs={filteredPRs} />
             ) : viewMode === "orgs" ? (
                 <OrgsListComponent />
-            ) : (
+            ) : viewMode === "works" ? (
                 <WorksListComponent />
+            ) : (
+                <StatisticsComponent />
             )}
         </div>
     );
