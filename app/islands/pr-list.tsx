@@ -106,6 +106,43 @@ const IconGlobe = ({ class: className }: { class: string }) => (
     </svg>
 );
 
+const IconMenuPullRequest = ({ class: className }: { class: string }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class={className}>
+        <circle cx="18" cy="18" r="3"></circle>
+        <circle cx="6" cy="6" r="3"></circle>
+        <path d="M13 6h3a2 2 0 0 1 2 2v7"></path>
+        <line x1="6" y1="9" x2="6" y2="21"></line>
+    </svg>
+);
+
+const IconMenuBuilding = ({ class: className }: { class: string }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class={className}>
+        <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+        <line x1="9" y1="22" x2="9" y2="22.01"></line>
+        <line x1="15" y1="22" x2="15" y2="22.01"></line>
+        <line x1="12" y1="22" x2="12" y2="22.01"></line>
+        <line x1="12" y1="2" x2="12" y2="22"></line>
+        <line x1="4" y1="10" x2="20" y2="10"></line>
+        <line x1="4" y1="16" x2="20" y2="16"></line>
+    </svg>
+);
+
+const IconMenuCode = ({ class: className }: { class: string }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class={className}>
+        <polyline points="16 18 22 12 16 6"></polyline>
+        <polyline points="8 6 2 12 8 18"></polyline>
+    </svg>
+);
+
+const IconMenuChart = ({ class: className }: { class: string }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class={className}>
+        <line x1="18" y1="20" x2="18" y2="10"></line>
+        <line x1="12" y1="20" x2="12" y2="4"></line>
+        <line x1="6" y1="20" x2="6" y2="14"></line>
+    </svg>
+);
+
+
 // Custom formatTimeAgo function
 const formatTimeAgo = (dateString: string): string => {
     const date = new Date(dateString);
@@ -508,7 +545,7 @@ function StatisticsComponent() {
 export function PrList() {
     const [viewMode, setViewMode] = useState<
         "pr" | "orgs" | "works" | "statistics"
-    >("pr");
+    >("statistics");
     const [filter, setFilter] = useState<"all" | "open" | "merged">("all");
 
     const allPRs = prData.pullRequests;
@@ -528,51 +565,55 @@ export function PrList() {
 
     return (
         <div>
-            <div class="flex flex-col sm:flex-row sm:items-center mb-4 gap-2 sm:gap-0">
-                <h2 class="text-xl font-bold">Activities</h2>
-                <span class="mx-2 text-gray-300 dark:text-gray-700 hidden sm:inline">
-                    |
-                </span>
-                <div class="flex gap-2 flex-wrap">
+            <div class="flex items-center mb-6">
+                <div class="flex gap-2 w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0">
+                    <button
+                        onClick={() => setViewMode("statistics")}
+                        class={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md transition-colors whitespace-nowrap ${
+                            viewMode === "statistics"
+                                ? "bg-sky-100 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300"
+                                : "text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
+                        }`}
+                        title="Statistics"
+                    >
+                        <IconMenuChart class="size-5" />
+                        <span class="hidden sm:inline">Statistics</span>
+                    </button>
                     <button
                         onClick={() => setViewMode("pr")}
-                        class={`px-3 py-1 text-sm rounded-md ${
+                        class={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md transition-colors whitespace-nowrap ${
                             viewMode === "pr"
-                                ? "bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white"
-                                : "text-gray-500 dark:text-gray-400"
+                                ? "bg-sky-100 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300"
+                                : "text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
                         }`}
+                        title="PR List"
                     >
-                        PR List
+                        <IconMenuPullRequest class="size-5" />
+                        <span class="hidden sm:inline">PR List</span>
                     </button>
                     <button
                         onClick={() => setViewMode("orgs")}
-                        class={`px-3 py-1 text-sm rounded-md ${
+                        class={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md transition-colors whitespace-nowrap ${
                             viewMode === "orgs"
-                                ? "bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white"
-                                : "text-gray-500 dark:text-gray-400"
+                                ? "bg-sky-100 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300"
+                                : "text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
                         }`}
+                        title="Organizations"
                     >
-                        Orgs
+                        <IconMenuBuilding class="size-5" />
+                        <span class="hidden sm:inline">Orgs</span>
                     </button>
                     <button
                         onClick={() => setViewMode("works")}
-                        class={`px-3 py-1 text-sm rounded-md ${
+                        class={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md transition-colors whitespace-nowrap ${
                             viewMode === "works"
-                                ? "bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white"
-                                : "text-gray-500 dark:text-gray-400"
+                                ? "bg-sky-100 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300"
+                                : "text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
                         }`}
+                        title="Works"
                     >
-                        Works
-                    </button>
-                    <button
-                        onClick={() => setViewMode("statistics")}
-                        class={`px-3 py-1 text-sm rounded-md ${
-                            viewMode === "statistics"
-                                ? "bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white"
-                                : "text-gray-500 dark:text-gray-400"
-                        }`}
-                    >
-                        Statistics
+                        <IconMenuCode class="size-5" />
+                        <span class="hidden sm:inline">Works</span>
                     </button>
                 </div>
             </div>
