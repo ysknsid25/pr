@@ -168,10 +168,41 @@ async function fetchPRDetails(
 }
 
 /**
+ * 既存の works.ts を動的に import する
+ */
+async function loadExistingWorksData(): Promise<WorksData | null> {
+    const worksFilePath = path.join(process.cwd(), "app", "data", "works.ts");
+    try {
+        // ファイルの存在を確認
+        await fs.access(worksFilePath);
+        // モジュールとして読み込む
+        const { worksData } = await import(worksFilePath);
+        return worksData;
+    } catch (error) {
+        // ファイルが存在しない、または読み込めない場合は null を返す
+        console.warn(
+            "Could not load existing works.ts data. Assuming no prior data.",
+            error
+        );
+        return null;
+    }
+}
+
+/**
  * Works（特定トピックのリポジトリ）を取得する
  */
 async function fetchWorks(githubToken: string): Promise<WorksData> {
     console.log("Fetching works repositories...");
+
+    // 既存のデータをロード
+    const existingWorksData = await loadExistingWorksData();
+    const existingRepos = new Map<string, WorkItem>();
+    if (existingWorksData) {
+        for (const repo of existingWorksData.repositories) {
+            existingRepos.set(`${repo.owner}/${repo.repo}`, repo);
+        }
+    }
+
     const searchUrl = new URL("https://api.github.com/search/repositories");
     searchUrl.searchParams.set("q", "user:ysknsid25 topic:works");
     searchUrl.searchParams.set("sort", "updated");
@@ -190,10 +221,26 @@ async function fetchWorks(githubToken: string): Promise<WorksData> {
         );
     }
 
-    const data = await response.json() as any;
+    const data = (await response.json()) as any;
+    const currentYear = new Date().getFullYear().toString();
+
     const items: WorkItem[] = data.items.map((repo: any) => {
+        const repoIdentifier = `${repo.owner.login}/${repo.name}`;
+        const existingRepo = existingRepos.get(repoIdentifier);
+
         const topics: string[] = repo.topics || [];
-        const publishedAt = topics.find((topic: string) => /^\d{4}$/.test(topic)) || null;
+        let publishedAt =
+            topics.find((topic: string) => /^\d{4}$/.test(topic)) || null;
+
+        if (existingRepo) {
+            // 既存のリポジトリの場合、既存の publishedAt を優先する
+            publishedAt = existingRepo.publishedAt || publishedAt;
+        } else {
+            // 新規リポジトリの場合、topic に年がなければ現在の年を設定
+            if (!publishedAt) {
+                publishedAt = currentYear;
+            }
+        }
 
         return {
             owner: repo.owner.login,
@@ -230,7 +277,10 @@ async function fetchWorks(githubToken: string): Promise<WorksData> {
  */
 async function fetchAllPRs(
     githubToken: string
-): Promise<{ prData: PRData; orgsData: Map<string, { count: number; repoUrl: string }> }> {
+): Promise<{
+    prData: PRData;
+    orgsData: Map<string, { count: number; repoUrl: string }>;
+}> {
     let allPRs: GitHubPullRequest[] = [];
     let page = 1;
     let totalCount = 0;
@@ -434,7 +484,11 @@ async function saveOrgsDataToFile(
 
     for (const [owner, data] of orgsDataMap.entries()) {
         // アバターURLをここで非同期に取得
-        const avatarUrl = await fetchOwnerAvatar(owner, data.repoUrl, githubToken);
+        const avatarUrl = await fetchOwnerAvatar(
+            owner,
+            data.repoUrl,
+            githubToken
+        );
         orgsList.push({
             owner,
             avatarUrl,
@@ -491,7 +545,11 @@ export interface WorksData {
   repositories: WorkItem[]
 }
 
-export const worksData: WorksData = ${JSON.stringify(worksData, null, 2)} as const
+export const worksData: WorksData = ${JSON.stringify(
+        worksData,
+        null,
+        2
+    )} as const
 `;
 
     await fs.writeFile(outputPath, content, "utf8");
