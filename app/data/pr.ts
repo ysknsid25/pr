@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2025-12-30T00:37:28.152Z
-// Total PRs: 134
+// Last updated: 2025-12-31T00:37:51.833Z
+// Total PRs: 136
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2025-12-30T00:37:28.152Z",
-  "totalCount": 134,
+  "lastUpdated": "2025-12-31T00:37:51.833Z",
+  "totalCount": 136,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "feat: ISO3166-1 Country Code",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2025-12-30T09:25:53Z",
+      "mergedAt": null,
+      "number": 1384,
+      "url": "https://github.com/open-circle/valibot/pull/1384"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "feat: ISO4217 Currency Code",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2025-12-30T08:39:37Z",
+      "mergedAt": null,
+      "number": 1383,
+      "url": "https://github.com/open-circle/valibot/pull/1383"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
       "owner": "ysknsid25",
