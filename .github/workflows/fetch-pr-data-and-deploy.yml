@@ -35,10 +35,10 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          # app/data/pr.ts に変更がある場合のみコミット
+          # 変更があったものは全てコミット
           if [[ `git status --porcelain` ]]; then
-            git add app/data/pr.ts
-            git commit -m "🤖 Update PR data ($(date +'%Y-%m-%d %H:%M:%S'))"
+            git add .
+            git commit -m "🤖 Update data ($(date +'%Y-%m-%d %H:%M:%S'))"
             git push
           else
             echo "No changes to commit"
