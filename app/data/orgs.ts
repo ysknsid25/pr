@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2025-12-25T03:20:41.054Z
+// Last updated: 2025-12-31T02:27:22.971Z
 
 export interface OrgData {
   owner: string
@@ -39,6 +39,11 @@ export const orgsData: OrgData[] = [
     "count": 6
   },
   {
+    "owner": "open-circle",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/162486767?v=4",
+    "count": 5
+  },
+  {
     "owner": "type-challenges",
     "avatarUrl": "https://avatars.githubusercontent.com/u/68700335?v=4",
     "count": 4
@@ -51,11 +56,6 @@ export const orgsData: OrgData[] = [
   {
     "owner": "secretlint",
     "avatarUrl": "https://avatars.githubusercontent.com/u/60812035?v=4",
-    "count": 3
-  },
-  {
-    "owner": "open-circle",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/162486767?v=4",
     "count": 3
   },
   {

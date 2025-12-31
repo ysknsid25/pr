@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2025-12-25T03:20:38.522Z
+// Last updated: 2025-12-31T02:27:20.462Z
 
 export interface WorkItem {
   owner: string
@@ -20,8 +20,8 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2025-12-25T03:20:38.522Z",
-  "totalCount": 11,
+  "lastUpdated": "2025-12-31T02:27:20.462Z",
+  "totalCount": 12,
   "repositories": [
     {
       "owner": "ysknsid25",
@@ -62,8 +62,8 @@ export const worksData: WorksData = {
       "description": "🔥 ESLint plugin for Hono and all Hono lovers",
       "homepage": "https://www.npmjs.com/package/eslint-plugin-hono",
       "language": "TypeScript",
-      "stargazersCount": 3,
-      "forksCount": 0,
+      "stargazersCount": 5,
+      "forksCount": 1,
       "html_url": "https://github.com/ysknsid25/eslint-plugin-hono",
       "publishedAt": "2025"
     },
@@ -88,6 +88,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/conf",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "hatena-blog-theme-git",
+      "description": "はてなブログをGitのWebsite風にできるカスタムデザインです",
+      "homepage": "https://blog.hatena.ne.jp/-/store/theme/17179246901337926973",
+      "language": "SCSS",
+      "stargazersCount": 1,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/hatena-blog-theme-git",
+      "publishedAt": null
     },
     {
       "owner": "ysknsid25",
