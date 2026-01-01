@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2025-12-31T02:34:36.867Z
+// Last updated: 2026-01-01T00:42:22.975Z
 // Total PRs: 136
 
 export interface PRItem {
@@ -24,14 +24,14 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2025-12-31T02:34:36.867Z",
+  "lastUpdated": "2026-01-01T00:42:22.975Z",
   "totalCount": 136,
   "pullRequests": [
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
       "repository": "valibot",
-      "title": "feat: ISO3166-1 Country Code",
+      "title": "feat: ISO3166 Country Code",
       "state": "open",
       "merged": false,
       "draft": false,
