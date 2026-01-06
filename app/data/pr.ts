@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-01-05T00:41:40.444Z
+// Last updated: 2026-01-06T00:38:21.983Z
 // Total PRs: 136
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-01-05T00:41:40.444Z",
+  "lastUpdated": "2026-01-06T00:38:21.983Z",
   "totalCount": 136,
   "pullRequests": [
     {
@@ -83,10 +83,10 @@ export const prData: PRData = {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
       "owner": "honojs",
       "repository": "cli",
-      "title": "feat(request): Improve hono request output",
+      "title": "[WIP] feat(request): Improve hono request output",
       "state": "open",
       "merged": false,
-      "draft": false,
+      "draft": true,
       "createdAt": "2025-12-06T07:31:35Z",
       "mergedAt": null,
       "number": 58,
