@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-01-31T00:42:10.091Z
+// Last updated: 2026-02-01T00:52:44.353Z
 // Total PRs: 136
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-01-31T00:42:10.091Z",
+  "lastUpdated": "2026-02-01T00:52:44.353Z",
   "totalCount": 136,
   "pullRequests": [
     {
@@ -84,11 +84,11 @@ export const prData: PRData = {
       "owner": "honojs",
       "repository": "cli",
       "title": "feat(request): Improve hono request output",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2025-12-06T07:31:35Z",
-      "mergedAt": null,
+      "mergedAt": "2026-01-31T08:27:13Z",
       "number": 58,
       "url": "https://github.com/honojs/cli/pull/58"
     },
