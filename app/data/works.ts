@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-02-05T00:46:05.757Z
+// Last updated: 2026-02-05T05:53:11.289Z
 
 export interface WorkItem {
   owner: string
@@ -20,8 +20,8 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-02-05T00:46:05.757Z",
-  "totalCount": 12,
+  "lastUpdated": "2026-02-05T05:53:11.289Z",
+  "totalCount": 13,
   "repositories": [
     {
       "owner": "ysknsid25",
@@ -143,6 +143,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/tech-newsletter-generator",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "show-github-milestones-tab",
+      "description": "show github milestones tab on your repository for chrome extension.",
+      "homepage": "",
+      "language": "JavaScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/show-github-milestones-tab",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
