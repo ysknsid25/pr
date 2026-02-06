@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-02-05T05:53:11.289Z
+// Last updated: 2026-02-06T00:43:20.459Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-02-05T05:53:11.289Z",
+  "lastUpdated": "2026-02-06T00:43:20.459Z",
   "totalCount": 13,
   "repositories": [
     {
@@ -146,17 +146,6 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
-      "repo": "show-github-milestones-tab",
-      "description": "show github milestones tab on your repository for chrome extension.",
-      "homepage": "",
-      "language": "JavaScript",
-      "stargazersCount": 0,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/show-github-milestones-tab",
-      "publishedAt": "2026"
-    },
-    {
-      "owner": "ysknsid25",
       "repo": "pr",
       "description": "My recent pull requests on GitHub. ",
       "homepage": "https://pr.ka-non.workers.dev/",
@@ -165,6 +154,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/pr",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "show-github-milestones-tab",
+      "description": "show github milestones tab on your repository for chrome extension.",
+      "homepage": "",
+      "language": "JavaScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/show-github-milestones-tab",
+      "publishedAt": "2026"
     }
   ]
 } as const
