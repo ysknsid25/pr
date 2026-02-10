@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-02-09T00:47:41.068Z
+// Last updated: 2026-02-10T00:52:53.702Z
 
 export interface WorkItem {
   owner: string
@@ -20,8 +20,8 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-02-09T00:47:41.068Z",
-  "totalCount": 13,
+  "lastUpdated": "2026-02-10T00:52:53.702Z",
+  "totalCount": 14,
   "repositories": [
     {
       "owner": "ysknsid25",
@@ -143,6 +143,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/tech-newsletter-generator",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "planning-poker",
+      "description": null,
+      "homepage": "",
+      "language": "TypeScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/planning-poker",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
