@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-02-12T00:46:36.855Z
-// Total PRs: 136
+// Last updated: 2026-02-13T00:48:54.758Z
+// Total PRs: 138
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-02-12T00:46:36.855Z",
-  "totalCount": 136,
+  "lastUpdated": "2026-02-13T00:48:54.758Z",
+  "totalCount": 138,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/2913994?v=4",
+      "owner": "sirmalloc",
+      "repository": "ccstatusline",
+      "title": "Refactor: improve main manu option",
+      "state": "open",
+      "merged": false,
+      "draft": true,
+      "createdAt": "2026-02-12T11:22:53Z",
+      "mergedAt": null,
+      "number": 170,
+      "url": "https://github.com/sirmalloc/ccstatusline/pull/170"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/2913994?v=4",
+      "owner": "sirmalloc",
+      "repository": "ccstatusline",
+      "title": "chore: resolve eslint error",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-02-12T11:00:34Z",
+      "mergedAt": null,
+      "number": 169,
+      "url": "https://github.com/sirmalloc/ccstatusline/pull/169"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
