@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-02-16T00:46:56.142Z
+// Last updated: 2026-02-16T08:48:52.557Z
 
 export interface WorkItem {
   owner: string
@@ -20,8 +20,8 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-02-16T00:46:56.142Z",
-  "totalCount": 14,
+  "lastUpdated": "2026-02-16T08:48:52.557Z",
+  "totalCount": 15,
   "repositories": [
     {
       "owner": "ysknsid25",
@@ -154,6 +154,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/pr",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "sizukani-search",
+      "description": "🤫 X（旧Twitter）のユーザープロフィールページから、同名のしずかなインターネットアカウントを検索するChrome拡張機能です。",
+      "homepage": "",
+      "language": "TypeScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/sizukani-search",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
