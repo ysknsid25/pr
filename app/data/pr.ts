@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-02-21T00:43:40.751Z
+// Last updated: 2026-02-22T00:47:03.876Z
 // Total PRs: 138
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-02-21T00:43:40.751Z",
+  "lastUpdated": "2026-02-22T00:47:03.876Z",
   "totalCount": 138,
   "pullRequests": [
     {
@@ -45,7 +45,7 @@ export const prData: PRData = {
       "owner": "sirmalloc",
       "repository": "ccstatusline",
       "title": "chore: resolve eslint error",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "draft": false,
       "createdAt": "2026-02-12T11:00:34Z",
