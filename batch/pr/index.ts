@@ -104,7 +104,7 @@ const ownerAvatarCache: Map<string, string | null> = new Map();
 async function fetchOwnerAvatar(
     owner: string,
     repoUrl: string,
-    githubToken: string
+    githubToken: string,
 ): Promise<string | null> {
     if (ownerAvatarCache.has(owner)) {
         return ownerAvatarCache.get(owner)!;
@@ -121,7 +121,7 @@ async function fetchOwnerAvatar(
 
         if (!response.ok) {
             console.warn(
-                `Failed to fetch repository data for ${repoUrl}: ${response.status} ${response.statusText}`
+                `Failed to fetch repository data for ${repoUrl}: ${response.status} ${response.statusText}`,
             );
             ownerAvatarCache.set(owner, null);
             return null;
@@ -146,7 +146,7 @@ async function fetchPRDetails(
     owner: string,
     repo: string,
     prNumber: number,
-    githubToken: string
+    githubToken: string,
 ): Promise<GitHubPullRequestDetail> {
     const url = `https://api.github.com/repos/${owner}/${repo}/pulls/${prNumber}`;
 
@@ -160,7 +160,7 @@ async function fetchPRDetails(
 
     if (!response.ok) {
         throw new Error(
-            `GitHub API error for PR ${owner}/${repo}#${prNumber}: ${response.status} ${response.statusText}`
+            `GitHub API error for PR ${owner}/${repo}#${prNumber}: ${response.status} ${response.statusText}`,
         );
     }
 
@@ -182,7 +182,7 @@ async function loadExistingWorksData(): Promise<WorksData | null> {
         // ファイルが存在しない、または読み込めない場合は null を返す
         console.warn(
             "Could not load existing works.ts data. Assuming no prior data.",
-            error
+            error,
         );
         return null;
     }
@@ -217,7 +217,7 @@ async function fetchWorks(githubToken: string): Promise<WorksData> {
 
     if (!response.ok) {
         throw new Error(
-            `GitHub API error fetching works: ${response.status} ${response.statusText}`
+            `GitHub API error fetching works: ${response.status} ${response.statusText}`,
         );
     }
 
@@ -275,9 +275,7 @@ async function fetchWorks(githubToken: string): Promise<WorksData> {
 /**
  * 指定されたユーザーのPR情報をGitHub APIから全件取得する
  */
-async function fetchAllPRs(
-    githubToken: string
-): Promise<{
+async function fetchAllPRs(githubToken: string): Promise<{
     prData: PRData;
     orgsData: Map<string, { count: number; repoUrl: string }>;
 }> {
@@ -306,7 +304,7 @@ async function fetchAllPRs(
 
         if (!response.ok) {
             throw new Error(
-                `GitHub API error: ${response.status} ${response.statusText}`
+                `GitHub API error: ${response.status} ${response.statusText}`,
             );
         }
 
@@ -345,6 +343,9 @@ async function fetchAllPRs(
         // リポジトリ情報の解析
         const repoUrlParts = pr.repository_url.split("/");
         const owner = repoUrlParts[repoUrlParts.length - 2];
+        if (owner === "yourmystar") {
+            continue;
+        }
         const repository = repoUrlParts[repoUrlParts.length - 1];
 
         // Orgsデータを集計
@@ -360,12 +361,12 @@ async function fetchAllPRs(
                 owner,
                 repository,
                 pr.number,
-                githubToken
+                githubToken,
             );
             const organizationAvatar = await fetchOwnerAvatar(
                 owner,
                 pr.repository_url,
-                githubToken
+                githubToken,
             );
 
             const prItem: PRItem = {
@@ -393,12 +394,12 @@ async function fetchAllPRs(
         } catch (error) {
             console.warn(
                 `Failed to fetch details for PR ${owner}/${repository}#${pr.number}:`,
-                error
+                error,
             );
             const organizationAvatar = await fetchOwnerAvatar(
                 owner,
                 pr.repository_url,
-                githubToken
+                githubToken,
             );
 
             // 詳細取得に失敗した場合は、基本情報のみで作成
@@ -421,7 +422,7 @@ async function fetchAllPRs(
     }
 
     console.log(
-        `Processed ${detailedPRs.length} PRs with detailed information`
+        `Processed ${detailedPRs.length} PRs with detailed information`,
     );
 
     const prData = {
@@ -477,7 +478,7 @@ export const prData: PRData = ${JSON.stringify(prData, null, 2)} as const
  */
 async function saveOrgsDataToFile(
     orgsDataMap: Map<string, { count: number; repoUrl: string }>,
-    githubToken: string
+    githubToken: string,
 ): Promise<void> {
     const outputPath = path.join(process.cwd(), "app", "data", "orgs.ts");
     const orgsList: OrgData[] = [];
@@ -487,7 +488,7 @@ async function saveOrgsDataToFile(
         const avatarUrl = await fetchOwnerAvatar(
             owner,
             data.repoUrl,
-            githubToken
+            githubToken,
         );
         orgsList.push({
             owner,
@@ -548,7 +549,7 @@ export interface WorksData {
 export const worksData: WorksData = ${JSON.stringify(
         worksData,
         null,
-        2
+        2,
     )} as const
 `;
 
