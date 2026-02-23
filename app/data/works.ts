@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-02-23T14:05:02.431Z
+// Last updated: 2026-02-23T14:15:57.969Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-02-23T14:05:02.431Z",
+  "lastUpdated": "2026-02-23T14:15:57.969Z",
   "totalCount": 16,
   "repositories": [
     {
@@ -135,6 +135,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
+      "repo": "pr",
+      "description": "My recent pull requests on GitHub. ",
+      "homepage": "https://pr.ka-non.workers.dev/",
+      "language": "TypeScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/pr",
+      "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
       "repo": "tech-newsletter-generator",
       "description": "It collect tech news from registered tech feed and generate tech newsletter day by day.",
       "homepage": "",
@@ -154,17 +165,6 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/slides",
       "publishedAt": "2026"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "pr",
-      "description": "My recent pull requests on GitHub. ",
-      "homepage": "https://pr.ka-non.workers.dev/",
-      "language": "TypeScript",
-      "stargazersCount": 0,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/pr",
-      "publishedAt": "2025"
     },
     {
       "owner": "ysknsid25",
