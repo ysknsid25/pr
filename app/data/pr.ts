@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-02-23T00:46:53.385Z
-// Total PRs: 138
+// Last updated: 2026-02-23T14:05:01.641Z
+// Total PRs: 140
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-02-23T00:46:53.385Z",
-  "totalCount": 138,
+  "lastUpdated": "2026-02-23T14:05:01.641Z",
+  "totalCount": 140,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/3084745?v=4",
+      "owner": "colinhacks",
+      "repository": "zod",
+      "title": "feat: cron expression validation",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-02-23T13:52:56Z",
+      "mergedAt": null,
+      "number": 5730,
+      "url": "https://github.com/colinhacks/zod/pull/5730"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "feat: cron expression validation",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-02-23T13:08:32Z",
+      "mergedAt": null,
+      "number": 1411,
+      "url": "https://github.com/open-circle/valibot/pull/1411"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/2913994?v=4",
       "owner": "sirmalloc",
@@ -34,7 +60,7 @@ export const prData: PRData = {
       "title": "Refactor: improve main manu option",
       "state": "open",
       "merged": false,
-      "draft": true,
+      "draft": false,
       "createdAt": "2026-02-12T11:22:53Z",
       "mergedAt": null,
       "number": 170,

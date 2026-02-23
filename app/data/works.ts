@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-02-23T00:46:53.886Z
+// Last updated: 2026-02-23T14:05:02.431Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-02-23T00:46:53.886Z",
+  "lastUpdated": "2026-02-23T14:05:02.431Z",
   "totalCount": 16,
   "repositories": [
     {
@@ -82,7 +82,7 @@ export const worksData: WorksData = {
       "owner": "ysknsid25",
       "repo": "conf",
       "description": "My conference presentation history",
-      "homepage": "https://conf-d6dce.web.app/",
+      "homepage": "https://conference.inorinrinrin.com/",
       "language": "TypeScript",
       "stargazersCount": 2,
       "forksCount": 0,
