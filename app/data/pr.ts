@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-02-25T00:48:57.509Z
-// Total PRs: 140
+// Last updated: 2026-02-26T00:43:31.822Z
+// Total PRs: 141
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,14 +24,27 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-02-25T00:48:57.509Z",
-  "totalCount": 140,
+  "lastUpdated": "2026-02-26T00:43:31.822Z",
+  "totalCount": 141,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/83095831?v=4",
+      "owner": "slidevjs",
+      "repository": "slidev",
+      "title": "feat: add Mermaid renderer plugin",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-02-25T14:37:19Z",
+      "mergedAt": null,
+      "number": 2465,
+      "url": "https://github.com/slidevjs/slidev/pull/2465"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/3084745?v=4",
       "owner": "colinhacks",
       "repository": "zod",
-      "title": "feat: cron expression validation",
+      "title": "feat(v4): cron expression validation",
       "state": "open",
       "merged": false,
       "draft": false,
