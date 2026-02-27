@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-02-26T00:43:32.589Z
+// Last updated: 2026-02-27T00:46:15.794Z
 
 export interface WorkItem {
   owner: string
@@ -20,8 +20,8 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-02-26T00:43:32.589Z",
-  "totalCount": 16,
+  "lastUpdated": "2026-02-27T00:46:15.794Z",
+  "totalCount": 17,
   "repositories": [
     {
       "owner": "ysknsid25",
@@ -143,6 +143,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/tech-newsletter-generator",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "group-by-npm-scripts",
+      "description": "Group by npm scripts on VSCode side panel",
+      "homepage": "https://marketplace.visualstudio.com/items?itemName=Kanon.group-by-npm-scripts",
+      "language": "TypeScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/group-by-npm-scripts",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
