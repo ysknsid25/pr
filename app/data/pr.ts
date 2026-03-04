@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-03-03T00:46:26.461Z
+// Last updated: 2026-03-04T00:44:29.418Z
 // Total PRs: 141
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-03-03T00:46:26.461Z",
+  "lastUpdated": "2026-03-04T00:44:29.418Z",
   "totalCount": 141,
   "pullRequests": [
     {
@@ -32,11 +32,11 @@ export const prData: PRData = {
       "owner": "slidevjs",
       "repository": "slidev",
       "title": "feat: add Mermaid renderer plugin",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-02-25T14:37:19Z",
-      "mergedAt": null,
+      "mergedAt": "2026-03-03T01:11:13Z",
       "number": 2465,
       "url": "https://github.com/slidevjs/slidev/pull/2465"
     },
