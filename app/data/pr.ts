@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-03-04T00:44:29.418Z
+// Last updated: 2026-03-05T00:45:53.981Z
 // Total PRs: 141
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-03-04T00:44:29.418Z",
+  "lastUpdated": "2026-03-05T00:45:53.981Z",
   "totalCount": 141,
   "pullRequests": [
     {
@@ -71,11 +71,11 @@ export const prData: PRData = {
       "owner": "sirmalloc",
       "repository": "ccstatusline",
       "title": "Refactor: improve main manu option",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-02-12T11:22:53Z",
-      "mergedAt": null,
+      "mergedAt": "2026-03-04T23:10:39Z",
       "number": 170,
       "url": "https://github.com/sirmalloc/ccstatusline/pull/170"
     },
