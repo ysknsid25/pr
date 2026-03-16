@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-03-15T00:52:16.180Z
+// Last updated: 2026-03-16T00:51:58.264Z
 // Total PRs: 141
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-03-15T00:52:16.180Z",
+  "lastUpdated": "2026-03-16T00:51:58.264Z",
   "totalCount": 141,
   "pullRequests": [
     {
@@ -1228,11 +1228,11 @@ export const prData: PRData = {
       "owner": "unjs",
       "repository": "citty",
       "title": "docs: add example setup and cleanup option",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2025-03-27T10:35:23Z",
-      "mergedAt": null,
+      "mergedAt": "2026-03-15T21:28:38Z",
       "number": 188,
       "url": "https://github.com/unjs/citty/pull/188"
     },
