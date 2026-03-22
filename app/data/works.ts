@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-03-21T00:43:17.061Z
+// Last updated: 2026-03-22T00:49:04.031Z
 
 export interface WorkItem {
   owner: string
@@ -20,8 +20,8 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-03-21T00:43:17.061Z",
-  "totalCount": 17,
+  "lastUpdated": "2026-03-22T00:49:04.031Z",
+  "totalCount": 18,
   "repositories": [
     {
       "owner": "ysknsid25",
@@ -143,6 +143,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/tech-newsletter-generator",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "sashiko-js",
+      "description": "Fork from sashiko. This is customized for JavaScript/TypeScript analytics.If you would like to give a star, please do so to Sashiko, the original creator of this fork.",
+      "homepage": "https://github.com/sashiko-dev/sashiko",
+      "language": "Rust",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/sashiko-js",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
