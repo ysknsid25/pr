@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-03-22T00:49:04.031Z
+// Last updated: 2026-03-23T00:49:34.395Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-03-22T00:49:04.031Z",
+  "lastUpdated": "2026-03-23T00:49:34.395Z",
   "totalCount": 18,
   "repositories": [
     {
@@ -146,17 +146,6 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
-      "repo": "sashiko-js",
-      "description": "Fork from sashiko. This is customized for JavaScript/TypeScript analytics.If you would like to give a star, please do so to Sashiko, the original creator of this fork.",
-      "homepage": "https://github.com/sashiko-dev/sashiko",
-      "language": "Rust",
-      "stargazersCount": 0,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/sashiko-js",
-      "publishedAt": "2026"
-    },
-    {
-      "owner": "ysknsid25",
       "repo": "pr",
       "description": "My recent pull requests on GitHub. ",
       "homepage": "https://pr.ka-non.workers.dev/",
@@ -165,6 +154,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/pr",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "sashiko-js",
+      "description": "Fork from sashiko. This is customized for JavaScript/TypeScript analytics.If you would like to give a star, please do so to Sashiko, the original creator of this fork.",
+      "homepage": "https://github.com/sashiko-dev/sashiko",
+      "language": "Rust",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/sashiko-js",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
