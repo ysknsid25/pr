@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-04-14T00:56:48.876Z
-// Total PRs: 141
+// Last updated: 2026-04-15T00:56:56.706Z
+// Total PRs: 142
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-04-14T00:56:48.876Z",
-  "totalCount": 141,
+  "lastUpdated": "2026-04-15T00:56:56.706Z",
+  "totalCount": 142,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/22632046?v=4",
+      "owner": "storybookjs",
+      "repository": "test-runner",
+      "title": "chore: Remove jest-process-manager dependency by implementing server …",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-04-14T10:23:59Z",
+      "mergedAt": null,
+      "number": 598,
+      "url": "https://github.com/storybookjs/test-runner/pull/598"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/83095831?v=4",
       "owner": "slidevjs",

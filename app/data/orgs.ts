@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-04-14T00:56:52.301Z
+// Last updated: 2026-04-15T00:57:00.278Z
 
 export interface OrgData {
   owner: string
@@ -72,6 +72,11 @@ export const orgsData: OrgData[] = [
     "owner": "nitrojs",
     "avatarUrl": "https://avatars.githubusercontent.com/u/183071544?v=4",
     "count": 2
+  },
+  {
+    "owner": "storybookjs",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/22632046?v=4",
+    "count": 1
   },
   {
     "owner": "slidevjs",
