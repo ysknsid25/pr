@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-04-28T01:01:24.797Z
+// Last updated: 2026-04-29T01:02:45.291Z
 
 export interface OrgData {
   owner: string
@@ -86,6 +86,11 @@ export const orgsData: OrgData[] = [
   {
     "owner": "webpro-nl",
     "avatarUrl": "https://avatars.githubusercontent.com/u/170418124?v=4",
+    "count": 1
+  },
+  {
+    "owner": "ohbarye",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1811616?v=4",
     "count": 1
   }
 ] as const

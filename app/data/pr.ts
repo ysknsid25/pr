@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-04-28T01:01:22.431Z
-// Total PRs: 106
+// Last updated: 2026-04-29T01:02:40.576Z
+// Total PRs: 107
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,8 +24,8 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-04-28T01:01:22.431Z",
-  "totalCount": 106,
+  "lastUpdated": "2026-04-29T01:02:40.576Z",
+  "totalCount": 107,
   "pullRequests": [
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/22632046?v=4",
@@ -1313,6 +1313,19 @@ export const prData: PRData = {
       "mergedAt": "2024-12-11T14:55:22Z",
       "number": 35263,
       "url": "https://github.com/type-challenges/type-challenges/pull/35263"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/1811616?v=4",
+      "owner": "ohbarye",
+      "repository": "goofi",
+      "title": "Add: PHP option to Langage ComboBox",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-05-02T21:41:26Z",
+      "mergedAt": "2023-05-03T01:27:40Z",
+      "number": 719,
+      "url": "https://github.com/ohbarye/goofi/pull/719"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/2285625?v=4",
