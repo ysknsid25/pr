@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-04-29T01:02:40.576Z
-// Total PRs: 107
+// Last updated: 2026-04-30T01:02:35.934Z
+// Total PRs: 142
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,8 +24,8 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-04-29T01:02:40.576Z",
-  "totalCount": 107,
+  "lastUpdated": "2026-04-30T01:02:35.934Z",
+  "totalCount": 142,
   "pullRequests": [
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/22632046?v=4",
@@ -39,6 +39,19 @@ export const prData: PRData = {
       "mergedAt": null,
       "number": 598,
       "url": "https://github.com/storybookjs/test-runner/pull/598"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/83095831?v=4",
+      "owner": "slidevjs",
+      "repository": "slidev",
+      "title": "feat: add Mermaid renderer plugin",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-02-25T14:37:19Z",
+      "mergedAt": "2026-03-03T01:11:13Z",
+      "number": 2465,
+      "url": "https://github.com/slidevjs/slidev/pull/2465"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/3084745?v=4",
@@ -143,6 +156,19 @@ export const prData: PRData = {
       "mergedAt": "2025-12-09T09:04:04Z",
       "number": 91,
       "url": "https://github.com/ysknsid25/iolite/pull/91"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
+      "owner": "honojs",
+      "repository": "cli",
+      "title": "feat(request): Improve hono request output",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2025-12-06T07:31:35Z",
+      "mergedAt": "2026-01-31T08:27:13Z",
+      "number": 58,
+      "url": "https://github.com/honojs/cli/pull/58"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
@@ -795,6 +821,19 @@ export const prData: PRData = {
       "url": "https://github.com/unjs/unplugin/pull/493"
     },
     {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/183071544?v=4",
+      "owner": "nitrojs",
+      "repository": "nitro",
+      "title": "test: exclude `src/types/**/*.ts` from coverage",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2025-04-09T00:19:02Z",
+      "mergedAt": "2025-04-09T07:16:15Z",
+      "number": 3297,
+      "url": "https://github.com/nitrojs/nitro/pull/3297"
+    },
+    {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/80154025?v=4",
       "owner": "unjs",
       "repository": "unplugin",
@@ -1263,6 +1302,19 @@ export const prData: PRData = {
       "url": "https://github.com/open-circle/valibot/pull/1096"
     },
     {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/3084745?v=4",
+      "owner": "colinhacks",
+      "repository": "zod",
+      "title": "feat: v3/v4 z.string.creditCard()/z.creditCard() - support Credit Card Validation",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2025-03-19T14:09:51Z",
+      "mergedAt": null,
+      "number": 4037,
+      "url": "https://github.com/colinhacks/zod/pull/4037"
+    },
+    {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/99661054?v=4",
       "owner": "jotaijs",
       "repository": "jotai-tutorial",
@@ -1289,6 +1341,19 @@ export const prData: PRData = {
       "url": "https://github.com/InsertKoinIO/koin/pull/2087"
     },
     {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/1446536?v=4",
+      "owner": "Kotlin",
+      "repository": "dataframe",
+      "title": "#890 - Cannot call .map {} on ColumnGroup",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2024-12-19T13:47:12Z",
+      "mergedAt": null,
+      "number": 1007,
+      "url": "https://github.com/Kotlin/dataframe/pull/1007"
+    },
+    {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/170418124?v=4",
       "owner": "webpro-nl",
       "repository": "knip",
@@ -1305,6 +1370,19 @@ export const prData: PRData = {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/68700335?v=4",
       "owner": "type-challenges",
       "repository": "type-challenges",
+      "title": "case(Integers Comparator): add consider decimal",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2024-12-14T00:00:30Z",
+      "mergedAt": "2024-12-16T05:43:18Z",
+      "number": 35273,
+      "url": "https://github.com/type-challenges/type-challenges/pull/35273"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/68700335?v=4",
+      "owner": "type-challenges",
+      "repository": "type-challenges",
       "title": "case(ValidDate): add consider Feb,Apr,Jun,Sep,Nov Last Date",
       "state": "closed",
       "merged": true,
@@ -1313,6 +1391,227 @@ export const prData: PRData = {
       "mergedAt": "2024-12-11T14:55:22Z",
       "number": 35263,
       "url": "https://github.com/type-challenges/type-challenges/pull/35263"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
+      "owner": "honojs",
+      "repository": "website",
+      "title": "docs: add Google App Engine getting started guide",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2024-12-08T12:33:43Z",
+      "mergedAt": null,
+      "number": 546,
+      "url": "https://github.com/honojs/website/pull/546"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/68700335?v=4",
+      "owner": "type-challenges",
+      "repository": "type-challenges",
+      "title": "case(IsOdd): add 3e0 case",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2024-12-06T08:47:08Z",
+      "mergedAt": "2024-12-06T18:39:17Z",
+      "number": 35225,
+      "url": "https://github.com/type-challenges/type-challenges/pull/35225"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/2810941?v=4",
+      "owner": "GoogleCloudPlatform",
+      "repository": "gcp-getting-started-lab-jp",
+      "title": "入門編: Google Cloud で始める Platform Engineering - 再接続時の手順の修正",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2024-11-07T07:36:36Z",
+      "mergedAt": null,
+      "number": 173,
+      "url": "https://github.com/GoogleCloudPlatform/gcp-getting-started-lab-jp/pull/173"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/24556516?v=4",
+      "owner": "kght6123",
+      "repository": "react-aria-matome",
+      "title": "Review By Yoshida #4",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2024-10-27T12:50:20Z",
+      "mergedAt": "2024-10-27T13:10:16Z",
+      "number": 8,
+      "url": "https://github.com/kght6123/react-aria-matome/pull/8"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/24556516?v=4",
+      "owner": "kght6123",
+      "repository": "react-aria-matome",
+      "title": "Review By Yoshida #2",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2024-10-25T14:17:22Z",
+      "mergedAt": "2024-10-25T14:41:07Z",
+      "number": 7,
+      "url": "https://github.com/kght6123/react-aria-matome/pull/7"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/24556516?v=4",
+      "owner": "kght6123",
+      "repository": "react-aria-matome",
+      "title": "Review By Yoshida #1",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2024-10-21T13:40:38Z",
+      "mergedAt": "2024-10-22T13:42:39Z",
+      "number": 1,
+      "url": "https://github.com/kght6123/react-aria-matome/pull/1"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/57058513?v=4",
+      "owner": "h-kono-it",
+      "repository": "hk_tech_book_2024",
+      "title": "review: 一部の表現を修正",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2024-04-20T05:55:39Z",
+      "mergedAt": "2024-04-20T07:19:24Z",
+      "number": 1,
+      "url": "https://github.com/h-kono-it/hk_tech_book_2024/pull/1"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/34805701?v=4",
+      "owner": "t0m0120",
+      "repository": "IshikawaTakidashiMap",
+      "title": "feature: 医療機関の情報を追加",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2024-01-05T00:21:58Z",
+      "mergedAt": "2024-01-05T07:46:03Z",
+      "number": 6,
+      "url": "https://github.com/t0m0120/IshikawaTakidashiMap/pull/6"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "booby",
+      "title": "Dev",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-10-26T00:25:03Z",
+      "mergedAt": "2023-10-26T00:26:21Z",
+      "number": 22,
+      "url": "https://github.com/ysknsid25/booby/pull/22"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/194469?v=4",
+      "owner": "Tapac",
+      "repository": "exposed-wiki",
+      "title": "Add description of Join with Subquery",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2023-08-21T11:32:58Z",
+      "mergedAt": null,
+      "number": 31,
+      "url": "https://github.com/Tapac/exposed-wiki/pull/31"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "booby",
+      "title": "chore: Jest→Vitestへの移行",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-07-08T00:50:21Z",
+      "mergedAt": "2023-07-08T01:11:34Z",
+      "number": 21,
+      "url": "https://github.com/ysknsid25/booby/pull/21"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "booby",
+      "title": "release/1.2.0",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-06-18T01:37:01Z",
+      "mergedAt": "2023-06-18T01:38:27Z",
+      "number": 18,
+      "url": "https://github.com/ysknsid25/booby/pull/18"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "booby",
+      "title": "release/1.1.0",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-05-30T11:54:19Z",
+      "mergedAt": "2023-05-30T11:56:45Z",
+      "number": 14,
+      "url": "https://github.com/ysknsid25/booby/pull/14"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "booby",
+      "title": "release",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-05-13T04:48:04Z",
+      "mergedAt": "2023-05-13T04:51:26Z",
+      "number": 3,
+      "url": "https://github.com/ysknsid25/booby/pull/3"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "booby",
+      "title": "tailwind",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-05-13T02:22:02Z",
+      "mergedAt": "2023-05-13T02:23:03Z",
+      "number": 2,
+      "url": "https://github.com/ysknsid25/booby/pull/2"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "booby",
+      "title": "first release",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-05-13T02:06:30Z",
+      "mergedAt": "2023-05-13T02:16:44Z",
+      "number": 1,
+      "url": "https://github.com/ysknsid25/booby/pull/1"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/64953479?v=4",
+      "owner": "zenn-dev",
+      "repository": "zenn-editor",
+      "title": "#433 テストのタイトルを日本語に統一する",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-05-03T13:35:20Z",
+      "mergedAt": "2023-05-08T02:45:08Z",
+      "number": 447,
+      "url": "https://github.com/zenn-dev/zenn-editor/pull/447"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/1811616?v=4",
@@ -1326,6 +1625,149 @@ export const prData: PRData = {
       "mergedAt": "2023-05-03T01:27:40Z",
       "number": 719,
       "url": "https://github.com/ohbarye/goofi/pull/719"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/958072?v=4",
+      "owner": "laravel",
+      "repository": "breeze",
+      "title": "Add Test Cases for Negative Scenarios in User Registration",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2023-05-02T07:16:07Z",
+      "mergedAt": null,
+      "number": 282,
+      "url": "https://github.com/laravel/breeze/pull/282"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/128766025?v=4",
+      "owner": "Ixy194194",
+      "repository": "ixy194194.github.io",
+      "title": "#22 READMEの修正",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-03-26T04:01:29Z",
+      "mergedAt": "2023-03-28T12:32:23Z",
+      "number": 23,
+      "url": "https://github.com/Ixy194194/ixy194194.github.io/pull/23"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/128766025?v=4",
+      "owner": "Ixy194194",
+      "repository": "ixy194194.github.io",
+      "title": "chore: ユニットテストを追加しました",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-03-26T02:57:01Z",
+      "mergedAt": "2023-03-26T03:02:34Z",
+      "number": 21,
+      "url": "https://github.com/Ixy194194/ixy194194.github.io/pull/21"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/128766025?v=4",
+      "owner": "Ixy194194",
+      "repository": "ixy194194.github.io",
+      "title": "#9 Topにもixy先生のアイコンを載せたいかもしれない",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-03-25T04:27:06Z",
+      "mergedAt": "2023-03-26T03:00:39Z",
+      "number": 18,
+      "url": "https://github.com/Ixy194194/ixy194194.github.io/pull/18"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/128766025?v=4",
+      "owner": "Ixy194194",
+      "repository": "ixy194194.github.io",
+      "title": "#11 スマホ表示時のフッターの見え方について修正しました",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2023-03-25T01:57:25Z",
+      "mergedAt": null,
+      "number": 13,
+      "url": "https://github.com/Ixy194194/ixy194194.github.io/pull/13"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/128766025?v=4",
+      "owner": "Ixy194194",
+      "repository": "ixy194194.github.io",
+      "title": "#10 SNSリンクをComponentフォルダに切り分けたいかも",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-03-25T01:14:25Z",
+      "mergedAt": "2023-03-25T01:46:13Z",
+      "number": 12,
+      "url": "https://github.com/Ixy194194/ixy194194.github.io/pull/12"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/128766025?v=4",
+      "owner": "Ixy194194",
+      "repository": "ixy194194.github.io",
+      "title": "faviconをNext.jsデフォルトのものからixy先生のアイコンに変更",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-03-24T23:52:31Z",
+      "mergedAt": "2023-03-24T23:59:55Z",
+      "number": 8,
+      "url": "https://github.com/Ixy194194/ixy194194.github.io/pull/8"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/2285625?v=4",
+      "owner": "jsdecena",
+      "repository": "laracom",
+      "title": "Introduction of mailhog",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-02-09T09:53:34Z",
+      "mergedAt": "2024-11-14T07:34:53Z",
+      "number": 299,
+      "url": "https://github.com/jsdecena/laracom/pull/299"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/2285625?v=4",
+      "owner": "jsdecena",
+      "repository": "laracom",
+      "title": "#294 product images that have not yet been registered",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-02-01T11:33:23Z",
+      "mergedAt": "2023-02-01T18:34:44Z",
+      "number": 295,
+      "url": "https://github.com/jsdecena/laracom/pull/295"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/2285625?v=4",
+      "owner": "jsdecena",
+      "repository": "laracom",
+      "title": "#Fix Cover image is not displayed on the top page",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2023-01-31T00:19:22Z",
+      "mergedAt": "2023-01-31T01:51:55Z",
+      "number": 293,
+      "url": "https://github.com/jsdecena/laracom/pull/293"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/2285625?v=4",
+      "owner": "jsdecena",
+      "repository": "laracom",
+      "title": "Addition to README about .env files",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2023-01-30T12:01:15Z",
+      "mergedAt": null,
+      "number": 292,
+      "url": "https://github.com/jsdecena/laracom/pull/292"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/2285625?v=4",
