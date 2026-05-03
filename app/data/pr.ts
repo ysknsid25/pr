@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-05-02T00:59:36.494Z
-// Total PRs: 142
+// Last updated: 2026-05-03T01:05:40.999Z
+// Total PRs: 143
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-05-02T00:59:36.494Z",
-  "totalCount": 142,
+  "lastUpdated": "2026-05-03T01:05:40.999Z",
+  "totalCount": 143,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "bugfix: Mastercard regex to ensure proper validation and add test for invalid length",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-05-02T13:06:39Z",
+      "mergedAt": "2026-05-02T21:30:30Z",
+      "number": 1462,
+      "url": "https://github.com/open-circle/valibot/pull/1462"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/22632046?v=4",
       "owner": "storybookjs",
