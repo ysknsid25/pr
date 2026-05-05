@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-05-04T01:03:28.659Z
-// Total PRs: 143
+// Last updated: 2026-05-05T00:58:06.252Z
+// Total PRs: 144
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-05-04T01:03:28.659Z",
-  "totalCount": 143,
+  "lastUpdated": "2026-05-05T00:58:06.252Z",
+  "totalCount": 144,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/3084745?v=4",
+      "owner": "colinhacks",
+      "repository": "zod",
+      "title": "fix(v3): correct seconds quantifier scope in time/datetime regex",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-05-04T14:03:07Z",
+      "mergedAt": null,
+      "number": 5943,
+      "url": "https://github.com/colinhacks/zod/pull/5943"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
