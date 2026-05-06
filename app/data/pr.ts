@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-05-05T00:58:06.252Z
+// Last updated: 2026-05-06T00:58:21.717Z
 // Total PRs: 144
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-05-05T00:58:06.252Z",
+  "lastUpdated": "2026-05-06T00:58:21.717Z",
   "totalCount": 144,
   "pullRequests": [
     {
@@ -1331,7 +1331,7 @@ export const prData: PRData = {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/3084745?v=4",
       "owner": "colinhacks",
       "repository": "zod",
-      "title": "feat: v3/v4 z.string.creditCard()/z.creditCard() - support Credit Card Validation",
+      "title": "feat(v4): z.creditCard() - support Credit Card Validation",
       "state": "open",
       "merged": false,
       "draft": false,
