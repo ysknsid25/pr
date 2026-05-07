@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-05-06T00:58:22.384Z
+// Last updated: 2026-05-07T01:02:55.122Z
 
 export interface WorkItem {
   owner: string
@@ -20,8 +20,8 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-05-06T00:58:22.384Z",
-  "totalCount": 18,
+  "lastUpdated": "2026-05-07T01:02:55.122Z",
+  "totalCount": 19,
   "repositories": [
     {
       "owner": "ysknsid25",
@@ -143,6 +143,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/tech-newsletter-generator",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "hatena-blog-theme-kotlin",
+      "description": "はてなブログをKotlinのWebsite風にできるカスタムデザインです",
+      "homepage": "",
+      "language": "SCSS",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/hatena-blog-theme-kotlin",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
