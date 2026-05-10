@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-05-09T01:01:54.502Z
-// Total PRs: 144
+// Last updated: 2026-05-10T01:08:12.314Z
+// Total PRs: 155
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,152 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-05-09T01:01:54.502Z",
-  "totalCount": 144,
+  "lastUpdated": "2026-05-10T01:08:12.314Z",
+  "totalCount": 155,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "feature: Introduce Binary Compatibility Validator and Explicit API mode",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-05-09T08:38:17Z",
+      "mergedAt": "2026-05-09T08:46:28Z",
+      "number": 110,
+      "url": "https://github.com/ysknsid25/iolite/pull/110"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "docs: add KDOoc to parse() of Value Object",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-05-09T08:16:30Z",
+      "mergedAt": "2026-05-09T08:26:50Z",
+      "number": 109,
+      "url": "https://github.com/ysknsid25/iolite/pull/109"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "feature: replace DataTime func's boolean args to enum or factory",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-05-09T08:03:05Z",
+      "mergedAt": "2026-05-09T08:08:18Z",
+      "number": 108,
+      "url": "https://github.com/ysknsid25/iolite/pull/108"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "feature: Mask Secret and toString()",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-05-09T07:52:07Z",
+      "mergedAt": "2026-05-09T07:54:55Z",
+      "number": 107,
+      "url": "https://github.com/ysknsid25/iolite/pull/107"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "fix: Introduce iolite originally error class",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-05-09T07:29:53Z",
+      "mergedAt": "2026-05-09T07:34:56Z",
+      "number": 106,
+      "url": "https://github.com/ysknsid25/iolite/pull/106"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "chore: Dokka Gradle plugin V1 is deprecated",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-05-09T07:06:01Z",
+      "mergedAt": "2026-05-09T07:09:09Z",
+      "number": 105,
+      "url": "https://github.com/ysknsid25/iolite/pull/105"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "chore: KMP add MacOS",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-05-09T04:04:41Z",
+      "mergedAt": "2026-05-09T04:08:20Z",
+      "number": 104,
+      "url": "https://github.com/ysknsid25/iolite/pull/104"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "chore: KMP add Linux",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-05-09T03:56:46Z",
+      "mergedAt": "2026-05-09T04:02:33Z",
+      "number": 103,
+      "url": "https://github.com/ysknsid25/iolite/pull/103"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "chore: KMP add JS",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-05-09T03:48:34Z",
+      "mergedAt": "2026-05-09T03:51:58Z",
+      "number": 102,
+      "url": "https://github.com/ysknsid25/iolite/pull/102"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "fix: Resetting the initial input of a specific field via reset",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-05-09T03:27:02Z",
+      "mergedAt": null,
+      "number": 90,
+      "url": "https://github.com/open-circle/formisch/pull/90"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "iolite",
+      "title": "chore: devContainerize",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-05-09T03:12:30Z",
+      "mergedAt": "2026-05-09T03:19:59Z",
+      "number": 100,
+      "url": "https://github.com/ysknsid25/iolite/pull/100"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/3084745?v=4",
       "owner": "colinhacks",
