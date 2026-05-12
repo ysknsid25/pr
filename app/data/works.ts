@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-05-11T01:07:42.474Z
+// Last updated: 2026-05-12T01:02:35.260Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-05-11T01:07:42.474Z",
+  "lastUpdated": "2026-05-12T01:02:35.260Z",
   "totalCount": 21,
   "repositories": [
     {
@@ -157,6 +157,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
+      "repo": "pr",
+      "description": "My recent pull requests on GitHub. ",
+      "homepage": "https://pr.ka-non.workers.dev/",
+      "language": "TypeScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/pr",
+      "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
       "repo": "profile",
       "description": null,
       "homepage": "",
@@ -176,17 +187,6 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/slides",
       "publishedAt": "2026"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "pr",
-      "description": "My recent pull requests on GitHub. ",
-      "homepage": "https://pr.ka-non.workers.dev/",
-      "language": "TypeScript",
-      "stargazersCount": 0,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/pr",
-      "publishedAt": "2025"
     },
     {
       "owner": "ysknsid25",
