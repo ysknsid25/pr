@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-05-12T01:02:34.435Z
+// Last updated: 2026-05-13T01:05:59.938Z
 // Total PRs: 155
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-05-12T01:02:34.435Z",
+  "lastUpdated": "2026-05-13T01:05:59.938Z",
   "totalCount": 155,
   "pullRequests": [
     {
@@ -149,11 +149,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "fix: Resetting the initial input of a specific field via reset",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-05-09T03:27:02Z",
-      "mergedAt": null,
+      "mergedAt": "2026-05-12T23:40:46Z",
       "number": 90,
       "url": "https://github.com/open-circle/formisch/pull/90"
     },
