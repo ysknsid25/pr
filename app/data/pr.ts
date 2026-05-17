@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-05-16T01:01:28.263Z
-// Total PRs: 155
+// Last updated: 2026-05-17T01:09:01.182Z
+// Total PRs: 157
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-05-16T01:01:28.263Z",
-  "totalCount": 155,
+  "lastUpdated": "2026-05-17T01:09:01.182Z",
+  "totalCount": 157,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "pr",
+      "title": "Examine",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-05-16T09:04:04Z",
+      "mergedAt": null,
+      "number": 1,
+      "url": "https://github.com/ysknsid25/pr/pull/1"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/80154025?v=4",
+      "owner": "unjs",
+      "repository": "ofetch",
+      "title": "feature: Exponential Backoff And Jitter",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-05-16T05:56:54Z",
+      "mergedAt": null,
+      "number": 582,
+      "url": "https://github.com/unjs/ofetch/pull/582"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
       "owner": "ysknsid25",

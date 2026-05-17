@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-05-16T01:01:28.955Z
+// Last updated: 2026-05-17T01:09:02.126Z
 
 export interface WorkItem {
   owner: string
@@ -20,8 +20,8 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-05-16T01:01:28.955Z",
-  "totalCount": 21,
+  "lastUpdated": "2026-05-17T01:09:02.126Z",
+  "totalCount": 22,
   "repositories": [
     {
       "owner": "ysknsid25",
@@ -69,6 +69,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
+      "repo": "untodo",
+      "description": "Type-safe TODO for humans and AI — trackable, structured, and lint-enforceable.",
+      "homepage": "",
+      "language": "TypeScript",
+      "stargazersCount": 5,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/untodo",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ysknsid25",
       "repo": "travel-record",
       "description": "You can record your travel destinations within Japan. You can also manage which of Japan's 47 prefectures you have visited and how many times you have visited them.",
       "homepage": "https://travel-record-254cf.web.app/",
@@ -80,17 +91,6 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
-      "repo": "untodo",
-      "description": "Type-safe TODO for humans and AI — trackable, structured, and lint-enforceable.",
-      "homepage": "",
-      "language": "TypeScript",
-      "stargazersCount": 2,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/untodo",
-      "publishedAt": "2026"
-    },
-    {
-      "owner": "ysknsid25",
       "repo": "conf",
       "description": "My conference presentation history",
       "homepage": "https://conference.inorinrinrin.com/",
@@ -99,6 +99,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/conf",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "assign-reviewers-after-resolve",
+      "description": "When a PR is opened, AI code review tools such as CodeRabbit and GitHub Copilot start their review immediately — but so does GitHub's built-in reviewer assignment, meaning human reviewers receive a Review Request at the same time as the AI.",
+      "homepage": "",
+      "language": "TypeScript",
+      "stargazersCount": 1,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/assign-reviewers-after-resolve",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
