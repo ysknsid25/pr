@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-05-17T01:09:02.126Z
+// Last updated: 2026-05-18T01:10:27.787Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-05-17T01:09:02.126Z",
+  "lastUpdated": "2026-05-18T01:10:27.787Z",
   "totalCount": 22,
   "repositories": [
     {
@@ -47,6 +47,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
+      "repo": "untodo",
+      "description": "Type-safe TODO for humans and AI — trackable, structured, and lint-enforceable.",
+      "homepage": "",
+      "language": "TypeScript",
+      "stargazersCount": 10,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/untodo",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ysknsid25",
       "repo": "osyaburi",
       "description": "自分が指定したユーザーがconnpassイベントの参加者にいれば通知するchrome拡張機能",
       "homepage": "https://chromewebstore.google.com/detail/osyaburi/fgaijmihipmljhgmhdkpmpcghiegglga?hl=ja",
@@ -66,17 +77,6 @@ export const worksData: WorksData = {
       "forksCount": 1,
       "html_url": "https://github.com/ysknsid25/eslint-plugin-hono",
       "publishedAt": "2025"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "untodo",
-      "description": "Type-safe TODO for humans and AI — trackable, structured, and lint-enforceable.",
-      "homepage": "",
-      "language": "TypeScript",
-      "stargazersCount": 5,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/untodo",
-      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
