@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-05-24T01:11:34.760Z
-// Total PRs: 157
+// Last updated: 2026-05-25T01:13:25.909Z
+// Total PRs: 159
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-05-24T01:11:34.760Z",
-  "totalCount": 157,
+  "lastUpdated": "2026-05-25T01:13:25.909Z",
+  "totalCount": 159,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "Proposal: Pin GitHub Actions to commit SHAs for supply-chain security",
+      "state": "open",
+      "merged": false,
+      "draft": true,
+      "createdAt": "2026-05-24T15:54:01Z",
+      "mergedAt": null,
+      "number": 1474,
+      "url": "https://github.com/open-circle/valibot/pull/1474"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "Proposal: Add a new package `@valibot/config-loader`",
+      "state": "open",
+      "merged": false,
+      "draft": true,
+      "createdAt": "2026-05-24T14:58:48Z",
+      "mergedAt": null,
+      "number": 1472,
+      "url": "https://github.com/open-circle/valibot/pull/1472"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
       "owner": "ysknsid25",
