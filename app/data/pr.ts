@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-05-25T01:13:25.909Z
-// Total PRs: 159
+// Last updated: 2026-05-26T01:08:11.514Z
+// Total PRs: 160
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-05-25T01:13:25.909Z",
-  "totalCount": 159,
+  "lastUpdated": "2026-05-26T01:08:11.514Z",
+  "totalCount": 160,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "Proposal: Pin GitHub Actions to commit SHAs for supply-chain security",
+      "state": "open",
+      "merged": false,
+      "draft": true,
+      "createdAt": "2026-05-25T12:39:25Z",
+      "mergedAt": null,
+      "number": 115,
+      "url": "https://github.com/open-circle/formisch/pull/115"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
