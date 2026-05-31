@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-05-30T01:09:34.115Z
-// Total PRs: 160
+// Last updated: 2026-05-31T01:16:18.692Z
+// Total PRs: 161
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-05-30T01:09:34.115Z",
-  "totalCount": 160,
+  "lastUpdated": "2026-05-31T01:16:18.692Z",
+  "totalCount": 161,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "Proposal: To be able to easily run @valibot/i18n in Playground as well",
+      "state": "open",
+      "merged": false,
+      "draft": true,
+      "createdAt": "2026-05-30T10:44:05Z",
+      "mergedAt": null,
+      "number": 1488,
+      "url": "https://github.com/open-circle/valibot/pull/1488"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
