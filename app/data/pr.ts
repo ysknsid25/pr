@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-05-31T01:16:18.692Z
+// Last updated: 2026-06-01T01:19:32.579Z
 // Total PRs: 161
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-05-31T01:16:18.692Z",
+  "lastUpdated": "2026-06-01T01:19:32.579Z",
   "totalCount": 161,
   "pullRequests": [
     {
@@ -47,7 +47,7 @@ export const prData: PRData = {
       "title": "Proposal: Pin GitHub Actions to commit SHAs for supply-chain security",
       "state": "open",
       "merged": false,
-      "draft": true,
+      "draft": false,
       "createdAt": "2026-05-25T12:39:25Z",
       "mergedAt": null,
       "number": 115,
@@ -60,7 +60,7 @@ export const prData: PRData = {
       "title": "Proposal: Pin GitHub Actions to commit SHAs for supply-chain security",
       "state": "open",
       "merged": false,
-      "draft": true,
+      "draft": false,
       "createdAt": "2026-05-24T15:54:01Z",
       "mergedAt": null,
       "number": 1474,
@@ -73,7 +73,7 @@ export const prData: PRData = {
       "title": "Proposal: Add a new package `@valibot/config-loader`",
       "state": "open",
       "merged": false,
-      "draft": true,
+      "draft": false,
       "createdAt": "2026-05-24T14:58:48Z",
       "mergedAt": null,
       "number": 1472,
