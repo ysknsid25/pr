@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-06-01T01:19:32.579Z
-// Total PRs: 161
+// Last updated: 2026-06-02T01:19:00.454Z
+// Total PRs: 163
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-06-01T01:19:32.579Z",
-  "totalCount": 161,
+  "lastUpdated": "2026-06-02T01:19:00.454Z",
+  "totalCount": 163,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "chore: Upgrade pnpm to 11",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-06-01T15:18:04Z",
+      "mergedAt": "2026-06-01T17:44:11Z",
+      "number": 128,
+      "url": "https://github.com/open-circle/formisch/pull/128"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "hotfix: Forgot to format",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-06-01T14:23:12Z",
+      "mergedAt": null,
+      "number": 127,
+      "url": "https://github.com/open-circle/formisch/pull/127"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
@@ -34,7 +60,7 @@ export const prData: PRData = {
       "title": "Proposal: To be able to easily run @valibot/i18n in Playground as well",
       "state": "open",
       "merged": false,
-      "draft": true,
+      "draft": false,
       "createdAt": "2026-05-30T10:44:05Z",
       "mergedAt": null,
       "number": 1488,
@@ -47,7 +73,7 @@ export const prData: PRData = {
       "title": "Proposal: Pin GitHub Actions to commit SHAs for supply-chain security",
       "state": "open",
       "merged": false,
-      "draft": false,
+      "draft": true,
       "createdAt": "2026-05-25T12:39:25Z",
       "mergedAt": null,
       "number": 115,
