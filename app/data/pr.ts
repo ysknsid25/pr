@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-06-07T01:17:53.401Z
+// Last updated: 2026-06-08T01:18:26.604Z
 // Total PRs: 163
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-06-07T01:17:53.401Z",
+  "lastUpdated": "2026-06-08T01:18:26.604Z",
   "totalCount": 163,
   "pullRequests": [
     {
@@ -73,7 +73,7 @@ export const prData: PRData = {
       "title": "Proposal: Pin GitHub Actions to commit SHAs for supply-chain security",
       "state": "open",
       "merged": false,
-      "draft": true,
+      "draft": false,
       "createdAt": "2026-05-25T12:39:25Z",
       "mergedAt": null,
       "number": 115,
