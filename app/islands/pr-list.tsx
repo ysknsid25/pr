@@ -225,7 +225,7 @@ function PRItemComponent(props: { pr: PRItem; count: number }) {
 
     if (pr.draft) {
         stateIcon = <IconFileLines class="size-4" />;
-        stateClass = "text-gray-500";
+        stateClass = "text-ink-light";
         ariaLabel = "Draft pull request";
     } else if (pr.merged) {
         stateIcon = <IconGitMerge class="size-4" />;
@@ -248,7 +248,7 @@ function PRItemComponent(props: { pr: PRItem; count: number }) {
         >
             <a
                 aria-label={`${pr.owner}'s profile`}
-                class="border border-gray-200 dark:border-gray-800 overflow-hidden relative rounded-md shadow-sm shrink-0 size-12"
+                class="border border-edge overflow-hidden relative rounded-md shadow-sm shrink-0 size-12 bg-content"
                 href={`https://github.com/${pr.owner}`}
                 target="_blank"
             >
@@ -265,7 +265,7 @@ function PRItemComponent(props: { pr: PRItem; count: number }) {
             <div class="flex-1 flex flex-col sm:flex-row sm:justify-between sm:gap-2 lg:gap-4 min-w-0">
                 <div class="flex flex-col gap-1 min-w-0">
                     <a
-                        class="flex items-center gap-1 text-gray-900 dark:text-white"
+                        class="flex items-center gap-1 text-ink"
                         href={pr.url}
                         target="_blank"
                     >
@@ -276,7 +276,7 @@ function PRItemComponent(props: { pr: PRItem; count: number }) {
                         aria-label={ariaLabel}
                     >
                         {stateIcon}
-                        <div class="flex flex-wrap items-center gap-1 text-gray-500 dark:text-gray-400">
+                        <div class="flex flex-wrap items-center gap-1 text-ink-light">
                             <span> by </span>
                             <a
                                 href={`https://github.com/${pr.owner}`}
@@ -300,13 +300,13 @@ function PRItemComponent(props: { pr: PRItem; count: number }) {
                     <a
                         href={pr.url}
                         target="_blank"
-                        class="text-sm text-gray-500 dark:text-gray-400 hover:underline"
+                        class="text-sm text-ink-light hover:underline"
                     >
                         #{pr.number}
                     </a>
                     <time
                         datetime={pr.createdAt}
-                        class="text-sm text-gray-500 dark:text-gray-400"
+                        class="text-sm text-ink-light"
                     >
                         {formatTimeAgo(pr.createdAt)}
                     </time>
@@ -320,24 +320,24 @@ function WorkItemComponent({ work, count }: { work: WorkItem; count: number }) {
     return (
         <div
             style={{ "--stagger": count }}
-            class="flex flex-col gap-2 p-4 border border-gray-200 dark:border-gray-800 rounded-lg shadow-sm sliding-animation delay-base bg-white dark:bg-gray-900"
+            class="flex flex-col gap-2 p-4 border border-edge rounded-lg shadow-sm sliding-animation delay-base bg-content"
         >
             <div class="flex justify-between items-start">
-                <a href={work.html_url} target="_blank" class="text-lg font-bold text-sky-600 hover:underline break-all">
+                <a href={work.html_url} target="_blank" class="text-lg font-bold text-link hover:underline break-all">
                     {work.repo}
                 </a>
                 {work.publishedAt && (
-                    <span class="text-xs font-mono bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-2 py-1 rounded shrink-0 ml-2">
+                    <span class="text-xs font-mono bg-paper-light text-ink-light px-2 py-1 rounded shrink-0 ml-2">
                         {work.publishedAt}
                     </span>
                 )}
             </div>
             
-            <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2 min-h-[2.5em]">
+            <p class="text-sm text-ink-light line-clamp-2 min-h-[2.5em]">
                 {work.description || "No description provided."}
             </p>
 
-            <div class="flex items-center gap-4 mt-auto text-sm text-gray-500 dark:text-gray-400">
+            <div class="flex items-center gap-4 mt-auto text-sm text-ink-light">
                 {work.language && (
                     <div class="flex items-center gap-1">
                         <span class={`${languageColors[work.language] || "bg-gray-400"} size-3 rounded-full block`}></span>
@@ -356,7 +356,7 @@ function WorkItemComponent({ work, count }: { work: WorkItem; count: number }) {
                 </div>
                 {work.homepage && (
                     <div class="ml-auto">
-                        <a href={work.homepage} target="_blank" class="flex items-center gap-2 text-xs text-gray-500 hover:text-sky-600" aria-label="Website">
+                        <a href={work.homepage} target="_blank" class="flex items-center gap-2 text-xs text-ink-light hover:text-link" aria-label="Website">
                             <IconGlobe class="size-4" />
                         </a>
                     </div>
@@ -389,7 +389,7 @@ function OrgsListComponent() {
                     style={{ "--stagger": index }}
                     title={`${org.owner} (${org.count} contributions)`}
                 >
-                    <div class="border border-gray-200 dark:border-gray-800 overflow-hidden relative rounded-md shadow-sm shrink-0 size-12">
+                    <div class="border border-edge overflow-hidden relative rounded-md shadow-sm shrink-0 size-12 bg-content">
                         <img
                             alt={org.owner}
                             class="size-full"
@@ -400,7 +400,7 @@ function OrgsListComponent() {
                             loading="lazy"
                         />
                     </div>
-                    <span class="text-xs text-gray-500 dark:text-gray-400">
+                    <span class="text-xs text-ink-light">
                         {org.count}
                     </span>
                 </a>
@@ -465,18 +465,18 @@ function StatisticsComponent() {
                     <div
                         key={year}
                         style={{ "--stagger": index }}
-                        class="border rounded-lg p-6 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 sliding-animation delay-base"
+                        class="border rounded-lg p-6 bg-content border-edge sliding-animation delay-base"
                     >
-                        <h3 class="text-2xl font-bold mb-6 flex items-baseline gap-2 border-b border-gray-100 dark:border-gray-800 pb-2">
+                        <h3 class="text-2xl font-bold mb-6 flex items-baseline gap-2 border-b border-edge pb-2">
                             {year}
-                            <span class="text-sm font-normal text-gray-500">
+                            <span class="text-sm font-normal text-ink-light">
                                 ({prsInYear.length} PRs)
                             </span>
                         </h3>
 
                         {worksInYear.length > 0 && (
                             <div class="mb-8">
-                                <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
+                                <h4 class="text-xs font-semibold text-ink-muted uppercase tracking-wider mb-3">
                                     Published Works
                                 </h4>
                                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -484,12 +484,12 @@ function StatisticsComponent() {
                                         <a
                                             href={work.html_url}
                                             target="_blank"
-                                            class="block p-3 rounded-md border border-gray-200 dark:border-gray-700 hover:border-sky-500 dark:hover:border-sky-500 transition-colors bg-gray-50 dark:bg-gray-800/50"
+                                            class="block p-3 rounded-md border border-edge hover:border-link transition-colors bg-sidebar"
                                         >
-                                            <div class="font-bold text-sky-600 truncate">
+                                            <div class="font-bold text-link truncate">
                                                 {work.repo}
                                             </div>
-                                            <div class="text-xs text-gray-500 mt-1 line-clamp-1">
+                                            <div class="text-xs text-ink-light mt-1 line-clamp-1">
                                                 {work.description}
                                             </div>
                                         </a>
@@ -500,7 +500,7 @@ function StatisticsComponent() {
 
                         {sortedOrgs.length > 0 && (
                             <div>
-                                <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
+                                <h4 class="text-xs font-semibold text-ink-muted uppercase tracking-wider mb-3">
                                     Contributions by Organization
                                 </h4>
                                 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
@@ -508,9 +508,9 @@ function StatisticsComponent() {
                                         <a
                                             href={`https://github.com/${name}`}
                                             target="_blank"
-                                            class="flex items-center gap-2 p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                                            class="flex items-center gap-2 p-2 rounded hover:bg-paper-light transition-colors"
                                         >
-                                            <div class="size-8 rounded overflow-hidden shrink-0 border border-gray-200 dark:border-gray-700 bg-white">
+                                            <div class="size-8 rounded overflow-hidden shrink-0 border border-edge bg-white">
                                                 <img
                                                     src={
                                                         data.avatar ||
@@ -522,10 +522,10 @@ function StatisticsComponent() {
                                                 />
                                             </div>
                                             <div class="min-w-0">
-                                                <div class="text-sm font-medium truncate text-gray-700 dark:text-gray-300">
+                                                <div class="text-sm font-medium truncate text-ink">
                                                     {name}
                                                 </div>
-                                                <div class="text-xs text-gray-500">
+                                                <div class="text-xs text-ink-light">
                                                     {data.count} PRs
                                                 </div>
                                             </div>
@@ -571,8 +571,8 @@ export function PrList() {
                         onClick={() => setViewMode("statistics")}
                         class={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md transition-colors whitespace-nowrap ${
                             viewMode === "statistics"
-                                ? "bg-sky-100 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300"
-                                : "text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
+                                ? "bg-content text-header shadow-sm"
+                                : "text-ink-light hover:bg-paper-light"
                         }`}
                         title="Statistics"
                     >
@@ -583,8 +583,8 @@ export function PrList() {
                         onClick={() => setViewMode("pr")}
                         class={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md transition-colors whitespace-nowrap ${
                             viewMode === "pr"
-                                ? "bg-sky-100 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300"
-                                : "text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
+                                ? "bg-content text-header shadow-sm"
+                                : "text-ink-light hover:bg-paper-light"
                         }`}
                         title="PR List"
                     >
@@ -595,8 +595,8 @@ export function PrList() {
                         onClick={() => setViewMode("orgs")}
                         class={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md transition-colors whitespace-nowrap ${
                             viewMode === "orgs"
-                                ? "bg-sky-100 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300"
-                                : "text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
+                                ? "bg-content text-header shadow-sm"
+                                : "text-ink-light hover:bg-paper-light"
                         }`}
                         title="Organizations"
                     >
@@ -607,8 +607,8 @@ export function PrList() {
                         onClick={() => setViewMode("works")}
                         class={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md transition-colors whitespace-nowrap ${
                             viewMode === "works"
-                                ? "bg-sky-100 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300"
-                                : "text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
+                                ? "bg-content text-header shadow-sm"
+                                : "text-ink-light hover:bg-paper-light"
                         }`}
                         title="Works"
                     >
@@ -620,18 +620,18 @@ export function PrList() {
 
             {viewMode === "pr" && (
                 <div class="mb-4">
-                    <div class="border-b border-gray-200 dark:border-gray-700">
+                    <div class="border-b border-edge">
                         <nav class="-mb-px flex gap-6" aria-label="Tabs">
                             <button
                                 onClick={() => setFilter("all")}
                                 class={`shrink-0 border-b-2 px-1 pb-4 text-sm font-medium ${
                                     filter === "all"
-                                        ? "border-sky-500 text-sky-600"
-                                        : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                                        ? "border-header text-header"
+                                        : "border-transparent text-ink-light hover:border-edge hover:text-ink"
                                 }`}
                             >
                                 All
-                                <span class="ml-2 text-xs text-gray-400 font-normal bg-gray-100 dark:bg-gray-800 rounded-full px-2 py-0.5">
+                                <span class="ml-2 text-xs text-ink-muted font-normal bg-paper-light rounded-full px-2 py-0.5">
                                     {allPRs.length}
                                 </span>
                             </button>
@@ -640,12 +640,12 @@ export function PrList() {
                                 onClick={() => setFilter("open")}
                                 class={`shrink-0 border-b-2 px-1 pb-4 text-sm font-medium ${
                                     filter === "open"
-                                        ? "border-sky-500 text-sky-600"
-                                        : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                                        ? "border-header text-header"
+                                        : "border-transparent text-ink-light hover:border-edge hover:text-ink"
                                 }`}
                             >
                                 Open
-                                <span class="ml-2 text-xs text-gray-400 font-normal bg-gray-100 dark:bg-gray-800 rounded-full px-2 py-0.5">
+                                <span class="ml-2 text-xs text-ink-muted font-normal bg-paper-light rounded-full px-2 py-0.5">
                                     {openPRs.length}
                                 </span>
                             </button>
@@ -654,12 +654,12 @@ export function PrList() {
                                 onClick={() => setFilter("merged")}
                                 class={`shrink-0 border-b-2 px-1 pb-4 text-sm font-medium ${
                                     filter === "merged"
-                                        ? "border-sky-500 text-sky-600"
-                                        : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                                        ? "border-header text-header"
+                                        : "border-transparent text-ink-light hover:border-edge hover:text-ink"
                                 }`}
                             >
                                 Merged
-                                <span class="ml-2 text-xs text-gray-400 font-normal bg-gray-100 dark:bg-gray-800 rounded-full px-2 py-0.5">
+                                <span class="ml-2 text-xs text-ink-muted font-normal bg-paper-light rounded-full px-2 py-0.5">
                                     {mergedPRs.length}
                                 </span>
                             </button>
