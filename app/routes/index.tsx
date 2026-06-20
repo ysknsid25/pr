@@ -7,11 +7,11 @@ export default createRoute((c) => {
             <h1 class="text-3xl font-bold mb-8 text-center">
                 Kanon's OSS Activity
             </h1>
-            <div class="mb-8 flex items-center justify-center gap-2 text-gray-500 dark:text-gray-400">
+            <div class="mb-8 flex items-center justify-center gap-2 text-ink-muted">
                 <span>I'm Maintainer of</span>
                 <a
                     aria-label="type-challenges repository"
-                    class="overflow-hidden relative rounded-md shadow-sm shrink-0 size-8"
+                    class="overflow-hidden relative rounded-md shadow-sm shrink-0 size-8 bg-content"
                     href="https://github.com/type-challenges/type-challenges"
                     target="_blank"
                 >

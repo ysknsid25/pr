@@ -1,1 +1,39 @@
 @import 'tailwindcss' source('../app');
+
+/*
+ * hatena-blog-theme-git の _variable.scss に合わせたカラーテーマ
+ * （scss/lib/_variable.scss / _core.scss 由来）
+ */
+@theme {
+    --font-sans: 'Roboto Slab', serif;
+
+    /* Background */
+    --color-paper: #f0efe7; /* $background */
+    --color-paper-light: #e9e8e0; /* $bg-light */
+    --color-content: #ffffff; /* $bg-content */
+    --color-sidebar: #f7f7f3; /* $bg-sidebar */
+
+    /* Text */
+    --color-ink: #4e443c; /* $text */
+    --color-ink-light: #777777; /* $text-light */
+    --color-ink-muted: #9a9994; /* $text-description */
+
+    /* Accent */
+    --color-header: #f14e32; /* $text-header / $btn */
+    --color-header-hover: #ef3618; /* darken($btn, 5%) */
+    --color-link: #0388a6; /* $link */
+    --color-link-hover: #02697f; /* darken($link, 10%) */
+
+    /* Misc */
+    --color-edge: #efeee6; /* $border */
+    --color-highlight: #ffe566; /* $highlight */
+}
+
+@layer base {
+    body {
+        background-color: var(--color-paper);
+        color: var(--color-ink);
+        font-family: var(--font-sans);
+        line-height: 1.6;
+    }
+}
