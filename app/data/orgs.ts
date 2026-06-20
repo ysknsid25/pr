@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-06-20T01:14:03.488Z
+// Last updated: 2026-06-20T05:16:54.601Z
 
 export interface OrgData {
   owner: string
