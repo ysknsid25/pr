@@ -4,6 +4,9 @@ dist/
 # dev
 .hono/
 .wrangler/
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
 .yarn/
 !.yarn/releases
 .vscode/*
