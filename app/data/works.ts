@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-06-20T05:26:43.042Z
+// Last updated: 2026-06-21T00:28:51.043Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-06-20T05:26:43.042Z",
+  "lastUpdated": "2026-06-21T00:28:51.043Z",
   "totalCount": 22,
   "repositories": [
     {
@@ -48,7 +48,7 @@ export const worksData: WorksData = {
     {
       "owner": "ysknsid25",
       "repo": "untodo",
-      "description": "Type-safe TODO for humans and AI — trackable, structured, and lint-enforceable.",
+      "description": "Type-safe TODO for humans and AI. Trackable, structured, and lint-enforceable.",
       "homepage": "",
       "language": "TypeScript",
       "stargazersCount": 12,
@@ -102,17 +102,6 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
-      "repo": "assign-reviewers-after-resolve",
-      "description": "When a PR is opened, AI code review tools such as CodeRabbit and GitHub Copilot start their review immediately, but so does GitHub's built-in reviewer assignment, meaning human reviewers receive a Review Request at the same time as the AI.",
-      "homepage": "",
-      "language": "TypeScript",
-      "stargazersCount": 1,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/assign-reviewers-after-resolve",
-      "publishedAt": "2026"
-    },
-    {
-      "owner": "ysknsid25",
       "repo": "hatena-blog-theme-git",
       "description": "はてなブログをGitのWebsite風にできるカスタムデザインです",
       "homepage": "https://blog.hatena.ne.jp/-/store/theme/17179246901337926973",
@@ -121,6 +110,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/hatena-blog-theme-git",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "assign-reviewers-after-resolve",
+      "description": "When a PR is opened, AI code review tools such as CodeRabbit and GitHub Copilot start their review immediately, but so does GitHub's built-in reviewer assignment, meaning human reviewers receive a Review Request at the same time as the AI.",
+      "homepage": "",
+      "language": "TypeScript",
+      "stargazersCount": 1,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/assign-reviewers-after-resolve",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
@@ -157,6 +157,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
+      "repo": "tech-newsletter-generator",
+      "description": "It collect tech news from registered tech feed and generate tech newsletter day by day.",
+      "homepage": "",
+      "language": "TypeScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/tech-newsletter-generator",
+      "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
       "repo": "pr",
       "description": "My recent pull requests on GitHub. ",
       "homepage": "https://pr.ka-non.workers.dev/",
@@ -176,17 +187,6 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/slides",
       "publishedAt": "2026"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "tech-newsletter-generator",
-      "description": "It collect tech news from registered tech feed and generate tech newsletter day by day.",
-      "homepage": "",
-      "language": "TypeScript",
-      "stargazersCount": 0,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/tech-newsletter-generator",
-      "publishedAt": "2025"
     },
     {
       "owner": "ysknsid25",
