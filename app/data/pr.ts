@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-06-21T00:28:50.196Z
-// Total PRs: 163
+// Last updated: 2026-06-22T00:29:41.129Z
+// Total PRs: 164
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-06-21T00:28:50.196Z",
-  "totalCount": 163,
+  "lastUpdated": "2026-06-22T00:29:41.129Z",
+  "totalCount": 164,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/4220799?v=4",
+      "owner": "semlinker",
+      "repository": "awesome-typescript",
+      "title": "Add untodo to linter section",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-06-21T02:45:02Z",
+      "mergedAt": null,
+      "number": 161,
+      "url": "https://github.com/semlinker/awesome-typescript/pull/161"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",

@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-06-21T00:28:51.043Z
+// Last updated: 2026-06-22T00:29:41.957Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-06-21T00:28:51.043Z",
+  "lastUpdated": "2026-06-22T00:29:41.957Z",
   "totalCount": 22,
   "repositories": [
     {
@@ -36,6 +36,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
+      "repo": "untodo",
+      "description": "Type-safe TODO for humans and AI. Trackable, structured, and lint-enforceable. Type-safe TODO for AI coding. AI agent TODO.",
+      "homepage": "https://ysknsid25.github.io/untodo/",
+      "language": "TypeScript",
+      "stargazersCount": 26,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/untodo",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ysknsid25",
       "repo": "iolite",
       "description": " A generic Value Object library inspired by Zod for Kotlin. No dependence 3rd party libraries.",
       "homepage": "https://ysknsid25.github.io/iolite/",
@@ -44,17 +55,6 @@ export const worksData: WorksData = {
       "forksCount": 1,
       "html_url": "https://github.com/ysknsid25/iolite",
       "publishedAt": "2025"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "untodo",
-      "description": "Type-safe TODO for humans and AI. Trackable, structured, and lint-enforceable.",
-      "homepage": "",
-      "language": "TypeScript",
-      "stargazersCount": 12,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/untodo",
-      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
