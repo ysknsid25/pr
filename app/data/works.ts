@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-06-22T00:29:41.957Z
+// Last updated: 2026-06-23T00:28:20.106Z
 
 export interface WorkItem {
   owner: string
@@ -20,9 +20,20 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-06-22T00:29:41.957Z",
+  "lastUpdated": "2026-06-23T00:28:20.106Z",
   "totalCount": 22,
   "repositories": [
+    {
+      "owner": "ysknsid25",
+      "repo": "untodo",
+      "description": "Type-safe TODO for humans and AI. Trackable, structured, and lint-enforceable. Type-safe TODO for AI coding. AI agent TODO.",
+      "homepage": "https://ysknsid25.github.io/untodo/",
+      "language": "TypeScript",
+      "stargazersCount": 34,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/untodo",
+      "publishedAt": "2026"
+    },
     {
       "owner": "ysknsid25",
       "repo": "booby",
@@ -33,17 +44,6 @@ export const worksData: WorksData = {
       "forksCount": 8,
       "html_url": "https://github.com/ysknsid25/booby",
       "publishedAt": "2023"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "untodo",
-      "description": "Type-safe TODO for humans and AI. Trackable, structured, and lint-enforceable. Type-safe TODO for AI coding. AI agent TODO.",
-      "homepage": "https://ysknsid25.github.io/untodo/",
-      "language": "TypeScript",
-      "stargazersCount": 26,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/untodo",
-      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
