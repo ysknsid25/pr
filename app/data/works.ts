@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-06-26T00:29:07.922Z
+// Last updated: 2026-06-27T00:27:12.207Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-06-26T00:29:07.922Z",
+  "lastUpdated": "2026-06-27T00:27:12.207Z",
   "totalCount": 22,
   "repositories": [
     {
@@ -91,6 +91,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
+      "repo": "assign-reviewers-after-resolve",
+      "description": "When a PR is opened, AI code review tools such as CodeRabbit and GitHub Copilot start their review immediately, but so does GitHub's built-in reviewer assignment, meaning human reviewers receive a Review Request at the same time as the AI.",
+      "homepage": "",
+      "language": "TypeScript",
+      "stargazersCount": 2,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/assign-reviewers-after-resolve",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ysknsid25",
       "repo": "conf",
       "description": "My conference presentation history",
       "homepage": "https://conference.inorinrinrin.com/",
@@ -110,17 +121,6 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/hatena-blog-theme-git",
       "publishedAt": "2025"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "assign-reviewers-after-resolve",
-      "description": "When a PR is opened, AI code review tools such as CodeRabbit and GitHub Copilot start their review immediately, but so does GitHub's built-in reviewer assignment, meaning human reviewers receive a Review Request at the same time as the AI.",
-      "homepage": "",
-      "language": "TypeScript",
-      "stargazersCount": 1,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/assign-reviewers-after-resolve",
-      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
