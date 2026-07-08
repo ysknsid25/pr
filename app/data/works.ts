@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-07-07T00:26:32.803Z
+// Last updated: 2026-07-08T00:21:30.985Z
 
 export interface WorkItem {
   owner: string
@@ -20,8 +20,8 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-07-07T00:26:32.803Z",
-  "totalCount": 22,
+  "lastUpdated": "2026-07-08T00:21:30.985Z",
+  "totalCount": 23,
   "repositories": [
     {
       "owner": "ysknsid25",
@@ -110,6 +110,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/conf",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "bikkuri-slide",
+      "description": "びっくりスライドは、はてなブログのエントリをプレゼンテーション資料として表示するためのchrome拡張機能です。リーダーモードとスライドモードの二つの機能を提供しています。",
+      "homepage": "",
+      "language": "JavaScript",
+      "stargazersCount": 1,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/bikkuri-slide",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
