@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-07-09T00:25:34.349Z
+// Last updated: 2026-07-10T00:25:23.821Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-07-09T00:25:34.349Z",
+  "lastUpdated": "2026-07-10T00:25:23.821Z",
   "totalCount": 23,
   "repositories": [
     {
@@ -115,7 +115,7 @@ export const worksData: WorksData = {
       "owner": "ysknsid25",
       "repo": "bikkuri-slide",
       "description": "びっくりスライドは、はてなブログのエントリをプレゼンテーション資料として表示するためのchrome拡張機能です。リーダーモードとスライドモードの二つの機能を提供しています。",
-      "homepage": "",
+      "homepage": "https://chromewebstore.google.com/detail/%E3%81%B3%E3%81%A3%E3%81%8F%E3%82%8A%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89/phnibgcmdhidpgcajfmbnpokifofbagk?authuser=0&hl=ja",
       "language": "JavaScript",
       "stargazersCount": 1,
       "forksCount": 0,

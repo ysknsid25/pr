@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-07-09T00:25:33.413Z
-// Total PRs: 164
+// Last updated: 2026-07-10T00:25:22.918Z
+// Total PRs: 165
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-07-09T00:25:33.413Z",
-  "totalCount": 164,
+  "lastUpdated": "2026-07-10T00:25:22.918Z",
+  "totalCount": 165,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "bikkuri-slide",
+      "title": "Update Chrome Store link in README",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-07-09T08:20:57Z",
+      "mergedAt": "2026-07-09T08:22:39Z",
+      "number": 5,
+      "url": "https://github.com/ysknsid25/bikkuri-slide/pull/5"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/4220799?v=4",
       "owner": "semlinker",
