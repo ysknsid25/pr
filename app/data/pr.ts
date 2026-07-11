@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-07-10T00:25:22.918Z
-// Total PRs: 165
+// Last updated: 2026-07-11T00:20:09.671Z
+// Total PRs: 166
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-07-10T00:25:22.918Z",
-  "totalCount": 165,
+  "lastUpdated": "2026-07-11T00:20:09.671Z",
+  "totalCount": 166,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "http-header-injector",
+      "title": "Update README with user attachments link",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-07-10T16:34:39Z",
+      "mergedAt": "2026-07-10T16:34:50Z",
+      "number": 1,
+      "url": "https://github.com/ysknsid25/http-header-injector/pull/1"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
       "owner": "ysknsid25",
