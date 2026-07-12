@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-07-11T00:20:09.671Z
+// Last updated: 2026-07-12T00:20:46.802Z
 // Total PRs: 166
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-07-11T00:20:09.671Z",
+  "lastUpdated": "2026-07-12T00:20:46.802Z",
   "totalCount": 166,
   "pullRequests": [
     {
@@ -487,7 +487,7 @@ export const prData: PRData = {
       "owner": "honojs",
       "repository": "cli",
       "title": "chore: resolve lint warning",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "draft": false,
       "createdAt": "2025-12-01T02:54:09Z",
@@ -1723,7 +1723,7 @@ export const prData: PRData = {
       "repository": "type-challenges",
       "title": "case(IsOdd): add 3e0 case",
       "state": "closed",
-      "merged": true,
+      "merged": false,
       "draft": false,
       "createdAt": "2024-12-06T08:47:08Z",
       "mergedAt": "2024-12-06T18:39:17Z",
