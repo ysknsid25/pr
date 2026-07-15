@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-07-14T00:18:39.979Z
+// Last updated: 2026-07-15T00:17:57.500Z
 
 export interface WorkItem {
   owner: string
@@ -20,8 +20,8 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-07-14T00:18:39.979Z",
-  "totalCount": 24,
+  "lastUpdated": "2026-07-15T00:17:57.500Z",
+  "totalCount": 25,
   "repositories": [
     {
       "owner": "ysknsid25",
@@ -187,6 +187,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/tech-newsletter-generator",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "coderabbit-config-generator",
+      "description": "To be able to generate `.coderabbit.yaml` config by GUI",
+      "homepage": "",
+      "language": "TypeScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/coderabbit-config-generator",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
