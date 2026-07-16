@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-07-15T00:17:56.673Z
-// Total PRs: 166
+// Last updated: 2026-07-16T00:20:13.570Z
+// Total PRs: 167
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-07-15T00:17:56.673Z",
-  "totalCount": 166,
+  "lastUpdated": "2026-07-16T00:20:13.570Z",
+  "totalCount": 167,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/132028505?v=4",
+      "owner": "coderabbitai",
+      "repository": "awesome-coderabbit",
+      "title": "Update README with CodeRabbit Config Generator details",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-07-15T13:26:57Z",
+      "mergedAt": null,
+      "number": 29,
+      "url": "https://github.com/coderabbitai/awesome-coderabbit/pull/29"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
       "owner": "ysknsid25",

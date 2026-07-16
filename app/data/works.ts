@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-07-15T00:17:57.500Z
+// Last updated: 2026-07-16T00:20:14.441Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-07-15T00:17:57.500Z",
+  "lastUpdated": "2026-07-16T00:20:14.441Z",
   "totalCount": 25,
   "repositories": [
     {
@@ -29,7 +29,7 @@ export const worksData: WorksData = {
       "description": "Type-safe TODO for humans and AI. Trackable, structured, and lint-enforceable. Type-safe TODO for AI coding. AI agent TODO.",
       "homepage": "https://ysknsid25.github.io/untodo/",
       "language": "TypeScript",
-      "stargazersCount": 34,
+      "stargazersCount": 35,
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/untodo",
       "publishedAt": "2026"
@@ -124,6 +124,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
+      "repo": "coderabbit-config-generator",
+      "description": "To be able to generate `.coderabbit.yaml` config by GUI",
+      "homepage": "https://coderabbit-config-generator.web.app/",
+      "language": "TypeScript",
+      "stargazersCount": 1,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/coderabbit-config-generator",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ysknsid25",
       "repo": "bikkuri-slide",
       "description": "びっくりスライドは、はてなブログのエントリをプレゼンテーション資料として表示するためのchrome拡張機能です。リーダーモードとスライドモードの二つの機能を提供しています。",
       "homepage": "https://chromewebstore.google.com/detail/%E3%81%B3%E3%81%A3%E3%81%8F%E3%82%8A%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89/phnibgcmdhidpgcajfmbnpokifofbagk?authuser=0&hl=ja",
@@ -187,17 +198,6 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/tech-newsletter-generator",
       "publishedAt": "2025"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "coderabbit-config-generator",
-      "description": "To be able to generate `.coderabbit.yaml` config by GUI",
-      "homepage": "",
-      "language": "TypeScript",
-      "stargazersCount": 0,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/coderabbit-config-generator",
-      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
