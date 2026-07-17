@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-07-16T00:20:13.570Z
-// Total PRs: 167
+// Last updated: 2026-07-17T00:21:41.949Z
+// Total PRs: 168
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-07-16T00:20:13.570Z",
-  "totalCount": 167,
+  "lastUpdated": "2026-07-17T00:21:41.949Z",
+  "totalCount": 168,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "coderabbit-config-generator",
+      "title": "chore: dependabot",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-07-16T14:20:47Z",
+      "mergedAt": "2026-07-16T14:54:33Z",
+      "number": 1,
+      "url": "https://github.com/ysknsid25/coderabbit-config-generator/pull/1"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/132028505?v=4",
       "owner": "coderabbitai",

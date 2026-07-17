@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-07-16T00:20:14.441Z
+// Last updated: 2026-07-17T00:21:43.135Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-07-16T00:20:14.441Z",
+  "lastUpdated": "2026-07-17T00:21:43.135Z",
   "totalCount": 25,
   "repositories": [
     {
@@ -113,6 +113,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
+      "repo": "coderabbit-config-generator",
+      "description": "To be able to generate `.coderabbit.yaml` config by GUI",
+      "homepage": "https://coderabbit-config-generator.web.app/",
+      "language": "TypeScript",
+      "stargazersCount": 2,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/coderabbit-config-generator",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ysknsid25",
       "repo": "conf",
       "description": "My conference presentation history",
       "homepage": "https://conference.inorinrinrin.com/",
@@ -121,17 +132,6 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/conf",
       "publishedAt": "2025"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "coderabbit-config-generator",
-      "description": "To be able to generate `.coderabbit.yaml` config by GUI",
-      "homepage": "https://coderabbit-config-generator.web.app/",
-      "language": "TypeScript",
-      "stargazersCount": 1,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/coderabbit-config-generator",
-      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
