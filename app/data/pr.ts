@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-07-17T00:21:41.949Z
-// Total PRs: 168
+// Last updated: 2026-07-18T00:19:29.310Z
+// Total PRs: 169
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,8 +24,8 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-07-17T00:21:41.949Z",
-  "totalCount": 168,
+  "lastUpdated": "2026-07-18T00:19:29.310Z",
+  "totalCount": 169,
   "pullRequests": [
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
@@ -377,6 +377,19 @@ export const prData: PRData = {
       "mergedAt": null,
       "number": 598,
       "url": "https://github.com/storybookjs/test-runner/pull/598"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "openapi-zod-client",
+      "title": "Migrate code generator to Zod V4 APIs",
+      "state": "open",
+      "merged": false,
+      "draft": true,
+      "createdAt": "2026-03-07T07:53:03Z",
+      "mergedAt": null,
+      "number": 1,
+      "url": "https://github.com/ysknsid25/openapi-zod-client/pull/1"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/83095831?v=4",
