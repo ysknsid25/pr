@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-07-20T00:22:14.155Z
+// Last updated: 2026-07-21T00:21:38.190Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-07-20T00:22:14.155Z",
+  "lastUpdated": "2026-07-21T00:21:38.190Z",
   "totalCount": 25,
   "repositories": [
     {
@@ -62,7 +62,7 @@ export const worksData: WorksData = {
       "description": "🔥 ESLint plugin for Hono and all Hono lovers",
       "homepage": "https://www.npmjs.com/package/eslint-plugin-hono",
       "language": "TypeScript",
-      "stargazersCount": 6,
+      "stargazersCount": 7,
       "forksCount": 1,
       "html_url": "https://github.com/ysknsid25/eslint-plugin-hono",
       "publishedAt": "2025"
