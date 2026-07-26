@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-07-25T00:23:19.083Z
+// Last updated: 2026-07-26T00:23:28.249Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-07-25T00:23:19.083Z",
+  "lastUpdated": "2026-07-26T00:23:28.249Z",
   "totalCount": 25,
   "repositories": [
     {
@@ -135,17 +135,6 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
-      "repo": "bikkuri-slide",
-      "description": "びっくりスライドは、はてなブログのエントリをプレゼンテーション資料として表示するためのchrome拡張機能です。リーダーモードとスライドモードの二つの機能を提供しています。",
-      "homepage": "https://chromewebstore.google.com/detail/%E3%81%B3%E3%81%A3%E3%81%8F%E3%82%8A%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89/phnibgcmdhidpgcajfmbnpokifofbagk?authuser=0&hl=ja",
-      "language": "JavaScript",
-      "stargazersCount": 1,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/bikkuri-slide",
-      "publishedAt": "2026"
-    },
-    {
-      "owner": "ysknsid25",
       "repo": "hatena-blog-theme-git",
       "description": "はてなブログをGitのWebsite風にできるカスタムデザインです",
       "homepage": "https://blog.hatena.ne.jp/-/store/theme/17179246901337926973",
@@ -154,6 +143,17 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/hatena-blog-theme-git",
       "publishedAt": "2025"
+    },
+    {
+      "owner": "ysknsid25",
+      "repo": "bikkuri-slide",
+      "description": "びっくりスライドは、はてなブログのエントリをプレゼンテーション資料として表示するためのchrome拡張機能です。リーダーモードとスライドモードの二つの機能を提供しています。",
+      "homepage": "https://chromewebstore.google.com/detail/%E3%81%B3%E3%81%A3%E3%81%8F%E3%82%8A%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89/phnibgcmdhidpgcajfmbnpokifofbagk?authuser=0&hl=ja",
+      "language": "JavaScript",
+      "stargazersCount": 1,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/bikkuri-slide",
+      "publishedAt": "2026"
     },
     {
       "owner": "ysknsid25",
