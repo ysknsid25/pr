@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-07-26T00:23:31.160Z
+// Last updated: 2026-07-27T00:22:42.757Z
 
 export interface OrgData {
   owner: string
@@ -21,7 +21,7 @@ export const orgsData: OrgData[] = [
   {
     "owner": "open-circle",
     "avatarUrl": "https://avatars.githubusercontent.com/u/162486767?v=4",
-    "count": 14
+    "count": 15
   },
   {
     "owner": "honojs",
@@ -64,6 +64,11 @@ export const orgsData: OrgData[] = [
     "count": 3
   },
   {
+    "owner": "slidevjs",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/83095831?v=4",
+    "count": 2
+  },
+  {
     "owner": "sirmalloc",
     "avatarUrl": "https://avatars.githubusercontent.com/u/2913994?v=4",
     "count": 2
@@ -72,6 +77,11 @@ export const orgsData: OrgData[] = [
     "owner": "nitrojs",
     "avatarUrl": "https://avatars.githubusercontent.com/u/183071544?v=4",
     "count": 2
+  },
+  {
+    "owner": "gatsbyjs",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12551863?v=4",
+    "count": 1
   },
   {
     "owner": "coderabbitai",
@@ -86,11 +96,6 @@ export const orgsData: OrgData[] = [
   {
     "owner": "storybookjs",
     "avatarUrl": "https://avatars.githubusercontent.com/u/22632046?v=4",
-    "count": 1
-  },
-  {
-    "owner": "slidevjs",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/83095831?v=4",
     "count": 1
   },
   {

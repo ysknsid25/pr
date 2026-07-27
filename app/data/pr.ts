@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-07-26T00:23:27.253Z
-// Total PRs: 169
+// Last updated: 2026-07-27T00:22:38.691Z
+// Total PRs: 172
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,48 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-07-26T00:23:27.253Z",
-  "totalCount": 169,
+  "lastUpdated": "2026-07-27T00:22:38.691Z",
+  "totalCount": 172,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "website: Add new Blog Post #5",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-07-26T08:21:57Z",
+      "mergedAt": null,
+      "number": 164,
+      "url": "https://github.com/open-circle/formisch/pull/164"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/12551863?v=4",
+      "owner": "gatsbyjs",
+      "repository": "gatsby",
+      "title": "chore: Supply Chain Attack Countermeasures in GitHub Actions",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-07-26T06:53:40Z",
+      "mergedAt": null,
+      "number": 39625,
+      "url": "https://github.com/gatsbyjs/gatsby/pull/39625"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/83095831?v=4",
+      "owner": "slidevjs",
+      "repository": "slidev",
+      "title": "chore: Supply Chain Attack Countermeasures in GitHub Actions",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-07-26T06:49:26Z",
+      "mergedAt": null,
+      "number": 2684,
+      "url": "https://github.com/slidevjs/slidev/pull/2684"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
       "owner": "ysknsid25",
