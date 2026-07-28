@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-07-27T00:22:38.691Z
+// Last updated: 2026-07-28T00:20:46.760Z
 // Total PRs: 172
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-07-27T00:22:38.691Z",
+  "lastUpdated": "2026-07-28T00:20:46.760Z",
   "totalCount": 172,
   "pullRequests": [
     {
@@ -175,11 +175,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "Proposal: Pin GitHub Actions to commit SHAs for supply-chain security",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-05-25T12:39:25Z",
-      "mergedAt": null,
+      "mergedAt": "2026-07-27T16:03:18Z",
       "number": 115,
       "url": "https://github.com/open-circle/formisch/pull/115"
     },
@@ -188,11 +188,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "valibot",
       "title": "Proposal: Pin GitHub Actions to commit SHAs for supply-chain security",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-05-24T15:54:01Z",
-      "mergedAt": null,
+      "mergedAt": "2026-07-27T15:55:12Z",
       "number": 1474,
       "url": "https://github.com/open-circle/valibot/pull/1474"
     },
