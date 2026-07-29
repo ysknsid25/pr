@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-07-28T00:20:46.760Z
+// Last updated: 2026-07-29T00:20:48.699Z
 // Total PRs: 172
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-07-28T00:20:46.760Z",
+  "lastUpdated": "2026-07-29T00:20:48.699Z",
   "totalCount": 172,
   "pullRequests": [
     {
@@ -203,7 +203,7 @@ export const prData: PRData = {
       "title": "Proposal: Add a new package `@valibot/config-loader`",
       "state": "open",
       "merged": false,
-      "draft": false,
+      "draft": true,
       "createdAt": "2026-05-24T14:58:48Z",
       "mergedAt": null,
       "number": 1472,
