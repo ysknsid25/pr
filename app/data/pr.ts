@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-07-29T00:20:48.699Z
-// Total PRs: 172
+// Last updated: 2026-07-30T00:21:07.917Z
+// Total PRs: 176
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,61 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-07-29T00:20:48.699Z",
-  "totalCount": 172,
+  "lastUpdated": "2026-07-30T00:21:07.917Z",
+  "totalCount": 176,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "chore: Add .coderabbit.yaml",
+      "state": "open",
+      "merged": false,
+      "draft": true,
+      "createdAt": "2026-07-29T01:33:09Z",
+      "mergedAt": null,
+      "number": 168,
+      "url": "https://github.com/open-circle/formisch/pull/168"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "chore: Add .coderabbit.yaml",
+      "state": "open",
+      "merged": false,
+      "draft": true,
+      "createdAt": "2026-07-29T01:32:39Z",
+      "mergedAt": null,
+      "number": 1570,
+      "url": "https://github.com/open-circle/valibot/pull/1570"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "chore: reschedule and add npm target",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-07-29T00:29:28Z",
+      "mergedAt": null,
+      "number": 167,
+      "url": "https://github.com/open-circle/formisch/pull/167"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "chore: reschedule and add npm target",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-07-29T00:29:20Z",
+      "mergedAt": null,
+      "number": 1569,
+      "url": "https://github.com/open-circle/valibot/pull/1569"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
