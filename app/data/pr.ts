@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-07-31T00:23:06.632Z
-// Total PRs: 176
+// Last updated: 2026-08-01T00:21:22.804Z
+// Total PRs: 180
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,61 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-07-31T00:23:06.632Z",
-  "totalCount": 176,
+  "lastUpdated": "2026-08-01T00:21:22.804Z",
+  "totalCount": 180,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "tech-newsletter-generator",
+      "title": "gh stach test branch d",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-07-31T08:01:18Z",
+      "mergedAt": null,
+      "number": 5,
+      "url": "https://github.com/ysknsid25/tech-newsletter-generator/pull/5"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "tech-newsletter-generator",
+      "title": "brnch c",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-07-31T08:01:14Z",
+      "mergedAt": null,
+      "number": 4,
+      "url": "https://github.com/ysknsid25/tech-newsletter-generator/pull/4"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "tech-newsletter-generator",
+      "title": "gh stach test branch b",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-07-31T07:57:22Z",
+      "mergedAt": "2026-07-31T07:59:08Z",
+      "number": 2,
+      "url": "https://github.com/ysknsid25/tech-newsletter-generator/pull/2"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "tech-newsletter-generator",
+      "title": "gh stach test branch a",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-07-31T07:57:18Z",
+      "mergedAt": "2026-07-31T07:59:07Z",
+      "number": 1,
+      "url": "https://github.com/ysknsid25/tech-newsletter-generator/pull/1"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
