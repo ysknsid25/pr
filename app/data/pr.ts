@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-08-01T00:21:22.804Z
+// Last updated: 2026-08-02T00:22:56.379Z
 // Total PRs: 180
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-01T00:21:22.804Z",
+  "lastUpdated": "2026-08-02T00:22:56.379Z",
   "totalCount": 180,
   "pullRequests": [
     {
@@ -110,11 +110,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "chore: reschedule and add npm target",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-07-29T00:29:28Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-01T22:49:12Z",
       "number": 167,
       "url": "https://github.com/open-circle/formisch/pull/167"
     },
@@ -123,11 +123,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "valibot",
       "title": "chore: reschedule and add npm target",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-07-29T00:29:20Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-01T22:48:52Z",
       "number": 1569,
       "url": "https://github.com/open-circle/valibot/pull/1569"
     },
