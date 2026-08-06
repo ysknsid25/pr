@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-08-05T00:23:13.653Z
+// Last updated: 2026-08-06T00:19:38.860Z
 // Total PRs: 180
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-05T00:23:13.653Z",
+  "lastUpdated": "2026-08-06T00:19:38.860Z",
   "totalCount": 180,
   "pullRequests": [
     {
@@ -86,7 +86,7 @@ export const prData: PRData = {
       "title": "chore: Add .coderabbit.yaml",
       "state": "open",
       "merged": false,
-      "draft": true,
+      "draft": false,
       "createdAt": "2026-07-29T01:33:09Z",
       "mergedAt": null,
       "number": 168,
@@ -99,7 +99,7 @@ export const prData: PRData = {
       "title": "chore: Add .coderabbit.yaml",
       "state": "open",
       "merged": false,
-      "draft": true,
+      "draft": false,
       "createdAt": "2026-07-29T01:32:39Z",
       "mergedAt": null,
       "number": 1570,
