@@ -22,6 +22,19 @@ export default createRoute((c) => {
                         loading="lazy"
                     />
                 </a>
+                <a
+                    aria-label="open-circle organization"
+                    class="overflow-hidden relative rounded-md shadow-sm shrink-0 size-8 bg-content"
+                    href="https://github.com/open-circle"
+                    target="_blank"
+                >
+                    <img
+                        alt="open-circle"
+                        class="size-full"
+                        src="https://avatars.githubusercontent.com/u/162486767?v=4"
+                        loading="lazy"
+                    />
+                </a>
             </div>
             <div class="max-w-3xl mx-auto px-4 w-full text-left">
                 <PrList />
