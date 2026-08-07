@@ -188,24 +188,22 @@ async function loadExistingWorksData(): Promise<WorksData | null> {
     }
 }
 
+// Works を検索する対象のオーナー。配列の先頭ほど優先度が高く、
+// 同名リポジトリが複数のオーナーに存在する場合は先頭のものを採用する
+// （リポジトリの移管先である ouka-lab を正とする）
+const WORKS_OWNERS = ["org:ouka-lab", "user:ysknsid25"] as const;
+
 /**
- * Works（特定トピックのリポジトリ）を取得する
+ * 指定した検索クエリに該当するリポジトリを取得する
  */
-async function fetchWorks(githubToken: string): Promise<WorksData> {
-    console.log("Fetching works repositories...");
-
-    // 既存のデータをロード
-    const existingWorksData = await loadExistingWorksData();
-    const existingRepos = new Map<string, WorkItem>();
-    if (existingWorksData) {
-        for (const repo of existingWorksData.repositories) {
-            existingRepos.set(`${repo.owner}/${repo.repo}`, repo);
-        }
-    }
-
+async function fetchWorksRepositories(
+    query: string,
+    githubToken: string,
+): Promise<any[]> {
     const searchUrl = new URL("https://api.github.com/search/repositories");
-    searchUrl.searchParams.set("q", "user:ysknsid25 topic:works");
+    searchUrl.searchParams.set("q", query);
     searchUrl.searchParams.set("sort", "updated");
+    searchUrl.searchParams.set("per_page", "100");
 
     const response = await fetch(searchUrl.toString(), {
         headers: {
@@ -217,16 +215,64 @@ async function fetchWorks(githubToken: string): Promise<WorksData> {
 
     if (!response.ok) {
         throw new Error(
-            `GitHub API error fetching works: ${response.status} ${response.statusText}`,
+            `GitHub API error fetching works (${query}): ${response.status} ${response.statusText}`,
         );
     }
 
     const data = (await response.json()) as any;
+    return data.items ?? [];
+}
+
+/**
+ * Works（特定トピックのリポジトリ）を取得する
+ */
+async function fetchWorks(githubToken: string): Promise<WorksData> {
+    console.log("Fetching works repositories...");
+
+    // 既存のデータをロード
+    const existingWorksData = await loadExistingWorksData();
+    // オーナーが変わっても既存の publishedAt を引き継げるよう、
+    // `owner/repo` とリポジトリ名の両方で引けるようにしておく
+    const existingRepos = new Map<string, WorkItem>();
+    const existingReposByName = new Map<string, WorkItem>();
+    if (existingWorksData) {
+        for (const repo of existingWorksData.repositories) {
+            existingRepos.set(`${repo.owner}/${repo.repo}`, repo);
+            const nameKey = repo.repo.toLowerCase();
+            if (!existingReposByName.has(nameKey)) {
+                existingReposByName.set(nameKey, repo);
+            }
+        }
+    }
+
+    // オーナーごとに検索し、リポジトリ名で重複を排除する
+    const uniqueRepos = new Map<string, any>();
+    for (const owner of WORKS_OWNERS) {
+        const repos = await fetchWorksRepositories(
+            `${owner} topic:works`,
+            githubToken,
+        );
+        console.log(`Fetched ${repos.length} repositories from ${owner}`);
+
+        for (const repo of repos) {
+            const nameKey = repo.name.toLowerCase();
+            // 先に見つかったオーナー（優先度の高いオーナー）を採用する
+            if (!uniqueRepos.has(nameKey)) {
+                uniqueRepos.set(nameKey, repo);
+            }
+        }
+
+        // レート制限対策で少し待機
+        await new Promise((resolve) => setTimeout(resolve, 100));
+    }
+
     const currentYear = new Date().getFullYear().toString();
 
-    const items: WorkItem[] = data.items.map((repo: any) => {
+    const items: WorkItem[] = [...uniqueRepos.values()].map((repo: any) => {
         const repoIdentifier = `${repo.owner.login}/${repo.name}`;
-        const existingRepo = existingRepos.get(repoIdentifier);
+        const existingRepo =
+            existingRepos.get(repoIdentifier) ??
+            existingReposByName.get(repo.name.toLowerCase());
 
         const topics: string[] = repo.topics || [];
         let publishedAt =
@@ -267,7 +313,7 @@ async function fetchWorks(githubToken: string): Promise<WorksData> {
 
     return {
         lastUpdated: new Date().toISOString(),
-        totalCount: data.total_count,
+        totalCount: items.length,
         repositories: items,
     };
 }
