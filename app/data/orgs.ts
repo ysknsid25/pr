@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-08-06T00:19:42.795Z
+// Last updated: 2026-08-07T01:08:44.278Z
 
 export interface OrgData {
   owner: string
@@ -21,7 +21,7 @@ export const orgsData: OrgData[] = [
   {
     "owner": "open-circle",
     "avatarUrl": "https://avatars.githubusercontent.com/u/162486767?v=4",
-    "count": 19
+    "count": 20
   },
   {
     "owner": "honojs",
@@ -77,6 +77,11 @@ export const orgsData: OrgData[] = [
     "owner": "nitrojs",
     "avatarUrl": "https://avatars.githubusercontent.com/u/183071544?v=4",
     "count": 2
+  },
+  {
+    "owner": "eslint",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6019716?v=4",
+    "count": 1
   },
   {
     "owner": "gatsbyjs",

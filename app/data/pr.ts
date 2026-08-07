@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-08-06T00:19:38.860Z
-// Total PRs: 180
+// Last updated: 2026-08-07T01:08:40.320Z
+// Total PRs: 182
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-06T00:19:38.860Z",
-  "totalCount": 180,
+  "lastUpdated": "2026-08-07T01:08:40.320Z",
+  "totalCount": 182,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/6019716?v=4",
+      "owner": "eslint",
+      "repository": "eslint",
+      "title": "chore: Pin Action Version for Supply Chain Attack",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-06T12:57:05Z",
+      "mergedAt": null,
+      "number": 21195,
+      "url": "https://github.com/eslint/eslint/pull/21195"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "chore: Update ESLint to v9.39.5",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-06T07:39:17Z",
+      "mergedAt": null,
+      "number": 178,
+      "url": "https://github.com/open-circle/formisch/pull/178"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
       "owner": "ysknsid25",
