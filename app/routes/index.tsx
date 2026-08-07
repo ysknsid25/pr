@@ -8,7 +8,7 @@ export default createRoute((c) => {
                 Kanon's OSS Activity
             </h1>
             <div class="mb-8 flex items-center justify-center gap-2 text-ink-muted">
-                <span>I'm Maintainer of</span>
+                <span>I'm a Maintainer of</span>
                 <a
                     aria-label="type-challenges repository"
                     class="overflow-hidden relative rounded-md shadow-sm shrink-0 size-8 bg-content"
@@ -39,6 +39,6 @@ export default createRoute((c) => {
             <div class="max-w-3xl mx-auto px-4 w-full text-left">
                 <PrList />
             </div>
-        </div>
+        </div>,
     );
 });
