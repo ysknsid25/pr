@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-08-07T01:08:41.168Z
+// Last updated: 2026-08-08T00:10:51.362Z
 
 export interface WorkItem {
   owner: string
@@ -20,18 +20,18 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-08-07T01:08:41.168Z",
+  "lastUpdated": "2026-08-08T00:10:51.362Z",
   "totalCount": 25,
   "repositories": [
     {
-      "owner": "ysknsid25",
+      "owner": "ouka-lab",
       "repo": "untodo",
       "description": "Type-safe TODO for humans and AI. Trackable, structured, and lint-enforceable. Type-safe TODO for AI coding. AI agent TODO.",
-      "homepage": "https://ysknsid25.github.io/untodo/",
+      "homepage": "https://ouka-lab.github.io/untodo/",
       "language": "TypeScript",
       "stargazersCount": 35,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/untodo",
+      "html_url": "https://github.com/ouka-lab/untodo",
       "publishedAt": "2026"
     },
     {
@@ -46,25 +46,25 @@ export const worksData: WorksData = {
       "publishedAt": "2023"
     },
     {
-      "owner": "ysknsid25",
+      "owner": "ouka-lab",
       "repo": "iolite",
       "description": " A generic Value Object library inspired by Zod for Kotlin. No dependence 3rd party libraries.",
-      "homepage": "https://ysknsid25.github.io/iolite/",
+      "homepage": "https://ouka-lab.github.io/iolite/",
       "language": "Kotlin",
       "stargazersCount": 22,
       "forksCount": 1,
-      "html_url": "https://github.com/ysknsid25/iolite",
+      "html_url": "https://github.com/ouka-lab/iolite",
       "publishedAt": "2025"
     },
     {
-      "owner": "ysknsid25",
+      "owner": "ouka-lab",
       "repo": "eslint-plugin-hono",
       "description": "🔥 ESLint plugin for Hono and all Hono lovers",
       "homepage": "https://www.npmjs.com/package/eslint-plugin-hono",
       "language": "TypeScript",
       "stargazersCount": 8,
       "forksCount": 1,
-      "html_url": "https://github.com/ysknsid25/eslint-plugin-hono",
+      "html_url": "https://github.com/ouka-lab/eslint-plugin-hono",
       "publishedAt": "2025"
     },
     {
@@ -79,25 +79,25 @@ export const worksData: WorksData = {
       "publishedAt": "2024"
     },
     {
-      "owner": "ysknsid25",
+      "owner": "ouka-lab",
       "repo": "http-header-injector",
       "description": "A Chrome extension for developers that lets you inject custom HTTP **request** headers.",
       "homepage": "",
       "language": "JavaScript",
       "stargazersCount": 4,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/http-header-injector",
+      "html_url": "https://github.com/ouka-lab/http-header-injector",
       "publishedAt": "2026"
     },
     {
-      "owner": "ysknsid25",
+      "owner": "ouka-lab",
       "repo": "assign-reviewers-after-resolve",
       "description": "When a PR is opened, AI code review tools such as CodeRabbit and GitHub Copilot start their review immediately, but so does GitHub's built-in reviewer assignment, meaning human reviewers receive a Review Request at the same time as the AI.",
       "homepage": "",
       "language": "TypeScript",
       "stargazersCount": 3,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/assign-reviewers-after-resolve",
+      "html_url": "https://github.com/ouka-lab/assign-reviewers-after-resolve",
       "publishedAt": "2026"
     },
     {
@@ -112,14 +112,14 @@ export const worksData: WorksData = {
       "publishedAt": "2025"
     },
     {
-      "owner": "ysknsid25",
+      "owner": "ouka-lab",
       "repo": "coderabbit-config-generator",
       "description": "To be able to generate `.coderabbit.yaml` config by GUI",
       "homepage": "https://coderabbit-config-generator.web.app/",
       "language": "TypeScript",
       "stargazersCount": 2,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/coderabbit-config-generator",
+      "html_url": "https://github.com/ouka-lab/coderabbit-config-generator",
       "publishedAt": "2026"
     },
     {
@@ -134,36 +134,36 @@ export const worksData: WorksData = {
       "publishedAt": "2025"
     },
     {
-      "owner": "ysknsid25",
+      "owner": "ouka-lab",
       "repo": "hatena-blog-theme-git",
       "description": "はてなブログをGitのWebsite風にできるカスタムデザインです",
       "homepage": "https://blog.hatena.ne.jp/-/store/theme/17179246901337926973",
       "language": "SCSS",
       "stargazersCount": 1,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/hatena-blog-theme-git",
+      "html_url": "https://github.com/ouka-lab/hatena-blog-theme-git",
       "publishedAt": "2025"
     },
     {
-      "owner": "ysknsid25",
+      "owner": "ouka-lab",
       "repo": "bikkuri-slide",
       "description": "びっくりスライドは、はてなブログのエントリをプレゼンテーション資料として表示するためのchrome拡張機能です。リーダーモードとスライドモードの二つの機能を提供しています。",
-      "homepage": "https://chromewebstore.google.com/detail/%E3%81%B3%E3%81%A3%E3%81%8F%E3%82%8A%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89/phnibgcmdhidpgcajfmbnpokifofbagk?authuser=0&hl=ja",
+      "homepage": "https://ouka-lab.github.io/bikkuri-slide/",
       "language": "JavaScript",
       "stargazersCount": 1,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/bikkuri-slide",
+      "html_url": "https://github.com/ouka-lab/bikkuri-slide",
       "publishedAt": "2026"
     },
     {
-      "owner": "ysknsid25",
+      "owner": "ouka-lab",
       "repo": "eslint-plugin-citty",
       "description": "🌆 ESLint plugin for citty and all citty lovers",
       "homepage": "https://www.npmjs.com/package/eslint-plugin-citty",
       "language": "TypeScript",
       "stargazersCount": 1,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/eslint-plugin-citty",
+      "html_url": "https://github.com/ouka-lab/eslint-plugin-citty",
       "publishedAt": "2025"
     },
     {
@@ -189,14 +189,25 @@ export const worksData: WorksData = {
       "publishedAt": "2025"
     },
     {
-      "owner": "ysknsid25",
-      "repo": "slides",
-      "description": "slides generated by slidev",
-      "homepage": "https://slides.inorinrinrin.com/",
-      "language": "JavaScript",
+      "owner": "ouka-lab",
+      "repo": "hatena-blog-theme-kotlin",
+      "description": "はてなブログをKotlinのWebsite風にできるカスタムデザインです",
+      "homepage": "",
+      "language": "SCSS",
       "stargazersCount": 0,
       "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/slides",
+      "html_url": "https://github.com/ouka-lab/hatena-blog-theme-kotlin",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ouka-lab",
+      "repo": "sizukani-search",
+      "description": "🤫 X（旧Twitter）のユーザープロフィールページから、同名のしずかなインターネットアカウントを検索するChrome拡張機能です。",
+      "homepage": "",
+      "language": "TypeScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ouka-lab/sizukani-search",
       "publishedAt": "2026"
     },
     {
@@ -223,6 +234,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ysknsid25",
+      "repo": "slides",
+      "description": "slides generated by slidev",
+      "homepage": "https://slides.inorinrinrin.com/",
+      "language": "JavaScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ysknsid25/slides",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ysknsid25",
       "repo": "profile",
       "description": null,
       "homepage": "",
@@ -230,17 +252,6 @@ export const worksData: WorksData = {
       "stargazersCount": 0,
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/profile",
-      "publishedAt": "2026"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "hatena-blog-theme-kotlin",
-      "description": "はてなブログをKotlinのWebsite風にできるカスタムデザインです",
-      "homepage": "",
-      "language": "SCSS",
-      "stargazersCount": 0,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/hatena-blog-theme-kotlin",
       "publishedAt": "2026"
     },
     {
@@ -274,17 +285,6 @@ export const worksData: WorksData = {
       "stargazersCount": 0,
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/planning-poker",
-      "publishedAt": "2026"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "sizukani-search",
-      "description": "🤫 X（旧Twitter）のユーザープロフィールページから、同名のしずかなインターネットアカウントを検索するChrome拡張機能です。",
-      "homepage": "",
-      "language": "TypeScript",
-      "stargazersCount": 0,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/sizukani-search",
       "publishedAt": "2026"
     },
     {

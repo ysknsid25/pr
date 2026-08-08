@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-08-07T01:08:40.320Z
-// Total PRs: 182
+// Last updated: 2026-08-08T00:10:49.878Z
+// Total PRs: 183
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-07T01:08:40.320Z",
-  "totalCount": 182,
+  "lastUpdated": "2026-08-08T00:10:49.878Z",
+  "totalCount": 183,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "tech-newsletter-generator",
+      "title": "Harden publish workflow sender resolution for `action-send-mail`",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-08-07T01:35:13Z",
+      "mergedAt": "2026-08-07T01:40:37Z",
+      "number": 7,
+      "url": "https://github.com/ysknsid25/tech-newsletter-generator/pull/7"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/6019716?v=4",
       "owner": "eslint",
@@ -197,8 +210,8 @@ export const prData: PRData = {
       "url": "https://github.com/slidevjs/slidev/pull/2684"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "coderabbit-config-generator",
       "title": "chore: dependabot",
       "state": "closed",
@@ -207,7 +220,7 @@ export const prData: PRData = {
       "createdAt": "2026-07-16T14:20:47Z",
       "mergedAt": "2026-07-16T14:54:33Z",
       "number": 1,
-      "url": "https://github.com/ysknsid25/coderabbit-config-generator/pull/1"
+      "url": "https://github.com/ouka-lab/coderabbit-config-generator/pull/1"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/132028505?v=4",
@@ -223,8 +236,8 @@ export const prData: PRData = {
       "url": "https://github.com/coderabbitai/awesome-coderabbit/pull/29"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "http-header-injector",
       "title": "Update README with user attachments link",
       "state": "closed",
@@ -233,11 +246,11 @@ export const prData: PRData = {
       "createdAt": "2026-07-10T16:34:39Z",
       "mergedAt": "2026-07-10T16:34:50Z",
       "number": 1,
-      "url": "https://github.com/ysknsid25/http-header-injector/pull/1"
+      "url": "https://github.com/ouka-lab/http-header-injector/pull/1"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "bikkuri-slide",
       "title": "Update Chrome Store link in README",
       "state": "closed",
@@ -246,7 +259,7 @@ export const prData: PRData = {
       "createdAt": "2026-07-09T08:20:57Z",
       "mergedAt": "2026-07-09T08:22:39Z",
       "number": 5,
-      "url": "https://github.com/ysknsid25/bikkuri-slide/pull/5"
+      "url": "https://github.com/ouka-lab/bikkuri-slide/pull/5"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/4220799?v=4",
@@ -366,8 +379,8 @@ export const prData: PRData = {
       "url": "https://github.com/unjs/ofetch/pull/582"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "feature: Introduce Binary Compatibility Validator and Explicit API mode",
       "state": "closed",
@@ -376,11 +389,11 @@ export const prData: PRData = {
       "createdAt": "2026-05-09T08:38:17Z",
       "mergedAt": "2026-05-09T08:46:28Z",
       "number": 110,
-      "url": "https://github.com/ysknsid25/iolite/pull/110"
+      "url": "https://github.com/ouka-lab/iolite/pull/110"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "docs: add KDOoc to parse() of Value Object",
       "state": "closed",
@@ -389,11 +402,11 @@ export const prData: PRData = {
       "createdAt": "2026-05-09T08:16:30Z",
       "mergedAt": "2026-05-09T08:26:50Z",
       "number": 109,
-      "url": "https://github.com/ysknsid25/iolite/pull/109"
+      "url": "https://github.com/ouka-lab/iolite/pull/109"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "feature: replace DataTime func's boolean args to enum or factory",
       "state": "closed",
@@ -402,11 +415,11 @@ export const prData: PRData = {
       "createdAt": "2026-05-09T08:03:05Z",
       "mergedAt": "2026-05-09T08:08:18Z",
       "number": 108,
-      "url": "https://github.com/ysknsid25/iolite/pull/108"
+      "url": "https://github.com/ouka-lab/iolite/pull/108"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "feature: Mask Secret and toString()",
       "state": "closed",
@@ -415,11 +428,11 @@ export const prData: PRData = {
       "createdAt": "2026-05-09T07:52:07Z",
       "mergedAt": "2026-05-09T07:54:55Z",
       "number": 107,
-      "url": "https://github.com/ysknsid25/iolite/pull/107"
+      "url": "https://github.com/ouka-lab/iolite/pull/107"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "fix: Introduce iolite originally error class",
       "state": "closed",
@@ -428,11 +441,11 @@ export const prData: PRData = {
       "createdAt": "2026-05-09T07:29:53Z",
       "mergedAt": "2026-05-09T07:34:56Z",
       "number": 106,
-      "url": "https://github.com/ysknsid25/iolite/pull/106"
+      "url": "https://github.com/ouka-lab/iolite/pull/106"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: Dokka Gradle plugin V1 is deprecated",
       "state": "closed",
@@ -441,11 +454,11 @@ export const prData: PRData = {
       "createdAt": "2026-05-09T07:06:01Z",
       "mergedAt": "2026-05-09T07:09:09Z",
       "number": 105,
-      "url": "https://github.com/ysknsid25/iolite/pull/105"
+      "url": "https://github.com/ouka-lab/iolite/pull/105"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: KMP add MacOS",
       "state": "closed",
@@ -454,11 +467,11 @@ export const prData: PRData = {
       "createdAt": "2026-05-09T04:04:41Z",
       "mergedAt": "2026-05-09T04:08:20Z",
       "number": 104,
-      "url": "https://github.com/ysknsid25/iolite/pull/104"
+      "url": "https://github.com/ouka-lab/iolite/pull/104"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: KMP add Linux",
       "state": "closed",
@@ -467,11 +480,11 @@ export const prData: PRData = {
       "createdAt": "2026-05-09T03:56:46Z",
       "mergedAt": "2026-05-09T04:02:33Z",
       "number": 103,
-      "url": "https://github.com/ysknsid25/iolite/pull/103"
+      "url": "https://github.com/ouka-lab/iolite/pull/103"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: KMP add JS",
       "state": "closed",
@@ -480,7 +493,7 @@ export const prData: PRData = {
       "createdAt": "2026-05-09T03:48:34Z",
       "mergedAt": "2026-05-09T03:51:58Z",
       "number": 102,
-      "url": "https://github.com/ysknsid25/iolite/pull/102"
+      "url": "https://github.com/ouka-lab/iolite/pull/102"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
@@ -496,8 +509,8 @@ export const prData: PRData = {
       "url": "https://github.com/open-circle/formisch/pull/90"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: devContainerize",
       "state": "closed",
@@ -506,7 +519,7 @@ export const prData: PRData = {
       "createdAt": "2026-05-09T03:12:30Z",
       "mergedAt": "2026-05-09T03:19:59Z",
       "number": 100,
-      "url": "https://github.com/ysknsid25/iolite/pull/100"
+      "url": "https://github.com/ouka-lab/iolite/pull/100"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/3084745?v=4",
@@ -652,8 +665,8 @@ export const prData: PRData = {
       "url": "https://github.com/open-circle/valibot/pull/1383"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: Maven Publish",
       "state": "closed",
@@ -662,11 +675,11 @@ export const prData: PRData = {
       "createdAt": "2025-12-09T09:35:58Z",
       "mergedAt": "2025-12-09T09:37:29Z",
       "number": 92,
-      "url": "https://github.com/ysknsid25/iolite/pull/92"
+      "url": "https://github.com/ouka-lab/iolite/pull/92"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: Multiplatform",
       "state": "closed",
@@ -675,7 +688,7 @@ export const prData: PRData = {
       "createdAt": "2025-12-09T09:01:01Z",
       "mergedAt": "2025-12-09T09:04:04Z",
       "number": 91,
-      "url": "https://github.com/ysknsid25/iolite/pull/91"
+      "url": "https://github.com/ouka-lab/iolite/pull/91"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
@@ -873,8 +886,8 @@ export const prData: PRData = {
       "url": "https://github.com/honojs/cli/pull/41"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "Release/beta v2",
       "state": "closed",
@@ -883,11 +896,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-19T08:31:50Z",
       "mergedAt": "2025-06-19T08:33:42Z",
       "number": 90,
-      "url": "https://github.com/ysknsid25/iolite/pull/90"
+      "url": "https://github.com/ouka-lab/iolite/pull/90"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "DateTime",
       "state": "closed",
@@ -896,11 +909,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-19T08:28:51Z",
       "mergedAt": "2025-06-19T08:30:27Z",
       "number": 89,
-      "url": "https://github.com/ysknsid25/iolite/pull/89"
+      "url": "https://github.com/ouka-lab/iolite/pull/89"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#19 - UUID",
       "state": "closed",
@@ -909,11 +922,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-19T06:52:44Z",
       "mergedAt": "2025-06-19T08:28:30Z",
       "number": 88,
-      "url": "https://github.com/ysknsid25/iolite/pull/88"
+      "url": "https://github.com/ouka-lab/iolite/pull/88"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#22 - CIDR",
       "state": "closed",
@@ -922,11 +935,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-19T05:41:47Z",
       "mergedAt": "2025-06-19T05:48:34Z",
       "number": 87,
-      "url": "https://github.com/ysknsid25/iolite/pull/87"
+      "url": "https://github.com/ouka-lab/iolite/pull/87"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#82 - Japanese Phone Number",
       "state": "closed",
@@ -935,11 +948,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-18T07:50:00Z",
       "mergedAt": "2025-06-18T07:53:24Z",
       "number": 86,
-      "url": "https://github.com/ysknsid25/iolite/pull/86"
+      "url": "https://github.com/ouka-lab/iolite/pull/86"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#81 - Japanese Postal Code",
       "state": "closed",
@@ -948,11 +961,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-18T07:06:36Z",
       "mergedAt": "2025-06-18T07:09:21Z",
       "number": 85,
-      "url": "https://github.com/ysknsid25/iolite/pull/85"
+      "url": "https://github.com/ouka-lab/iolite/pull/85"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "refactor: re itemized Base64",
       "state": "closed",
@@ -961,11 +974,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-17T13:06:51Z",
       "mergedAt": "2025-06-17T13:08:10Z",
       "number": 83,
-      "url": "https://github.com/ysknsid25/iolite/pull/83"
+      "url": "https://github.com/ouka-lab/iolite/pull/83"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "Beta v2",
       "state": "closed",
@@ -974,11 +987,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-17T12:49:23Z",
       "mergedAt": "2025-06-19T08:43:32Z",
       "number": 80,
-      "url": "https://github.com/ysknsid25/iolite/pull/80"
+      "url": "https://github.com/ouka-lab/iolite/pull/80"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#24 - CreditCard",
       "state": "closed",
@@ -987,11 +1000,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-17T12:42:34Z",
       "mergedAt": "2025-06-17T12:44:07Z",
       "number": 79,
-      "url": "https://github.com/ysknsid25/iolite/pull/79"
+      "url": "https://github.com/ouka-lab/iolite/pull/79"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#56 - base64",
       "state": "closed",
@@ -1000,11 +1013,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-17T11:53:45Z",
       "mergedAt": "2025-06-17T11:55:35Z",
       "number": 78,
-      "url": "https://github.com/ysknsid25/iolite/pull/78"
+      "url": "https://github.com/ouka-lab/iolite/pull/78"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#76 - add regexp to StringValueObject",
       "state": "closed",
@@ -1013,11 +1026,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-17T11:28:11Z",
       "mergedAt": "2025-06-17T11:41:20Z",
       "number": 77,
-      "url": "https://github.com/ysknsid25/iolite/pull/77"
+      "url": "https://github.com/ouka-lab/iolite/pull/77"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: add target branch beta",
       "state": "closed",
@@ -1026,11 +1039,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-17T08:27:58Z",
       "mergedAt": "2025-06-17T08:29:39Z",
       "number": 75,
-      "url": "https://github.com/ysknsid25/iolite/pull/75"
+      "url": "https://github.com/ouka-lab/iolite/pull/75"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#39 - MacAddress",
       "state": "closed",
@@ -1039,11 +1052,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-17T08:22:48Z",
       "mergedAt": "2025-06-17T08:33:50Z",
       "number": 74,
-      "url": "https://github.com/ysknsid25/iolite/pull/74"
+      "url": "https://github.com/ouka-lab/iolite/pull/74"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#21,57 - IPv4, IPv6",
       "state": "closed",
@@ -1052,11 +1065,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-17T05:43:44Z",
       "mergedAt": "2025-06-17T05:50:49Z",
       "number": 73,
-      "url": "https://github.com/ysknsid25/iolite/pull/73"
+      "url": "https://github.com/ouka-lab/iolite/pull/73"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#68 - Domain",
       "state": "closed",
@@ -1065,11 +1078,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-16T12:32:08Z",
       "mergedAt": "2025-06-16T12:36:51Z",
       "number": 72,
-      "url": "https://github.com/ysknsid25/iolite/pull/72"
+      "url": "https://github.com/ouka-lab/iolite/pull/72"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: kotlin-tooling-metadata.json",
       "state": "closed",
@@ -1078,11 +1091,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-16T06:14:17Z",
       "mergedAt": "2025-06-16T06:14:59Z",
       "number": 71,
-      "url": "https://github.com/ysknsid25/iolite/pull/71"
+      "url": "https://github.com/ouka-lab/iolite/pull/71"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "Update README.md",
       "state": "closed",
@@ -1091,11 +1104,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-16T04:50:09Z",
       "mergedAt": "2025-06-16T04:52:20Z",
       "number": 70,
-      "url": "https://github.com/ysknsid25/iolite/pull/70"
+      "url": "https://github.com/ouka-lab/iolite/pull/70"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#60 - DecimalNumber",
       "state": "closed",
@@ -1104,11 +1117,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-15T05:29:28Z",
       "mergedAt": "2025-06-15T05:31:44Z",
       "number": 66,
-      "url": "https://github.com/ysknsid25/iolite/pull/66"
+      "url": "https://github.com/ouka-lab/iolite/pull/66"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#48 - alphanumeric",
       "state": "closed",
@@ -1117,11 +1130,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-15T04:58:18Z",
       "mergedAt": "2025-06-15T05:02:26Z",
       "number": 65,
-      "url": "https://github.com/ysknsid25/iolite/pull/65"
+      "url": "https://github.com/ouka-lab/iolite/pull/65"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#25 - Age",
       "state": "closed",
@@ -1130,11 +1143,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-15T04:03:28Z",
       "mergedAt": "2025-06-15T04:05:27Z",
       "number": 64,
-      "url": "https://github.com/ysknsid25/iolite/pull/64"
+      "url": "https://github.com/ouka-lab/iolite/pull/64"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: fix interface",
       "state": "closed",
@@ -1143,11 +1156,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-15T03:33:19Z",
       "mergedAt": "2025-06-15T03:38:10Z",
       "number": 63,
-      "url": "https://github.com/ysknsid25/iolite/pull/63"
+      "url": "https://github.com/ouka-lab/iolite/pull/63"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: add safeParse",
       "state": "closed",
@@ -1156,11 +1169,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-15T02:05:31Z",
       "mergedAt": "2025-06-15T02:07:45Z",
       "number": 62,
-      "url": "https://github.com/ysknsid25/iolite/pull/62"
+      "url": "https://github.com/ouka-lab/iolite/pull/62"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#47 - IntegerCharacter",
       "state": "closed",
@@ -1169,11 +1182,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-14T14:22:29Z",
       "mergedAt": "2025-06-14T14:26:47Z",
       "number": 61,
-      "url": "https://github.com/ysknsid25/iolite/pull/61"
+      "url": "https://github.com/ouka-lab/iolite/pull/61"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "#16 - URL",
       "state": "closed",
@@ -1182,11 +1195,11 @@ export const prData: PRData = {
       "createdAt": "2025-06-14T10:46:57Z",
       "mergedAt": "2025-06-14T11:09:54Z",
       "number": 58,
-      "url": "https://github.com/ysknsid25/iolite/pull/58"
+      "url": "https://github.com/ouka-lab/iolite/pull/58"
     },
     {
-      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
-      "owner": "ysknsid25",
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
       "repository": "iolite",
       "title": "chore: add kover",
       "state": "closed",
@@ -1195,7 +1208,7 @@ export const prData: PRData = {
       "createdAt": "2025-06-14T05:58:05Z",
       "mergedAt": "2025-06-14T06:16:26Z",
       "number": 54,
-      "url": "https://github.com/ysknsid25/iolite/pull/54"
+      "url": "https://github.com/ouka-lab/iolite/pull/54"
     },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/68700335?v=4",
