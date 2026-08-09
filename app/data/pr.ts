@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-08-08T00:10:49.878Z
-// Total PRs: 183
+// Last updated: 2026-08-09T00:09:17.844Z
+// Total PRs: 191
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,113 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-08T00:10:49.878Z",
-  "totalCount": 183,
+  "lastUpdated": "2026-08-09T00:09:17.844Z",
+  "totalCount": 191,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "ci: add honox jobs to CI and publish workflows",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-08T13:07:48Z",
+      "mergedAt": null,
+      "number": 184,
+      "url": "https://github.com/open-circle/formisch/pull/184"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "feat(playground): add honox playground",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-08T13:07:43Z",
+      "mergedAt": null,
+      "number": 183,
+      "url": "https://github.com/open-circle/formisch/pull/183"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "feat(honox): add @formisch/honox package",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-08T13:07:39Z",
+      "mergedAt": null,
+      "number": 182,
+      "url": "https://github.com/open-circle/formisch/pull/182"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "feat(methods): add honox framework target",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-08T13:07:35Z",
+      "mergedAt": null,
+      "number": 181,
+      "url": "https://github.com/open-circle/formisch/pull/181"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "feat(core): add honox framework target",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-08T13:07:31Z",
+      "mergedAt": null,
+      "number": 180,
+      "url": "https://github.com/open-circle/formisch/pull/180"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/208435796?v=4",
+      "owner": "h3js",
+      "repository": "h3",
+      "title": "chore: Pin & Lint GitHub Actions to commit SHAs for supply-chain security",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-08T08:02:24Z",
+      "mergedAt": null,
+      "number": 1521,
+      "url": "https://github.com/h3js/h3/pull/1521"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/183071544?v=4",
+      "owner": "nitrojs",
+      "repository": "nitro",
+      "title": "chore: Lint pinned SHAs in CI",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-08T07:29:16Z",
+      "mergedAt": null,
+      "number": 4514,
+      "url": "https://github.com/nitrojs/nitro/pull/4514"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/183071544?v=4",
+      "owner": "nitrojs",
+      "repository": "nitro",
+      "title": "chore: update Actions version",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-08T07:12:29Z",
+      "mergedAt": null,
+      "number": 4512,
+      "url": "https://github.com/nitrojs/nitro/pull/4512"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
       "owner": "ysknsid25",

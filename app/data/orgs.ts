@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-08-08T00:10:54.571Z
+// Last updated: 2026-08-09T00:09:22.602Z
 
 export interface OrgData {
   owner: string
@@ -21,7 +21,7 @@ export const orgsData: OrgData[] = [
   {
     "owner": "open-circle",
     "avatarUrl": "https://avatars.githubusercontent.com/u/162486767?v=4",
-    "count": 20
+    "count": 25
   },
   {
     "owner": "ysknsid25",
@@ -44,6 +44,16 @@ export const orgsData: OrgData[] = [
     "count": 6
   },
   {
+    "owner": "h3js",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/208435796?v=4",
+    "count": 4
+  },
+  {
+    "owner": "nitrojs",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/183071544?v=4",
+    "count": 4
+  },
+  {
     "owner": "type-challenges",
     "avatarUrl": "https://avatars.githubusercontent.com/u/68700335?v=4",
     "count": 4
@@ -51,11 +61,6 @@ export const orgsData: OrgData[] = [
   {
     "owner": "colinhacks",
     "avatarUrl": "https://avatars.githubusercontent.com/u/3084745?v=4",
-    "count": 3
-  },
-  {
-    "owner": "h3js",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/208435796?v=4",
     "count": 3
   },
   {
@@ -76,11 +81,6 @@ export const orgsData: OrgData[] = [
   {
     "owner": "sirmalloc",
     "avatarUrl": "https://avatars.githubusercontent.com/u/2913994?v=4",
-    "count": 2
-  },
-  {
-    "owner": "nitrojs",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/183071544?v=4",
     "count": 2
   },
   {
