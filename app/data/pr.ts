@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-08-09T00:09:17.844Z
-// Total PRs: 191
+// Last updated: 2026-08-10T00:10:32.038Z
+// Total PRs: 195
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,61 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-09T00:09:17.844Z",
-  "totalCount": 191,
+  "lastUpdated": "2026-08-10T00:10:32.038Z",
+  "totalCount": 195,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/251913679?v=4",
+      "owner": "flint-fyi",
+      "repository": "flint",
+      "title": "feat(vitest): [titleValidity] add rule",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-09T15:46:54Z",
+      "mergedAt": null,
+      "number": 3191,
+      "url": "https://github.com/flint-fyi/flint/pull/3191"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "fix(valid-title): handle missing argument in valid-title rule",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-09T14:52:38Z",
+      "mergedAt": null,
+      "number": 942,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/942"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "fix(valid-title): Refine the reportEmptyTitle message",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-08-09T14:39:31Z",
+      "mergedAt": "2026-08-09T21:10:53Z",
+      "number": 941,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/941"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "fix(valid-title): fixed the description of the valid-title option",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-09T07:34:46Z",
+      "mergedAt": null,
+      "number": 940,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/940"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",

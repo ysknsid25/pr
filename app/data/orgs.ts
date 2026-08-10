@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-08-09T00:09:22.602Z
+// Last updated: 2026-08-10T00:10:36.877Z
 
 export interface OrgData {
   owner: string
@@ -59,6 +59,11 @@ export const orgsData: OrgData[] = [
     "count": 4
   },
   {
+    "owner": "vitest-dev",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/95747107?v=4",
+    "count": 3
+  },
+  {
     "owner": "colinhacks",
     "avatarUrl": "https://avatars.githubusercontent.com/u/3084745?v=4",
     "count": 3
@@ -82,6 +87,11 @@ export const orgsData: OrgData[] = [
     "owner": "sirmalloc",
     "avatarUrl": "https://avatars.githubusercontent.com/u/2913994?v=4",
     "count": 2
+  },
+  {
+    "owner": "flint-fyi",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/251913679?v=4",
+    "count": 1
   },
   {
     "owner": "eslint",
