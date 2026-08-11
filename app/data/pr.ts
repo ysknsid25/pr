@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-08-10T00:10:32.038Z
-// Total PRs: 195
+// Last updated: 2026-08-11T00:11:09.495Z
+// Total PRs: 202
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,100 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-10T00:10:32.038Z",
-  "totalCount": 195,
+  "lastUpdated": "2026-08-11T00:11:09.495Z",
+  "totalCount": 202,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "chore: update vitest version to 4.1.10",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-10T15:02:43Z",
+      "mergedAt": null,
+      "number": 950,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/950"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "feature: new rule no-mock-implementation-throw",
+      "state": "open",
+      "merged": false,
+      "draft": true,
+      "createdAt": "2026-08-10T08:18:56Z",
+      "mergedAt": null,
+      "number": 949,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/949"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "chore: update pnpm version to 11.20.0",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-10T06:39:51Z",
+      "mergedAt": null,
+      "number": 947,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/947"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "chore: update node engine requirement to >=22",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-10T06:19:46Z",
+      "mergedAt": null,
+      "number": 946,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/946"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "chore: Update TypeScript version to v6",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-10T06:14:26Z",
+      "mergedAt": null,
+      "number": 945,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/945"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "chore: install pinact for static analysis",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-10T05:41:10Z",
+      "mergedAt": null,
+      "number": 944,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/944"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "chore: Update actions/checkout version to v7",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-08-10T04:53:25Z",
+      "mergedAt": "2026-08-10T05:34:08Z",
+      "number": 943,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/943"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/251913679?v=4",
       "owner": "flint-fyi",
@@ -34,7 +125,7 @@ export const prData: PRData = {
       "title": "feat(vitest): [titleValidity] add rule",
       "state": "open",
       "merged": false,
-      "draft": false,
+      "draft": true,
       "createdAt": "2026-08-09T15:46:54Z",
       "mergedAt": null,
       "number": 3191,
@@ -45,11 +136,11 @@ export const prData: PRData = {
       "owner": "vitest-dev",
       "repository": "eslint-plugin-vitest",
       "title": "fix(valid-title): handle missing argument in valid-title rule",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-09T14:52:38Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-10T02:09:24Z",
       "number": 942,
       "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/942"
     },
@@ -70,12 +161,12 @@ export const prData: PRData = {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
       "owner": "vitest-dev",
       "repository": "eslint-plugin-vitest",
-      "title": "fix(valid-title): fixed the description of the valid-title option",
-      "state": "open",
-      "merged": false,
+      "title": "docs(valid-title): fixed the description of the valid-title option",
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-09T07:34:46Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-10T02:19:50Z",
       "number": 940,
       "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/940"
     },
@@ -149,7 +240,7 @@ export const prData: PRData = {
       "owner": "h3js",
       "repository": "h3",
       "title": "chore: Pin & Lint GitHub Actions to commit SHAs for supply-chain security",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "draft": false,
       "createdAt": "2026-08-08T08:02:24Z",
@@ -227,7 +318,7 @@ export const prData: PRData = {
       "owner": "ysknsid25",
       "repository": "tech-newsletter-generator",
       "title": "gh stach test branch d",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "draft": false,
       "createdAt": "2026-07-31T08:01:18Z",
@@ -240,7 +331,7 @@ export const prData: PRData = {
       "owner": "ysknsid25",
       "repository": "tech-newsletter-generator",
       "title": "brnch c",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "draft": false,
       "createdAt": "2026-07-31T08:01:14Z",

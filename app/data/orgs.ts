@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-08-10T00:10:36.877Z
+// Last updated: 2026-08-11T00:11:14.313Z
 
 export interface OrgData {
   owner: string
@@ -34,6 +34,11 @@ export const orgsData: OrgData[] = [
     "count": 14
   },
   {
+    "owner": "vitest-dev",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/95747107?v=4",
+    "count": 10
+  },
+  {
     "owner": "Ixy194194",
     "avatarUrl": "https://avatars.githubusercontent.com/u/128766025?v=4",
     "count": 6
@@ -57,11 +62,6 @@ export const orgsData: OrgData[] = [
     "owner": "type-challenges",
     "avatarUrl": "https://avatars.githubusercontent.com/u/68700335?v=4",
     "count": 4
-  },
-  {
-    "owner": "vitest-dev",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/95747107?v=4",
-    "count": 3
   },
   {
     "owner": "colinhacks",
