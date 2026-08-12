@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-08-11T00:11:09.495Z
+// Last updated: 2026-08-12T00:14:57.683Z
 // Total PRs: 202
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-11T00:11:09.495Z",
+  "lastUpdated": "2026-08-12T00:14:57.683Z",
   "totalCount": 202,
   "pullRequests": [
     {
@@ -32,11 +32,11 @@ export const prData: PRData = {
       "owner": "vitest-dev",
       "repository": "eslint-plugin-vitest",
       "title": "chore: update vitest version to 4.1.10",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-10T15:02:43Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-11T05:01:59Z",
       "number": 950,
       "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/950"
     },
@@ -47,7 +47,7 @@ export const prData: PRData = {
       "title": "feature: new rule no-mock-implementation-throw",
       "state": "open",
       "merged": false,
-      "draft": true,
+      "draft": false,
       "createdAt": "2026-08-10T08:18:56Z",
       "mergedAt": null,
       "number": 949,
@@ -58,11 +58,11 @@ export const prData: PRData = {
       "owner": "vitest-dev",
       "repository": "eslint-plugin-vitest",
       "title": "chore: update pnpm version to 11.20.0",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-10T06:39:51Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-11T05:33:27Z",
       "number": 947,
       "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/947"
     },
@@ -71,11 +71,11 @@ export const prData: PRData = {
       "owner": "vitest-dev",
       "repository": "eslint-plugin-vitest",
       "title": "chore: update node engine requirement to >=22",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-10T06:19:46Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-11T05:33:45Z",
       "number": 946,
       "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/946"
     },
@@ -84,11 +84,11 @@ export const prData: PRData = {
       "owner": "vitest-dev",
       "repository": "eslint-plugin-vitest",
       "title": "chore: Update TypeScript version to v6",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-10T06:14:26Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-11T05:34:24Z",
       "number": 945,
       "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/945"
     },
@@ -448,11 +448,11 @@ export const prData: PRData = {
       "owner": "slidevjs",
       "repository": "slidev",
       "title": "chore: Supply Chain Attack Countermeasures in GitHub Actions",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-07-26T06:49:26Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-11T04:46:14Z",
       "number": 2684,
       "url": "https://github.com/slidevjs/slidev/pull/2684"
     },

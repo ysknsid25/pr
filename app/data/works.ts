@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-08-11T00:11:10.902Z
+// Last updated: 2026-08-12T00:14:59.194Z
 
 export interface WorkItem {
   owner: string
@@ -20,8 +20,8 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-08-11T00:11:10.902Z",
-  "totalCount": 25,
+  "lastUpdated": "2026-08-12T00:14:59.194Z",
+  "totalCount": 24,
   "repositories": [
     {
       "owner": "ouka-lab",
@@ -54,17 +54,6 @@ export const worksData: WorksData = {
       "stargazersCount": 22,
       "forksCount": 1,
       "html_url": "https://github.com/ouka-lab/iolite",
-      "publishedAt": "2025"
-    },
-    {
-      "owner": "ouka-lab",
-      "repo": "eslint-plugin-hono",
-      "description": "🔥 ESLint plugin for Hono and all Hono lovers",
-      "homepage": "https://www.npmjs.com/package/eslint-plugin-hono",
-      "language": "TypeScript",
-      "stargazersCount": 8,
-      "forksCount": 1,
-      "html_url": "https://github.com/ouka-lab/eslint-plugin-hono",
       "publishedAt": "2025"
     },
     {
