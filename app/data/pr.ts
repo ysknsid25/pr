@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-08-12T00:14:57.683Z
-// Total PRs: 202
+// Last updated: 2026-08-13T00:14:55.487Z
+// Total PRs: 204
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-12T00:14:57.683Z",
-  "totalCount": 202,
+  "lastUpdated": "2026-08-13T00:14:55.487Z",
+  "totalCount": 204,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "bugfix(consistent-test-it): fixed a bug where aliases were also deleted during the fix operation",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-12T13:05:33Z",
+      "mergedAt": null,
+      "number": 953,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/953"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "eslint-plugin-vitest",
+      "title": "docs(consistent-test-it): fixed the description of the consistent-test-it option",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-12T08:04:13Z",
+      "mergedAt": null,
+      "number": 952,
+      "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/952"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
       "owner": "vitest-dev",
