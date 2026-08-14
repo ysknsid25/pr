@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-08-13T00:14:55.487Z
+// Last updated: 2026-08-14T00:15:46.690Z
 // Total PRs: 204
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-13T00:14:55.487Z",
+  "lastUpdated": "2026-08-14T00:15:46.690Z",
   "totalCount": 204,
   "pullRequests": [
     {
@@ -2112,7 +2112,7 @@ export const prData: PRData = {
       "owner": "colinhacks",
       "repository": "zod",
       "title": "feat(v4): z.creditCard() - support Credit Card Validation",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "draft": false,
       "createdAt": "2025-03-19T14:09:51Z",
