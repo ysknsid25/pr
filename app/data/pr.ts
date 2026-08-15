@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-08-14T00:15:46.690Z
-// Total PRs: 204
+// Last updated: 2026-08-15T00:06:42.013Z
+// Total PRs: 205
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-14T00:15:46.690Z",
-  "totalCount": 204,
+  "lastUpdated": "2026-08-15T00:06:42.013Z",
+  "totalCount": 205,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "coderabbit-config-generator",
+      "title": "Enhance README with badges and additional info",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-08-14T15:21:54Z",
+      "mergedAt": "2026-08-14T15:22:06Z",
+      "number": 14,
+      "url": "https://github.com/ouka-lab/coderabbit-config-generator/pull/14"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
       "owner": "vitest-dev",

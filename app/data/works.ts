@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-08-14T00:15:48.188Z
+// Last updated: 2026-08-15T00:06:43.358Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-08-14T00:15:48.188Z",
+  "lastUpdated": "2026-08-15T00:06:43.358Z",
   "totalCount": 24,
   "repositories": [
     {
@@ -190,6 +190,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ouka-lab",
+      "repo": "group-by-npm-scripts",
+      "description": "Group by npm scripts on VSCode side panel",
+      "homepage": "https://marketplace.visualstudio.com/items?itemName=Kanon.group-by-npm-scripts",
+      "language": "TypeScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ouka-lab/group-by-npm-scripts",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ouka-lab",
       "repo": "sizukani-search",
       "description": "🤫 X（旧Twitter）のユーザープロフィールページから、同名のしずかなインターネットアカウントを検索するChrome拡張機能です。",
       "homepage": "",
@@ -252,17 +263,6 @@ export const worksData: WorksData = {
       "stargazersCount": 0,
       "forksCount": 0,
       "html_url": "https://github.com/ysknsid25/sashiko-js",
-      "publishedAt": "2026"
-    },
-    {
-      "owner": "ysknsid25",
-      "repo": "group-by-npm-scripts",
-      "description": "Group by npm scripts on VSCode side panel",
-      "homepage": "https://marketplace.visualstudio.com/items?itemName=Kanon.group-by-npm-scripts",
-      "language": "TypeScript",
-      "stargazersCount": 0,
-      "forksCount": 0,
-      "html_url": "https://github.com/ysknsid25/group-by-npm-scripts",
       "publishedAt": "2026"
     },
     {
