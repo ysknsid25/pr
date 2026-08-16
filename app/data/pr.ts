@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-08-15T00:06:42.013Z
-// Total PRs: 205
+// Last updated: 2026-08-16T00:06:55.296Z
+// Total PRs: 206
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-15T00:06:42.013Z",
-  "totalCount": 205,
+  "lastUpdated": "2026-08-16T00:06:55.296Z",
+  "totalCount": 206,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-hono",
+      "title": "chore: update eslint 9 to 10",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-08-15T15:17:16Z",
+      "mergedAt": "2026-08-15T15:21:52Z",
+      "number": 28,
+      "url": "https://github.com/ouka-lab/eslint-plugin-hono/pull/28"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
