@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-08-18T00:06:39.163Z
+// Last updated: 2026-08-19T00:06:23.570Z
 // Total PRs: 206
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-18T00:06:39.163Z",
+  "lastUpdated": "2026-08-19T00:06:23.570Z",
   "totalCount": 206,
   "pullRequests": [
     {
@@ -357,11 +357,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "chore: Update ESLint to v9.39.5",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-06T07:39:17Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-18T16:53:31Z",
       "number": 178,
       "url": "https://github.com/open-circle/formisch/pull/178"
     },
@@ -422,11 +422,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "chore: Add .coderabbit.yaml",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-07-29T01:33:09Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-18T16:52:21Z",
       "number": 168,
       "url": "https://github.com/open-circle/formisch/pull/168"
     },
