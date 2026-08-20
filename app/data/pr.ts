@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-08-19T00:06:23.570Z
+// Last updated: 2026-08-20T00:07:04.358Z
 // Total PRs: 206
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-19T00:06:23.570Z",
+  "lastUpdated": "2026-08-20T00:07:04.358Z",
   "totalCount": 206,
   "pullRequests": [
     {
@@ -71,11 +71,11 @@ export const prData: PRData = {
       "owner": "vitest-dev",
       "repository": "eslint-plugin-vitest",
       "title": "docs(consistent-test-it): fixed the description of the consistent-test-it option",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-12T08:04:13Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-19T02:26:05Z",
       "number": 952,
       "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/952"
     },
