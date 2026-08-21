@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-08-20T00:07:04.358Z
+// Last updated: 2026-08-21T00:07:44.365Z
 // Total PRs: 206
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-20T00:07:04.358Z",
+  "lastUpdated": "2026-08-21T00:07:44.365Z",
   "totalCount": 206,
   "pullRequests": [
     {
@@ -305,7 +305,7 @@ export const prData: PRData = {
       "owner": "nitrojs",
       "repository": "nitro",
       "title": "chore: Lint pinned SHAs in CI",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "draft": false,
       "createdAt": "2026-08-08T07:29:16Z",
