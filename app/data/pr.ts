@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-08-22T00:06:36.328Z
-// Total PRs: 206
+// Last updated: 2026-08-23T00:06:10.630Z
+// Total PRs: 207
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-08-22T00:06:36.328Z",
-  "totalCount": 206,
+  "lastUpdated": "2026-08-23T00:06:10.630Z",
+  "totalCount": 207,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "chore: improve `.coderabbit.yaml` setting",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-08-22T04:42:58Z",
+      "mergedAt": null,
+      "number": 207,
+      "url": "https://github.com/open-circle/formisch/pull/207"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
