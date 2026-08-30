@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-08-29T00:07:30.124Z
+// Last updated: 2026-08-30T00:08:01.229Z
 
 export interface OrgData {
   owner: string
@@ -11,7 +11,7 @@ export const orgsData: OrgData[] = [
   {
     "owner": "ouka-lab",
     "avatarUrl": "https://avatars.githubusercontent.com/u/130214148?v=4",
-    "count": 42
+    "count": 43
   },
   {
     "owner": "unjs",
