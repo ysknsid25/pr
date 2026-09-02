@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-09-01T00:08:33.939Z
-// Total PRs: 208
+// Last updated: 2026-09-02T00:08:20.615Z
+// Total PRs: 211
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,48 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-01T00:08:33.939Z",
-  "totalCount": 208,
+  "lastUpdated": "2026-09-02T00:08:20.615Z",
+  "totalCount": 211,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "assign-reviewer-on-coderabbit-approval",
+      "title": "chore: dogfooding solo",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-01T13:43:27Z",
+      "mergedAt": null,
+      "number": 3,
+      "url": "https://github.com/ouka-lab/assign-reviewer-on-coderabbit-approval/pull/3"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "assign-reviewer-on-coderabbit-approval",
+      "title": "chore: dogfooding all",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-01T13:42:45Z",
+      "mergedAt": null,
+      "number": 2,
+      "url": "https://github.com/ouka-lab/assign-reviewer-on-coderabbit-approval/pull/2"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "assign-reviewer-on-coderabbit-approval",
+      "title": "chore: dogfooding",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-09-01T13:41:44Z",
+      "mergedAt": "2026-09-01T14:13:20Z",
+      "number": 1,
+      "url": "https://github.com/ouka-lab/assign-reviewer-on-coderabbit-approval/pull/1"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
@@ -344,7 +383,7 @@ export const prData: PRData = {
       "owner": "nitrojs",
       "repository": "nitro",
       "title": "chore: update Actions version",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "draft": false,
       "createdAt": "2026-08-08T07:12:29Z",
