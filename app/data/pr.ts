@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-09-02T00:08:20.615Z
+// Last updated: 2026-09-03T00:08:53.619Z
 // Total PRs: 211
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-02T00:08:20.615Z",
+  "lastUpdated": "2026-09-03T00:08:53.619Z",
   "totalCount": 211,
   "pullRequests": [
     {
@@ -84,11 +84,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "chore: improve `.coderabbit.yaml` setting",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-22T04:42:58Z",
-      "mergedAt": null,
+      "mergedAt": "2026-09-02T22:17:14Z",
       "number": 207,
       "url": "https://github.com/open-circle/formisch/pull/207"
     },
