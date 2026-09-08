@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-09-07T00:07:49.585Z
-// Total PRs: 211
+// Last updated: 2026-09-08T00:07:26.950Z
+// Total PRs: 213
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-07T00:07:49.585Z",
-  "totalCount": 211,
+  "lastUpdated": "2026-09-08T00:07:26.950Z",
+  "totalCount": 213,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "chore: Upgrade to TypeScript 6",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-07T13:42:11Z",
+      "mergedAt": null,
+      "number": 212,
+      "url": "https://github.com/open-circle/formisch/pull/212"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "chore: Upgrade to TypeScript 6",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-07T13:01:51Z",
+      "mergedAt": null,
+      "number": 1622,
+      "url": "https://github.com/open-circle/valibot/pull/1622"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
