@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-09-08T00:07:26.950Z
+// Last updated: 2026-09-09T00:08:03.150Z
 // Total PRs: 213
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-08T00:07:26.950Z",
+  "lastUpdated": "2026-09-09T00:08:03.150Z",
   "totalCount": 213,
   "pullRequests": [
     {
@@ -34,7 +34,7 @@ export const prData: PRData = {
       "title": "chore: Upgrade to TypeScript 6",
       "state": "open",
       "merged": false,
-      "draft": false,
+      "draft": true,
       "createdAt": "2026-09-07T13:42:11Z",
       "mergedAt": null,
       "number": 212,
