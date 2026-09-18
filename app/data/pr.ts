@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-09-17T00:07:22.150Z
-// Total PRs: 213
+// Last updated: 2026-09-18T00:07:15.540Z
+// Total PRs: 214
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-17T00:07:22.150Z",
-  "totalCount": 213,
+  "lastUpdated": "2026-09-18T00:07:15.540Z",
+  "totalCount": 214,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "hotfix(ksuid): ksuid allows IDs that should be rejected",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-17T14:27:22Z",
+      "mergedAt": null,
+      "number": 1649,
+      "url": "https://github.com/open-circle/valibot/pull/1649"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
