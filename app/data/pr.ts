@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-09-18T00:07:15.540Z
-// Total PRs: 214
+// Last updated: 2026-09-19T00:07:23.757Z
+// Total PRs: 215
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-18T00:07:15.540Z",
-  "totalCount": 214,
+  "lastUpdated": "2026-09-19T00:07:23.757Z",
+  "totalCount": 215,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/7565578?v=4",
+      "owner": "mdn",
+      "repository": "translated-content",
+      "title": "fix(ja): Fix typo in segment method description",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-18T12:38:44Z",
+      "mergedAt": null,
+      "number": 38669,
+      "url": "https://github.com/mdn/translated-content/pull/38669"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
