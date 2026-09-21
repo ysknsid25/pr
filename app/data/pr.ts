@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-09-20T00:08:07.729Z
-// Total PRs: 215
+// Last updated: 2026-09-21T00:07:51.722Z
+// Total PRs: 216
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-20T00:08:07.729Z",
-  "totalCount": 215,
+  "lastUpdated": "2026-09-21T00:07:51.722Z",
+  "totalCount": 216,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "dependabot: Diff resulting from formatting changes in the latest version of Prettier",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-20T16:13:17Z",
+      "mergedAt": null,
+      "number": 1654,
+      "url": "https://github.com/open-circle/valibot/pull/1654"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/7565578?v=4",
       "owner": "mdn",
@@ -60,7 +73,7 @@ export const prData: PRData = {
       "title": "chore: Upgrade to TypeScript 6",
       "state": "open",
       "merged": false,
-      "draft": true,
+      "draft": false,
       "createdAt": "2026-09-07T13:42:11Z",
       "mergedAt": null,
       "number": 212,
