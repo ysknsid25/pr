@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-09-21T00:07:51.722Z
-// Total PRs: 216
+// Last updated: 2026-09-22T00:08:11.443Z
+// Total PRs: 218
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-21T00:07:51.722Z",
-  "totalCount": 216,
+  "lastUpdated": "2026-09-22T00:08:11.443Z",
+  "totalCount": 218,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "test: Use toExtend instead of toMatchTypeOf",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-21T03:27:45Z",
+      "mergedAt": null,
+      "number": 1656,
+      "url": "https://github.com/open-circle/valibot/pull/1656"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "formisch",
+      "title": "test: Use toExtend instead of toMatchTypeOf",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-21T03:26:12Z",
+      "mergedAt": null,
+      "number": 223,
+      "url": "https://github.com/open-circle/formisch/pull/223"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
