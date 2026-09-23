@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-09-22T00:08:11.443Z
-// Total PRs: 218
+// Last updated: 2026-09-23T00:07:49.219Z
+// Total PRs: 219
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-22T00:08:11.443Z",
-  "totalCount": 218,
+  "lastUpdated": "2026-09-23T00:07:49.219Z",
+  "totalCount": 219,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "test(brand): add case of combine multiple brands",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-22T12:23:36Z",
+      "mergedAt": null,
+      "number": 1657,
+      "url": "https://github.com/open-circle/valibot/pull/1657"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
@@ -71,11 +84,11 @@ export const prData: PRData = {
       "owner": "mdn",
       "repository": "translated-content",
       "title": "fix(ja): Fix typo in segment method description",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-09-18T12:38:44Z",
-      "mergedAt": null,
+      "mergedAt": "2026-09-22T11:59:57Z",
       "number": 38669,
       "url": "https://github.com/mdn/translated-content/pull/38669"
     },
@@ -2255,7 +2268,7 @@ export const prData: PRData = {
       "owner": "unjs",
       "repository": "c12",
       "title": "feat(loader): support `validate` with standard schema",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "draft": false,
       "createdAt": "2025-03-24T15:46:42Z",
