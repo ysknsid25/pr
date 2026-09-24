@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-09-23T00:07:49.219Z
-// Total PRs: 219
+// Last updated: 2026-09-24T00:07:24.004Z
+// Total PRs: 220
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-23T00:07:49.219Z",
-  "totalCount": 219,
+  "lastUpdated": "2026-09-24T00:07:24.004Z",
+  "totalCount": 220,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
+      "owner": "open-circle",
+      "repository": "valibot",
+      "title": "chore(dependabot): Configuration to separate Dependabot PRs for stable packages from others",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-23T01:45:03Z",
+      "mergedAt": null,
+      "number": 1660,
+      "url": "https://github.com/open-circle/valibot/pull/1660"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
