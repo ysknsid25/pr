@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-09-26T00:07:53.026Z
-// Total PRs: 220
+// Last updated: 2026-09-27T00:08:33.078Z
+// Total PRs: 223
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,48 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-26T00:07:53.026Z",
-  "totalCount": 220,
+  "lastUpdated": "2026-09-27T00:08:33.078Z",
+  "totalCount": 223,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "vitest-bench-compare",
+      "title": "feature: add dry-run mode",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-09-26T15:57:08Z",
+      "mergedAt": "2026-09-26T16:00:18Z",
+      "number": 1,
+      "url": "https://github.com/ouka-lab/vitest-bench-compare/pull/1"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "valibot",
+      "title": "test",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-26T15:22:52Z",
+      "mergedAt": null,
+      "number": 1,
+      "url": "https://github.com/ysknsid25/valibot/pull/1"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+      "owner": "vitest-dev",
+      "repository": "vitest",
+      "title": "docs(Benchmarking): Fix import statements and update benchmark examples",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-09-26T13:10:58Z",
+      "mergedAt": null,
+      "number": 11364,
+      "url": "https://github.com/vitest-dev/vitest/pull/11364"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/162486767?v=4",
       "owner": "open-circle",
@@ -71,11 +110,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "test: Use toExtend instead of toMatchTypeOf",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-09-21T03:26:12Z",
-      "mergedAt": null,
+      "mergedAt": "2026-09-26T23:09:21Z",
       "number": 223,
       "url": "https://github.com/open-circle/formisch/pull/223"
     },

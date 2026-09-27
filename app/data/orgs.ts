@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-09-26T00:07:58.356Z
+// Last updated: 2026-09-27T00:08:38.061Z
 
 export interface OrgData {
   owner: string
@@ -11,7 +11,7 @@ export const orgsData: OrgData[] = [
   {
     "owner": "ouka-lab",
     "avatarUrl": "https://avatars.githubusercontent.com/u/130214148?v=4",
-    "count": 46
+    "count": 47
   },
   {
     "owner": "unjs",
@@ -26,7 +26,7 @@ export const orgsData: OrgData[] = [
   {
     "owner": "ysknsid25",
     "avatarUrl": "https://avatars.githubusercontent.com/u/44870505?v=4",
-    "count": 16
+    "count": 17
   },
   {
     "owner": "honojs",
@@ -36,7 +36,7 @@ export const orgsData: OrgData[] = [
   {
     "owner": "vitest-dev",
     "avatarUrl": "https://avatars.githubusercontent.com/u/95747107?v=4",
-    "count": 12
+    "count": 13
   },
   {
     "owner": "Ixy194194",
