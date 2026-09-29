@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-09-28T00:08:16.671Z
-// Total PRs: 223
+// Last updated: 2026-09-29T00:08:40.131Z
+// Total PRs: 224
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-28T00:08:16.671Z",
-  "totalCount": 223,
+  "lastUpdated": "2026-09-29T00:08:40.131Z",
+  "totalCount": 224,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "vitest-bench-compare",
+      "title": "chore(aw): Issue Triage",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-09-28T13:15:38Z",
+      "mergedAt": "2026-09-28T13:15:50Z",
+      "number": 2,
+      "url": "https://github.com/ouka-lab/vitest-bench-compare/pull/2"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
