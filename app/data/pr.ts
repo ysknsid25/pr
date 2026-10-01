@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-09-30T00:08:32.198Z
+// Last updated: 2026-10-01T00:09:00.788Z
 // Total PRs: 224
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-09-30T00:08:32.198Z",
+  "lastUpdated": "2026-10-01T00:09:00.788Z",
   "totalCount": 224,
   "pullRequests": [
     {
@@ -71,11 +71,11 @@ export const prData: PRData = {
       "owner": "vitest-dev",
       "repository": "vitest",
       "title": "docs(Benchmarking): Fix import statements and update benchmark examples",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-09-26T13:10:58Z",
-      "mergedAt": null,
+      "mergedAt": "2026-09-30T08:43:38Z",
       "number": 11364,
       "url": "https://github.com/vitest-dev/vitest/pull/11364"
     },
