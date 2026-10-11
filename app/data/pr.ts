@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-10-10T00:08:02.807Z
-// Total PRs: 224
+// Last updated: 2026-10-11T00:08:43.245Z
+// Total PRs: 225
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-10-10T00:08:02.807Z",
-  "totalCount": 224,
+  "lastUpdated": "2026-10-11T00:08:43.245Z",
+  "totalCount": 225,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-hono",
+      "title": "feature[new rule] Prohibit duplicate route definitions",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-10-10T15:19:54Z",
+      "mergedAt": "2026-10-10T15:23:38Z",
+      "number": 44,
+      "url": "https://github.com/ouka-lab/eslint-plugin-hono/pull/44"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
