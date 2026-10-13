@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-10-12T00:09:09.020Z
-// Total PRs: 225
+// Last updated: 2026-10-13T00:08:38.208Z
+// Total PRs: 226
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-10-12T00:09:09.020Z",
-  "totalCount": 225,
+  "lastUpdated": "2026-10-13T00:08:38.208Z",
+  "totalCount": 226,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/10682?v=4",
+      "owner": "yusukebe",
+      "repository": "ramen-api",
+      "title": "add らーめん 会",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-10-12T13:22:56Z",
+      "mergedAt": null,
+      "number": 45,
+      "url": "https://github.com/yusukebe/ramen-api/pull/45"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",

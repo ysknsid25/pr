@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-10-12T00:09:13.925Z
+// Last updated: 2026-10-13T00:08:43.220Z
 
 export interface OrgData {
   owner: string
@@ -87,6 +87,11 @@ export const orgsData: OrgData[] = [
     "owner": "sirmalloc",
     "avatarUrl": "https://avatars.githubusercontent.com/u/2913994?v=4",
     "count": 2
+  },
+  {
+    "owner": "yusukebe",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10682?v=4",
+    "count": 1
   },
   {
     "owner": "mdn",
