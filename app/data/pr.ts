@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-10-13T00:08:38.208Z
+// Last updated: 2026-10-14T00:08:17.401Z
 // Total PRs: 226
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-10-13T00:08:38.208Z",
+  "lastUpdated": "2026-10-14T00:08:17.401Z",
   "totalCount": 226,
   "pullRequests": [
     {
@@ -32,11 +32,11 @@ export const prData: PRData = {
       "owner": "yusukebe",
       "repository": "ramen-api",
       "title": "add らーめん 会",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-10-12T13:22:56Z",
-      "mergedAt": null,
+      "mergedAt": "2026-10-13T08:00:00Z",
       "number": 45,
       "url": "https://github.com/yusukebe/ramen-api/pull/45"
     },
