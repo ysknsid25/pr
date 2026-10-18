@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-10-17T00:06:52.728Z
-// Total PRs: 226
+// Last updated: 2026-10-18T00:07:19.443Z
+// Total PRs: 228
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-10-17T00:06:52.728Z",
-  "totalCount": 226,
+  "lastUpdated": "2026-10-18T00:07:19.443Z",
+  "totalCount": 228,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
+      "owner": "honojs",
+      "repository": "agent-dx",
+      "title": "MVP: hono cli benchmark --save, --compare",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-10-17T14:06:01Z",
+      "mergedAt": null,
+      "number": 48,
+      "url": "https://github.com/honojs/agent-dx/pull/48"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "cli",
+      "title": "MVP: benchmark `--save`, `--compare`",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-10-17T14:03:20Z",
+      "mergedAt": null,
+      "number": 2,
+      "url": "https://github.com/ysknsid25/cli/pull/2"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/10682?v=4",
       "owner": "yusukebe",
