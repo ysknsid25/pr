@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-10-18T00:07:20.975Z
+// Last updated: 2026-10-19T00:07:09.043Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-10-18T00:07:20.975Z",
+  "lastUpdated": "2026-10-19T00:07:09.043Z",
   "totalCount": 24,
   "repositories": [
     {
@@ -29,7 +29,7 @@ export const worksData: WorksData = {
       "description": "Type-safe TODO for humans and AI. Trackable, structured, and lint-enforceable. Type-safe TODO for AI coding. AI agent TODO.",
       "homepage": "https://ouka-lab.github.io/untodo/",
       "language": "TypeScript",
-      "stargazersCount": 35,
+      "stargazersCount": 36,
       "forksCount": 0,
       "html_url": "https://github.com/ouka-lab/untodo",
       "publishedAt": "2026"
@@ -73,7 +73,7 @@ export const worksData: WorksData = {
       "description": "A Chrome extension for developers that lets you inject custom HTTP **request** headers.",
       "homepage": "",
       "language": "JavaScript",
-      "stargazersCount": 4,
+      "stargazersCount": 5,
       "forksCount": 0,
       "html_url": "https://github.com/ouka-lab/http-header-injector",
       "publishedAt": "2026"
@@ -84,9 +84,20 @@ export const worksData: WorksData = {
       "description": "When a PR is opened, AI code review tools such as CodeRabbit and GitHub Copilot start their review immediately, but so does GitHub's built-in reviewer assignment, meaning human reviewers receive a Review Request at the same time as the AI.",
       "homepage": "",
       "language": "TypeScript",
-      "stargazersCount": 3,
+      "stargazersCount": 4,
       "forksCount": 0,
       "html_url": "https://github.com/ouka-lab/assign-reviewers-after-resolve",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ouka-lab",
+      "repo": "coderabbit-config-generator",
+      "description": "To be able to generate `.coderabbit.yaml` config by GUI",
+      "homepage": "https://coderabbit-config-generator.web.app/",
+      "language": "TypeScript",
+      "stargazersCount": 3,
+      "forksCount": 0,
+      "html_url": "https://github.com/ouka-lab/coderabbit-config-generator",
       "publishedAt": "2026"
     },
     {
@@ -102,13 +113,13 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ouka-lab",
-      "repo": "coderabbit-config-generator",
-      "description": "To be able to generate `.coderabbit.yaml` config by GUI",
-      "homepage": "https://coderabbit-config-generator.web.app/",
-      "language": "TypeScript",
+      "repo": "bikkuri-slide",
+      "description": "びっくりスライドは、はてなブログのエントリをプレゼンテーション資料として表示するためのchrome拡張機能です。リーダーモードとスライドモードの二つの機能を提供しています。",
+      "homepage": "https://ouka-lab.github.io/bikkuri-slide/",
+      "language": "JavaScript",
       "stargazersCount": 2,
       "forksCount": 0,
-      "html_url": "https://github.com/ouka-lab/coderabbit-config-generator",
+      "html_url": "https://github.com/ouka-lab/bikkuri-slide",
       "publishedAt": "2026"
     },
     {
@@ -132,17 +143,6 @@ export const worksData: WorksData = {
       "forksCount": 0,
       "html_url": "https://github.com/ouka-lab/hatena-blog-theme-git",
       "publishedAt": "2025"
-    },
-    {
-      "owner": "ouka-lab",
-      "repo": "bikkuri-slide",
-      "description": "びっくりスライドは、はてなブログのエントリをプレゼンテーション資料として表示するためのchrome拡張機能です。リーダーモードとスライドモードの二つの機能を提供しています。",
-      "homepage": "https://ouka-lab.github.io/bikkuri-slide/",
-      "language": "JavaScript",
-      "stargazersCount": 1,
-      "forksCount": 0,
-      "html_url": "https://github.com/ouka-lab/bikkuri-slide",
-      "publishedAt": "2026"
     },
     {
       "owner": "ouka-lab",
