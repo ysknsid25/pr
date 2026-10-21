@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-10-20T00:07:03.714Z
-// Total PRs: 228
+// Last updated: 2026-10-21T00:07:32.413Z
+// Total PRs: 235
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,100 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-10-20T00:07:03.714Z",
-  "totalCount": 228,
+  "lastUpdated": "2026-10-21T00:07:32.413Z",
+  "totalCount": 235,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-react",
+      "title": "hotfix: CodeQL Result",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-10-20T13:02:04Z",
+      "mergedAt": "2026-10-20T13:08:50Z",
+      "number": 5,
+      "url": "https://github.com/ouka-lab/eslint-plugin-react/pull/5"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "js-runtime-bump-action",
+      "title": "fix: branch naming with hash",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-10-20T12:51:48Z",
+      "mergedAt": "2026-10-20T12:52:33Z",
+      "number": 2,
+      "url": "https://github.com/ouka-lab/js-runtime-bump-action/pull/2"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-react",
+      "title": "chore: update pnpm to 12.9.1",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-10-20T12:45:47Z",
+      "mergedAt": "2026-10-20T12:56:14Z",
+      "number": 4,
+      "url": "https://github.com/ouka-lab/eslint-plugin-react/pull/4"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-react",
+      "title": "chore: runtime-bump ci",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-10-20T12:36:45Z",
+      "mergedAt": "2026-10-20T12:37:04Z",
+      "number": 3,
+      "url": "https://github.com/ouka-lab/eslint-plugin-react/pull/3"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-react",
+      "title": "fix: type-check ci",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-10-20T12:31:41Z",
+      "mergedAt": "2026-10-20T12:35:43Z",
+      "number": 2,
+      "url": "https://github.com/ouka-lab/eslint-plugin-react/pull/2"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-react",
+      "title": "chore: upgrade pnpm to 11.28.5",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-10-20T12:16:59Z",
+      "mergedAt": "2026-10-20T12:30:00Z",
+      "number": 1,
+      "url": "https://github.com/ouka-lab/eslint-plugin-react/pull/1"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/65626628?v=4",
+      "owner": "jsx-eslint",
+      "repository": "eslint-plugin-react",
+      "title": "Chore/pnpm upgrade to 11 28 5",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-10-20T12:11:38Z",
+      "mergedAt": null,
+      "number": 4058,
+      "url": "https://github.com/jsx-eslint/eslint-plugin-react/pull/4058"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
       "owner": "honojs",
@@ -461,7 +552,7 @@ export const prData: PRData = {
       "owner": "flint-fyi",
       "repository": "flint",
       "title": "feat(vitest): [titleValidity] add rule",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "draft": true,
       "createdAt": "2026-08-09T15:46:54Z",
