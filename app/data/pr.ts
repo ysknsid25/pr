@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-10-25T00:07:15.425Z
+// Last updated: 2026-10-26T00:07:03.351Z
 // Total PRs: 236
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-10-25T00:07:15.425Z",
+  "lastUpdated": "2026-10-26T00:07:03.351Z",
   "totalCount": 236,
   "pullRequests": [
     {
@@ -331,11 +331,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "chore: Upgrade to TypeScript 6",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-09-07T13:42:11Z",
-      "mergedAt": null,
+      "mergedAt": "2026-10-25T22:28:51Z",
       "number": 212,
       "url": "https://github.com/open-circle/formisch/pull/212"
     },

@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-10-25T00:07:16.868Z
+// Last updated: 2026-10-26T00:07:04.952Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-10-25T00:07:16.868Z",
+  "lastUpdated": "2026-10-26T00:07:04.952Z",
   "totalCount": 24,
   "repositories": [
     {
@@ -135,17 +135,6 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ouka-lab",
-      "repo": "hatena-blog-theme-git",
-      "description": "はてなブログをGitのWebsite風にできるカスタムデザインです",
-      "homepage": "https://blog.hatena.ne.jp/-/store/theme/17179246901337926973",
-      "language": "SCSS",
-      "stargazersCount": 1,
-      "forksCount": 0,
-      "html_url": "https://github.com/ouka-lab/hatena-blog-theme-git",
-      "publishedAt": "2025"
-    },
-    {
-      "owner": "ouka-lab",
       "repo": "eslint-plugin-citty",
       "description": "🌆 ESLint plugin for citty and all citty lovers",
       "homepage": "https://www.npmjs.com/package/eslint-plugin-citty",
@@ -153,6 +142,17 @@ export const worksData: WorksData = {
       "stargazersCount": 1,
       "forksCount": 0,
       "html_url": "https://github.com/ouka-lab/eslint-plugin-citty",
+      "publishedAt": "2025"
+    },
+    {
+      "owner": "ouka-lab",
+      "repo": "hatena-blog-theme-git",
+      "description": "はてなブログをGitのWebsite風にできるカスタムデザインです",
+      "homepage": "https://blog.hatena.ne.jp/-/store/theme/17179246901337926973",
+      "language": "SCSS",
+      "stargazersCount": 1,
+      "forksCount": 0,
+      "html_url": "https://github.com/ouka-lab/hatena-blog-theme-git",
       "publishedAt": "2025"
     },
     {
@@ -179,17 +179,6 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ouka-lab",
-      "repo": "hatena-blog-theme-kotlin",
-      "description": "はてなブログをKotlinのWebsite風にできるカスタムデザインです",
-      "homepage": "",
-      "language": "SCSS",
-      "stargazersCount": 0,
-      "forksCount": 0,
-      "html_url": "https://github.com/ouka-lab/hatena-blog-theme-kotlin",
-      "publishedAt": "2026"
-    },
-    {
-      "owner": "ouka-lab",
       "repo": "group-by-npm-scripts",
       "description": "Group by npm scripts on VSCode side panel",
       "homepage": "https://marketplace.visualstudio.com/items?itemName=Kanon.group-by-npm-scripts",
@@ -197,6 +186,17 @@ export const worksData: WorksData = {
       "stargazersCount": 0,
       "forksCount": 0,
       "html_url": "https://github.com/ouka-lab/group-by-npm-scripts",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ouka-lab",
+      "repo": "hatena-blog-theme-kotlin",
+      "description": "はてなブログをKotlinのWebsite風にできるカスタムデザインです",
+      "homepage": "",
+      "language": "SCSS",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ouka-lab/hatena-blog-theme-kotlin",
       "publishedAt": "2026"
     },
     {
