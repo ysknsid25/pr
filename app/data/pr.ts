@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-10-28T00:05:52.090Z
+// Last updated: 2026-10-29T00:06:21.213Z
 // Total PRs: 236
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-10-28T00:05:52.090Z",
+  "lastUpdated": "2026-10-29T00:06:21.213Z",
   "totalCount": 236,
   "pullRequests": [
     {
@@ -617,11 +617,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "ci: add honox jobs to CI and publish workflows",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-08T13:07:48Z",
-      "mergedAt": null,
+      "mergedAt": "2026-10-28T03:58:54Z",
       "number": 184,
       "url": "https://github.com/open-circle/formisch/pull/184"
     },
@@ -630,11 +630,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "feat(playground): add honox playground",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-08T13:07:43Z",
-      "mergedAt": null,
+      "mergedAt": "2026-10-28T03:58:29Z",
       "number": 183,
       "url": "https://github.com/open-circle/formisch/pull/183"
     },
@@ -643,11 +643,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "feat(honox): add @formisch/honox package",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-08T13:07:39Z",
-      "mergedAt": null,
+      "mergedAt": "2026-10-28T03:58:15Z",
       "number": 182,
       "url": "https://github.com/open-circle/formisch/pull/182"
     },
@@ -656,11 +656,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "feat(methods): add honox framework target",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-08T13:07:35Z",
-      "mergedAt": null,
+      "mergedAt": "2026-10-28T03:57:56Z",
       "number": 181,
       "url": "https://github.com/open-circle/formisch/pull/181"
     },
@@ -669,11 +669,11 @@ export const prData: PRData = {
       "owner": "open-circle",
       "repository": "formisch",
       "title": "feat(core): add honox framework target",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-08-08T13:07:31Z",
-      "mergedAt": null,
+      "mergedAt": "2026-10-28T03:57:36Z",
       "number": 180,
       "url": "https://github.com/open-circle/formisch/pull/180"
     },
