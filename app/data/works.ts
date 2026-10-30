@@ -1,5 +1,5 @@
 // Auto-generated Works data
-// Last updated: 2026-10-29T00:06:22.658Z
+// Last updated: 2026-10-30T00:06:20.412Z
 
 export interface WorkItem {
   owner: string
@@ -20,7 +20,7 @@ export interface WorksData {
 }
 
 export const worksData: WorksData = {
-  "lastUpdated": "2026-10-29T00:06:22.658Z",
+  "lastUpdated": "2026-10-30T00:06:20.412Z",
   "totalCount": 24,
   "repositories": [
     {
@@ -179,6 +179,17 @@ export const worksData: WorksData = {
     },
     {
       "owner": "ouka-lab",
+      "repo": "sizukani-search",
+      "description": "🤫 X（旧Twitter）のユーザープロフィールページから、同名のしずかなインターネットアカウントを検索するChrome拡張機能です。",
+      "homepage": "",
+      "language": "TypeScript",
+      "stargazersCount": 0,
+      "forksCount": 0,
+      "html_url": "https://github.com/ouka-lab/sizukani-search",
+      "publishedAt": "2026"
+    },
+    {
+      "owner": "ouka-lab",
       "repo": "group-by-npm-scripts",
       "description": "Group by npm scripts on VSCode side panel",
       "homepage": "https://marketplace.visualstudio.com/items?itemName=Kanon.group-by-npm-scripts",
@@ -197,17 +208,6 @@ export const worksData: WorksData = {
       "stargazersCount": 0,
       "forksCount": 0,
       "html_url": "https://github.com/ouka-lab/hatena-blog-theme-kotlin",
-      "publishedAt": "2026"
-    },
-    {
-      "owner": "ouka-lab",
-      "repo": "sizukani-search",
-      "description": "🤫 X（旧Twitter）のユーザープロフィールページから、同名のしずかなインターネットアカウントを検索するChrome拡張機能です。",
-      "homepage": "",
-      "language": "TypeScript",
-      "stargazersCount": 0,
-      "forksCount": 0,
-      "html_url": "https://github.com/ouka-lab/sizukani-search",
       "publishedAt": "2026"
     },
     {

@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-10-29T00:06:21.213Z
-// Total PRs: 236
+// Last updated: 2026-10-30T00:06:18.639Z
+// Total PRs: 237
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-10-29T00:06:21.213Z",
-  "totalCount": 236,
+  "lastUpdated": "2026-10-30T00:06:18.639Z",
+  "totalCount": 237,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
+      "owner": "honojs",
+      "repository": "website",
+      "title": "fix(guides): Update contribution guidelines with AI policy and issues",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-10-29T07:39:29Z",
+      "mergedAt": null,
+      "number": 932,
+      "url": "https://github.com/honojs/website/pull/932"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",

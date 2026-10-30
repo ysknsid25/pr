@@ -1,5 +1,5 @@
 // Auto-generated Orgs data
-// Last updated: 2026-10-29T00:06:26.373Z
+// Last updated: 2026-10-30T00:06:24.122Z
 
 export interface OrgData {
   owner: string
@@ -31,7 +31,7 @@ export const orgsData: OrgData[] = [
   {
     "owner": "honojs",
     "avatarUrl": "https://avatars.githubusercontent.com/u/98495527?v=4",
-    "count": 15
+    "count": 16
   },
   {
     "owner": "vitest-dev",
