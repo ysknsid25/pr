@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-10-30T00:06:18.639Z
+// Last updated: 2026-10-31T00:05:50.153Z
 // Total PRs: 237
 
 export interface PRItem {
@@ -24,19 +24,19 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-10-30T00:06:18.639Z",
+  "lastUpdated": "2026-10-31T00:05:50.153Z",
   "totalCount": 237,
   "pullRequests": [
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
       "owner": "honojs",
       "repository": "website",
-      "title": "fix(guides): Update contribution guidelines with AI policy and issues",
-      "state": "open",
-      "merged": false,
+      "title": "fix(guides): delete item of pull request from contribution guidelines",
+      "state": "closed",
+      "merged": true,
       "draft": false,
       "createdAt": "2026-10-29T07:39:29Z",
-      "mergedAt": null,
+      "mergedAt": "2026-10-30T12:10:17Z",
       "number": 932,
       "url": "https://github.com/honojs/website/pull/932"
     },
