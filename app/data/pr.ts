@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-10-31T00:05:50.153Z
-// Total PRs: 237
+// Last updated: 2026-11-01T00:06:27.361Z
+// Total PRs: 238
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,22 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-10-31T00:05:50.153Z",
-  "totalCount": 237,
+  "lastUpdated": "2026-11-01T00:06:27.361Z",
+  "totalCount": 238,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-react",
+      "title": "chore: update pnpm to 12.14.0",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-10-31T06:28:59Z",
+      "mergedAt": "2026-10-31T12:57:00Z",
+      "number": 7,
+      "url": "https://github.com/ouka-lab/eslint-plugin-react/pull/7"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
       "owner": "honojs",
