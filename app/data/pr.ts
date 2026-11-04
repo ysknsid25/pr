@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-11-03T04:22:01.583Z
-// Total PRs: 238
+// Last updated: 2026-11-04T03:41:15.728Z
+// Total PRs: 240
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-11-03T04:22:01.583Z",
-  "totalCount": 238,
+  "lastUpdated": "2026-11-04T03:41:15.728Z",
+  "totalCount": 240,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-hono",
+      "title": "feature: [new rule] no-commented-out-route",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-03T11:22:06Z",
+      "mergedAt": "2026-11-03T11:28:33Z",
+      "number": 61,
+      "url": "https://github.com/ouka-lab/eslint-plugin-hono/pull/61"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-hono",
+      "title": "chore: Vitest --last-faild",
+      "state": "closed",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-11-03T05:59:31Z",
+      "mergedAt": null,
+      "number": 57,
+      "url": "https://github.com/ouka-lab/eslint-plugin-hono/pull/57"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
