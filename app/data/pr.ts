@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-11-04T03:41:15.728Z
-// Total PRs: 240
+// Last updated: 2026-11-05T03:59:59.775Z
+// Total PRs: 242
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-11-04T03:41:15.728Z",
-  "totalCount": 240,
+  "lastUpdated": "2026-11-05T03:59:59.775Z",
+  "totalCount": 242,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-hono",
+      "title": "chore: add \"funding\"",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-04T13:28:52Z",
+      "mergedAt": "2026-11-04T13:32:57Z",
+      "number": 62,
+      "url": "https://github.com/ouka-lab/eslint-plugin-hono/pull/62"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/6078720?v=4",
+      "owner": "npm",
+      "repository": "cli",
+      "title": "docs: clarify validation rules for the funding field",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "createdAt": "2026-11-04T13:12:57Z",
+      "mergedAt": null,
+      "number": 10222,
+      "url": "https://github.com/npm/cli/pull/10222"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
