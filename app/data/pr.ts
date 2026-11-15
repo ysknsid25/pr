@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-11-14T00:05:51.876Z
-// Total PRs: 243
+// Last updated: 2026-11-15T00:05:45.618Z
+// Total PRs: 249
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,87 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-11-14T00:05:51.876Z",
-  "totalCount": 243,
+  "lastUpdated": "2026-11-15T00:05:45.618Z",
+  "totalCount": 249,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-hono",
+      "title": "feature(new rule): max-path-name-length",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-14T08:03:03Z",
+      "mergedAt": "2026-11-14T08:04:12Z",
+      "number": 76,
+      "url": "https://github.com/ouka-lab/eslint-plugin-hono/pull/76"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-hono",
+      "title": "feature(new rule): hono/valid-route-path",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-14T07:46:12Z",
+      "mergedAt": "2026-11-14T07:57:23Z",
+      "number": 72,
+      "url": "https://github.com/ouka-lab/eslint-plugin-hono/pull/72"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-react",
+      "title": "chore: update pnpm to 12.17.0",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-14T07:13:23Z",
+      "mergedAt": "2026-11-14T12:36:30Z",
+      "number": 13,
+      "url": "https://github.com/ouka-lab/eslint-plugin-react/pull/13"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-hono",
+      "title": "Potential fix for code scanning alert no. 4: Workflow does not contain permissions",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-14T06:39:12Z",
+      "mergedAt": "2026-11-14T06:47:40Z",
+      "number": 71,
+      "url": "https://github.com/ouka-lab/eslint-plugin-hono/pull/71"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-hono",
+      "title": "Potential fix for code scanning alert no. 1: Workflow does not contain permissions",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-14T06:36:45Z",
+      "mergedAt": "2026-11-14T06:45:52Z",
+      "number": 70,
+      "url": "https://github.com/ouka-lab/eslint-plugin-hono/pull/70"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "eslint-plugin-hono",
+      "title": "feature(new rule): max-return",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-14T06:29:02Z",
+      "mergedAt": "2026-11-14T06:50:05Z",
+      "number": 69,
+      "url": "https://github.com/ouka-lab/eslint-plugin-hono/pull/69"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
