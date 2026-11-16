@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-11-15T00:05:45.618Z
-// Total PRs: 249
+// Last updated: 2026-11-16T00:05:43.762Z
+// Total PRs: 254
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,74 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-11-15T00:05:45.618Z",
-  "totalCount": 249,
+  "lastUpdated": "2026-11-16T00:05:43.762Z",
+  "totalCount": 254,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "it-icons",
+      "title": "chore: bun fmt",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-15T13:49:03Z",
+      "mergedAt": "2026-11-15T13:50:15Z",
+      "number": 5,
+      "url": "https://github.com/ouka-lab/it-icons/pull/5"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "it-icons",
+      "title": "chore: add unit test",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-15T13:44:00Z",
+      "mergedAt": "2026-11-15T13:44:31Z",
+      "number": 4,
+      "url": "https://github.com/ouka-lab/it-icons/pull/4"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "it-icons",
+      "title": "chore: convert to bun",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-15T13:39:08Z",
+      "mergedAt": "2026-11-15T13:39:43Z",
+      "number": 3,
+      "url": "https://github.com/ouka-lab/it-icons/pull/3"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "it-icons",
+      "title": "chore: add e2e test by Playwright",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-15T13:31:39Z",
+      "mergedAt": "2026-11-15T13:37:08Z",
+      "number": 2,
+      "url": "https://github.com/ouka-lab/it-icons/pull/2"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "it-icons",
+      "title": "chore: add workflow for labeling pr",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-15T13:21:04Z",
+      "mergedAt": "2026-11-15T13:23:50Z",
+      "number": 1,
+      "url": "https://github.com/ouka-lab/it-icons/pull/1"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
