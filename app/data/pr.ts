@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-11-16T00:05:43.762Z
-// Total PRs: 254
+// Last updated: 2026-11-17T00:06:01.007Z
+// Total PRs: 256
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-11-16T00:05:43.762Z",
-  "totalCount": 254,
+  "lastUpdated": "2026-11-17T00:06:01.007Z",
+  "totalCount": 256,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "it-icons",
+      "title": "feature: Icon Image Builder",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-16T13:46:55Z",
+      "mergedAt": "2026-11-16T13:57:55Z",
+      "number": 7,
+      "url": "https://github.com/ouka-lab/it-icons/pull/7"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
+      "owner": "ouka-lab",
+      "repository": "it-icons",
+      "title": "chore: add schema of Valibot",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-16T12:19:19Z",
+      "mergedAt": "2026-11-16T12:19:57Z",
+      "number": 6,
+      "url": "https://github.com/ouka-lab/it-icons/pull/6"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
