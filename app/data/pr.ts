@@ -1,5 +1,5 @@
 // Auto-generated PR data
-// Last updated: 2026-11-24T00:06:11.667Z
+// Last updated: 2026-11-25T00:05:56.811Z
 // Total PRs: 273
 
 export interface PRItem {
@@ -24,7 +24,7 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-11-24T00:06:11.667Z",
+  "lastUpdated": "2026-11-25T00:05:56.811Z",
   "totalCount": 273,
   "pullRequests": [
     {
@@ -2451,7 +2451,7 @@ export const prData: PRData = {
       "repository": "secretlint",
       "title": "hotfix: secretlint --version returning 1.0.0",
       "state": "closed",
-      "merged": false,
+      "merged": true,
       "draft": false,
       "createdAt": "2025-04-14T14:06:10Z",
       "mergedAt": "2025-04-14T14:52:45Z",
