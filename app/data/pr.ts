@@ -1,6 +1,6 @@
 // Auto-generated PR data
-// Last updated: 2026-11-25T00:05:56.811Z
-// Total PRs: 273
+// Last updated: 2026-11-26T00:05:52.821Z
+// Total PRs: 275
 
 export interface PRItem {
   organizationAvatar: string | null
@@ -24,9 +24,35 @@ export interface PRData {
 }
 
 export const prData: PRData = {
-  "lastUpdated": "2026-11-25T00:05:56.811Z",
-  "totalCount": 273,
+  "lastUpdated": "2026-11-26T00:05:52.821Z",
+  "totalCount": 275,
   "pullRequests": [
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "anarchy-sticky",
+      "title": "feature: ログイン",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-25T12:55:25Z",
+      "mergedAt": "2026-11-25T13:06:35Z",
+      "number": 48,
+      "url": "https://github.com/ysknsid25/anarchy-sticky/pull/48"
+    },
+    {
+      "organizationAvatar": "https://avatars.githubusercontent.com/u/44870505?v=4",
+      "owner": "ysknsid25",
+      "repository": "anarchy-sticky",
+      "title": "chore: Coverage Comment",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "createdAt": "2026-11-25T08:14:26Z",
+      "mergedAt": "2026-11-25T08:29:22Z",
+      "number": 45,
+      "url": "https://github.com/ysknsid25/anarchy-sticky/pull/45"
+    },
     {
       "organizationAvatar": "https://avatars.githubusercontent.com/u/130214148?v=4",
       "owner": "ouka-lab",
